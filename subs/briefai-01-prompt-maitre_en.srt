@@ -1,0 +1,331 @@
+1
+00:00:00,000 --> 00:00:04,095
+This YouTube channel was built by an
+artificial intelligence, from a single
+
+2
+00:00:04,115 --> 00:00:04,479
+prompt.
+
+3
+00:00:04,499 --> 00:00:09,322
+The name, the logo, the banner, the
+editing programs, and even this voice.
+
+4
+00:00:09,342 --> 00:00:11,463
+In this video, I'll show you that prompt,
+block by block.
+
+5
+00:00:11,482 --> 00:00:14,346
+The three mistakes the AI made.
+
+6
+00:00:14,366 --> 00:00:15,485
+And how I fixed them.
+
+7
+00:00:15,505 --> 00:00:18,650
+At the end, I'll give you the fixed
+version, for free.
+
+8
+00:00:18,670 --> 00:00:23,368
+It all started with a one-page text that I
+pasted into Claude, Anthropic's assistant,
+
+9
+00:00:23,388 --> 00:00:24,700
+connected to my browser.
+
+10
+00:00:24,720 --> 00:00:29,672
+After that, I only did three things:
+answer its questions, type my passwords,
+
+11
+00:00:29,692 --> 00:00:30,835
+and say yes or no.
+
+12
+00:00:30,855 --> 00:00:32,668
+Everything else was the AI.
+
+13
+00:00:32,688 --> 00:00:38,008
+In one afternoon: the channel, its visual
+identity, a code repository, and programs
+
+14
+00:00:38,028 --> 00:00:40,260
+that edit the videos automatically.
+
+15
+00:00:40,280 --> 00:00:41,755
+The prompt starts with a role.
+
+16
+00:00:41,775 --> 00:00:43,549
+You are the producer of my channel.
+
+17
+00:00:43,569 --> 00:00:45,910
+You do the work, I make the decisions.
+
+18
+00:00:45,930 --> 00:00:47,662
+That sentence changes everything.
+
+19
+00:00:47,682 --> 00:00:49,789
+The AI stops giving you advice.
+
+20
+00:00:49,809 --> 00:00:50,950
+It takes action.
+
+21
+00:00:50,970 --> 00:00:55,967
+Next, you describe the channel: the theme,
+the languages, the audience, and above all
+
+22
+00:00:55,987 --> 00:00:57,974
+what viewers get from every video.
+
+23
+00:00:57,994 --> 00:00:59,161
+Then the kick-off.
+
+24
+00:00:59,181 --> 00:01:03,492
+The AI asks all its questions at once, and
+proposes three names with a checked
+
+25
+00:01:03,512 --> 00:01:03,881
+handle.
+
+26
+00:01:03,901 --> 00:01:05,067
+Checked matters.
+
+27
+00:01:05,087 --> 00:01:07,417
+For us, nine handles were already taken.
+
+28
+00:01:07,437 --> 00:01:10,290
+Tempo News, Daily Brief, and seven more.
+
+29
+00:01:10,310 --> 00:01:14,800
+The AI tested them one by one in YouTube
+Studio, until it found a free name.
+
+30
+00:01:14,820 --> 00:01:16,593
+The access block sets the limits.
+
+31
+00:01:16,613 --> 00:01:18,649
+The AI does everything in the browser.
+
+32
+00:01:18,669 --> 00:01:20,893
+But it only asks me for passwords.
+
+33
+00:01:20,913 --> 00:01:24,433
+And it never deletes anything, or spends
+money, without my approval.
+
+34
+00:01:24,453 --> 00:01:25,730
+That's your seatbelt.
+
+35
+00:01:25,750 --> 00:01:27,339
+Up to that point, everything went well.
+
+36
+00:01:27,359 --> 00:01:29,468
+Then the AI produced its first video.
+
+37
+00:01:29,488 --> 00:01:31,514
+And three things went wrong.
+
+38
+00:01:31,534 --> 00:01:33,185
+One: it picked the topic on its own.
+
+39
+00:01:33,205 --> 00:01:37,433
+Anthropic going public, the company that
+created it.
+
+40
+00:01:37,453 --> 00:01:39,205
+That wasn't what I wanted.
+
+41
+00:01:39,225 --> 00:01:40,361
+Fix, rule number one: topic first.
+
+42
+00:01:40,381 --> 00:01:44,950
+The AI proposes three topics scored out of
+ten, and produces nothing before my
+
+43
+00:01:44,970 --> 00:01:45,480
+approval.
+
+44
+00:01:45,500 --> 00:01:48,586
+Two: for the visuals, it used drone shots
+of New York.
+
+45
+00:01:48,606 --> 00:01:50,009
+Nothing to do with the story.
+
+46
+00:01:50,029 --> 00:01:53,659
+Fix, rule number two: every shot shows
+what the sentence says.
+
+47
+00:01:53,679 --> 00:01:58,698
+And only visuals we have the rights to:
+screen captures, animations, credited free
+
+48
+00:01:58,718 --> 00:01:59,190
+sources.
+
+49
+00:01:59,210 --> 00:02:01,116
+Three, and this one is the funniest.
+
+50
+00:02:01,136 --> 00:02:05,227
+For the voice, it sent a style instruction
+to the text-to-speech tool.
+
+51
+00:02:05,247 --> 00:02:06,920
+Listen to the result.
+
+52
+00:02:06,940 --> 00:02:12,671
+[in French] Read this text like a TV news
+anchor: deep, calm, articulate voice,
+
+53
+00:02:12,691 --> 00:02:16,020
+brisk but natural pace, no excessive
+emphasis.
+
+54
+00:02:16,040 --> 00:02:19,253
+The voice read the instruction out loud.
+
+55
+00:02:19,273 --> 00:02:21,539
+In all twelve audio files.
+
+56
+00:02:21,559 --> 00:02:24,724
+And the AI didn't notice.
+
+57
+00:02:24,744 --> 00:02:28,271
+Fix, rule number three: send only the
+words to read, then transcribe every file
+
+58
+00:02:28,291 --> 00:02:28,810
+to check it.
+
+59
+00:02:28,830 --> 00:02:31,150
+Today, that check runs on every video.
+
+60
+00:02:31,170 --> 00:02:32,682
+I added three more rules.
+
+61
+00:02:32,702 --> 00:02:34,290
+Every number has a source.
+
+62
+00:02:34,310 --> 00:02:37,942
+Every video brings something new, because
+YouTube doesn't monetize mass-produced,
+
+63
+00:02:37,962 --> 00:02:38,799
+repetitive content.
+
+64
+00:02:38,819 --> 00:02:41,860
+And the description says which AI tools
+were used.
+
+65
+00:02:41,880 --> 00:02:46,282
+The end of the prompt describes
+production, step by step, from the script
+
+66
+00:02:46,302 --> 00:02:47,130
+to the Shorts.
+
+67
+00:02:47,150 --> 00:02:51,144
+Then approval: nothing gets published
+without my okay.
+
+68
+00:02:51,164 --> 00:02:54,130
+And every week, a report: views,
+subscribers, costs and revenue.
+
+69
+00:02:54,150 --> 00:02:56,514
+That's the master prompt, version two.
+
+70
+00:02:56,534 --> 00:03:01,106
+It's free, in English and French, in the
+description.
+
+71
+00:03:01,126 --> 00:03:03,050
+Replace what's in brackets with your
+theme, paste it into your AI, and watch it
+
+72
+00:03:03,070 --> 00:03:03,173
+work.
+
+73
+00:03:03,193 --> 00:03:06,834
+On this channel, I'm building a real
+YouTube channel with AI, brick by brick,
+
+74
+00:03:06,854 --> 00:03:08,404
+and showing you the real numbers.
+
+75
+00:03:08,424 --> 00:03:11,438
+Next video: how AI finds topics that work.
+
+76
+00:03:11,458 --> 00:03:13,440
+Subscribe so you don't miss it.

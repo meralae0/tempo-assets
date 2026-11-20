@@ -1,0 +1,334 @@
+1
+00:00:00,000 --> 00:00:03,869
+Cette chaîne YouTube a été créée par une
+intelligence artificielle, à partir d'un
+
+2
+00:00:03,889 --> 00:00:04,446
+seul prompt.
+
+3
+00:00:04,466 --> 00:00:08,248
+Le nom, le logo, la bannière, les
+programmes de montage, et même cette voix.
+
+4
+00:00:08,268 --> 00:00:11,537
+Dans cette vidéo, je te montre ce prompt,
+bloc par bloc.
+
+5
+00:00:11,557 --> 00:00:14,189
+Les trois erreurs que l'IA a faites.
+
+6
+00:00:14,209 --> 00:00:16,321
+Et comment je les ai corrigées.
+
+7
+00:00:16,341 --> 00:00:18,610
+À la fin, je te donne la version corrigée,
+gratuitement.
+
+8
+00:00:18,630 --> 00:00:22,506
+Tout a commencé par un texte d'une page,
+que j'ai collé dans Claude, l'assistant
+
+9
+00:00:22,526 --> 00:00:24,259
+d'Anthropic, relié à mon navigateur.
+
+10
+00:00:24,279 --> 00:00:28,678
+Ensuite, je n'ai fait que trois choses :
+répondre à ses questions, taper mes mots
+
+11
+00:00:28,698 --> 00:00:30,260
+de passe, et dire oui ou non.
+
+12
+00:00:30,280 --> 00:00:31,779
+Tout le reste, c'est l'IA.
+
+13
+00:00:31,799 --> 00:00:35,903
+En un après-midi : la chaîne, son identité
+visuelle, un dépôt de code, et des
+
+14
+00:00:35,923 --> 00:00:38,580
+programmes qui montent les vidéos
+automatiquement.
+
+15
+00:00:38,600 --> 00:00:40,131
+Le prompt commence par un rôle.
+
+16
+00:00:40,151 --> 00:00:41,600
+Tu es le producteur de ma chaîne.
+
+17
+00:00:41,620 --> 00:00:43,588
+Tu fais le travail, moi je décide.
+
+18
+00:00:43,608 --> 00:00:44,997
+Cette phrase change tout.
+
+19
+00:00:45,017 --> 00:00:46,676
+L'IA ne te donne plus des conseils.
+
+20
+00:00:46,696 --> 00:00:47,630
+Elle agit.
+
+21
+00:00:47,650 --> 00:00:51,888
+Ensuite, on décrit la chaîne : le thème,
+les langues, le public, et surtout ce que
+
+22
+00:00:51,908 --> 00:00:53,705
+le spectateur gagne à chaque vidéo.
+
+23
+00:00:53,725 --> 00:00:55,067
+Puis le démarrage.
+
+24
+00:00:55,087 --> 00:00:59,458
+L'IA pose toutes ses questions en une
+seule fois, et propose trois noms avec un
+
+25
+00:00:59,478 --> 00:01:00,570
+identifiant vérifié.
+
+26
+00:01:00,590 --> 00:01:02,095
+Vérifié, c'est important.
+
+27
+00:01:02,115 --> 00:01:04,948
+Chez nous, neuf identifiants étaient déjà
+pris.
+
+28
+00:01:04,968 --> 00:01:06,543
+Tempo News, Daily Brief, et sept autres.
+
+29
+00:01:06,563 --> 00:01:10,420
+L'IA les a testés un par un dans YouTube
+Studio, jusqu'à trouver un nom libre.
+
+30
+00:01:10,440 --> 00:01:12,216
+Le bloc des accès fixe les limites.
+
+31
+00:01:12,236 --> 00:01:13,923
+L'IA fait tout dans le navigateur.
+
+32
+00:01:13,943 --> 00:01:15,657
+Mais elle ne me demande que les mots de
+passe.
+
+33
+00:01:15,677 --> 00:01:18,550
+Et elle ne supprime rien, et ne dépense
+rien, sans mon accord.
+
+34
+00:01:18,570 --> 00:01:20,130
+C'est ta ceinture de sécurité.
+
+35
+00:01:20,150 --> 00:01:21,340
+Jusque-là, tout allait bien.
+
+36
+00:01:21,360 --> 00:01:23,398
+Puis l'IA a produit sa première vidéo.
+
+37
+00:01:23,418 --> 00:01:24,804
+Et trois choses ont mal tourné.
+
+38
+00:01:24,824 --> 00:01:27,004
+Un : elle a choisi le sujet toute seule.
+
+39
+00:01:27,024 --> 00:01:29,903
+L'entrée en bourse d'Anthropic,
+l'entreprise qui l'a créée.
+
+40
+00:01:29,923 --> 00:01:31,901
+Ce n'était pas ce que je voulais.
+
+41
+00:01:31,921 --> 00:01:34,164
+Correction, règle numéro un : le sujet
+d'abord.
+
+42
+00:01:34,184 --> 00:01:38,080
+L'IA propose trois sujets notés sur dix,
+et ne produit rien avant mon accord.
+
+43
+00:01:38,100 --> 00:01:41,696
+Deux : pour illustrer, elle a pris des
+images de drone de New York.
+
+44
+00:01:41,716 --> 00:01:43,276
+Aucun rapport avec le sujet.
+
+45
+00:01:43,296 --> 00:01:47,591
+Correction, règle numéro deux : chaque
+plan montre ce que dit la phrase.
+
+46
+00:01:47,611 --> 00:01:51,444
+Et seulement des images dont on a le
+droit : captures d'écran, animations,
+
+47
+00:01:51,464 --> 00:01:52,590
+sources libres citées.
+
+48
+00:01:52,610 --> 00:01:54,004
+Trois, et c'est la plus drôle.
+
+49
+00:01:54,024 --> 00:01:58,943
+Pour la voix, elle a envoyé une consigne
+de style à l'outil de synthèse vocale.
+
+50
+00:01:58,963 --> 00:01:59,580
+Écoute le résultat.
+
+51
+00:01:59,600 --> 00:02:04,495
+Lis ce texte comme un présentateur de
+journal télévisé, voix grave, posée,
+
+52
+00:02:04,515 --> 00:02:08,680
+articulée, rythme soutenu mais naturel,
+sans emphase excessive.
+
+53
+00:02:08,700 --> 00:02:11,198
+La voix a lu la consigne à voix haute.
+
+54
+00:02:11,218 --> 00:02:13,007
+Dans les douze fichiers audio.
+
+55
+00:02:13,027 --> 00:02:13,999
+Et l'IA ne l'a pas remarqué.
+
+56
+00:02:14,019 --> 00:02:19,670
+Correction, règle numéro trois : n'envoyer
+que le texte à lire, puis transcrire
+
+57
+00:02:19,690 --> 00:02:21,752
+chaque fichier pour vérifier.
+
+58
+00:02:21,772 --> 00:02:24,750
+Aujourd'hui, cette vérification est faite
+à chaque vidéo.
+
+59
+00:02:24,770 --> 00:02:26,103
+J'ai ajouté trois règles.
+
+60
+00:02:26,123 --> 00:02:27,912
+Chaque chiffre a une source.
+
+61
+00:02:27,932 --> 00:02:32,063
+Chaque vidéo apporte quelque chose de
+nouveau, parce que YouTube ne monétise pas
+
+62
+00:02:32,083 --> 00:02:34,190
+le contenu produit en masse et répétitif.
+
+63
+00:02:34,210 --> 00:02:37,480
+Et la description dit quels outils d'IA
+ont été utilisés.
+
+64
+00:02:37,500 --> 00:02:42,312
+La fin du prompt décrit la production,
+étape par étape, du script jusqu'aux
+
+65
+00:02:42,332 --> 00:02:42,762
+shorts.
+
+66
+00:02:42,782 --> 00:02:46,257
+Puis la validation : rien n'est publié
+sans mon accord.
+
+67
+00:02:46,277 --> 00:02:50,750
+Et chaque semaine, un rapport : vues,
+abonnés, coûts et revenus.
+
+68
+00:02:50,770 --> 00:02:52,945
+Voilà le prompt maître, version deux.
+
+69
+00:02:52,965 --> 00:02:56,394
+Il est gratuit, en français et en anglais,
+dans la description.
+
+70
+00:02:56,414 --> 00:03:00,891
+Remplace ce qui est entre crochets par ton
+thème, colle-le dans ton IA, et regarde-la
+
+71
+00:03:00,911 --> 00:03:01,473
+travailler.
+
+72
+00:03:01,493 --> 00:03:05,153
+Sur cette chaîne, je construis une vraie
+chaîne YouTube avec l'IA, brique par
+
+73
+00:03:05,173 --> 00:03:07,209
+brique, et je te montre les vrais
+chiffres.
+
+74
+00:03:07,229 --> 00:03:10,399
+Prochaine vidéo : comment l'IA trouve des
+sujets qui marchent.
+
+75
+00:03:10,419 --> 00:03:12,020
+Abonne-toi pour ne pas la rater.
