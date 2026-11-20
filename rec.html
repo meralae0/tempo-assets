@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><title>BriefAI — Enregistreur</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;background:#07080d;color:#f0f4fa;font-family:system-ui,Segoe UI,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.card{width:560px;padding:40px;border-radius:22px;background:#12141e;border:1px solid #262b3d;box-shadow:0 30px 80px rgba(0,0,0,.5);text-align:center}
+h1{margin:0 0 8px;font-size:28px}h1 span{color:#00d4ff}
+p{color:#8a93a8;line-height:1.5;margin:8px 0 24px}
+button{font-size:20px;font-weight:700;padding:16px 34px;border-radius:14px;border:0;cursor:pointer}
+#go{background:#00d4ff;color:#07080d}#stop{background:#ff4d5a;color:#fff;display:none}
+#t{font-family:Consolas,monospace;font-size:44px;margin:18px 0;color:#ff4d5a;display:none}
+#msg{margin-top:18px;color:#28dc8c;min-height:24px}
+ol{text-align:left;color:#c9cfdc;line-height:1.7;padding-left:22px}
+</style></head><body><div class="card">
+<h1>Brief<span>AI</span> · Enregistreur</h1>
+<p>Filme un onglet Chrome en haute qualité, sans rien installer.</p>
+<ol><li>Clique sur <b>Démarrer</b>.</li><li>Choisis l'onglet <b>Onglet Chrome</b> → <b>claude.ai</b> → <b>Partager</b>.</li><li>Reviens ici et clique sur <b>Arrêter</b> à la fin : la vidéo se télécharge.</li></ol>
+<button id="go">Démarrer</button><button id="stop">Arrêter et télécharger</button>
+<div id="t">00:00</div><div id="msg"></div>
+</div>
+<script>
+let rec,chunks=[],t0,timer;
+const $=id=>document.getElementById(id);
+$('go').onclick=async()=>{
+  try{
+    const s=await navigator.mediaDevices.getDisplayMedia({video:{frameRate:30,width:{ideal:1920},height:{ideal:1080}},audio:false,preferCurrentTab:false,selfBrowserSurface:'exclude'});
+    const mime=['video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'].find(m=>MediaRecorder.isTypeSupported(m));
+    rec=new MediaRecorder(s,{mimeType:mime,videoBitsPerSecond:12000000});chunks=[];
+    rec.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+    rec.onstop=()=>{clearInterval(timer);const b=new Blob(chunks,{type:'video/webm'});const a=document.createElement('a');
+      a.href=URL.createObjectURL(b);a.download='briefai-capture-'+new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')+'.webm';a.click();
+      $('msg').textContent='Vidéo téléchargée ('+(b.size/1e6).toFixed(1)+' Mo). Tu peux fermer cette page.';$('stop').style.display='none';$('go').style.display='inline-block';$('t').style.display='none';
+      s.getTracks().forEach(x=>x.stop())};
+    s.getVideoTracks()[0].onended=()=>{if(rec.state!=='inactive')rec.stop()};
+    rec.start(1000);t0=Date.now();$('go').style.display='none';$('stop').style.display='inline-block';$('t').style.display='block';$('msg').textContent='Enregistrement en cours…';
+    timer=setInterval(()=>{const d=Math.floor((Date.now()-t0)/1000);$('t').textContent=String(Math.floor(d/60)).padStart(2,'0')+':'+String(d%60).padStart(2,'0')},500);
+  }catch(e){$('msg').style.color='#ff4d5a';$('msg').textContent='Annulé ou refusé : '+e.message}
+};
+$('stop').onclick=()=>rec&&rec.state!=='inactive'&&rec.stop();
+</script></body></html>
