@@ -1,0 +1,112 @@
+[
+ {
+  "fr": "Claude + Blender : un personnage 3D avec un prompt",
+  "en": "Claude + Blender: a 3D character from one prompt",
+  "q": "claude blender",
+  "interet": 8,
+  "fraicheur": 10,
+  "valeur": 8,
+  "note": 8.7,
+  "why_fr": "277 858 vues en 4 jours pour la meilleure vidéo",
+  "why_en": "277,858 views in 4 days for the top video"
+ },
+ {
+  "fr": "Monter une vidéo avec Claude",
+  "en": "Edit a video with Claude",
+  "q": "claude montage vidéo",
+  "interet": 8,
+  "fraicheur": 8,
+  "valeur": 9,
+  "note": 8.3,
+  "why_fr": "6 500 vues par jour en médiane",
+  "why_en": "6,500 views per day (median)"
+ },
+ {
+  "fr": "Une chaîne sans visage avec Claude",
+  "en": "A faceless channel with Claude",
+  "q": "ai youtube automation with claude",
+  "interet": 10,
+  "fraicheur": 7,
+  "valeur": 7,
+  "note": 8.0,
+  "why_fr": "17 000 vues par jour, mais déjà très chargé",
+  "why_en": "17,000 views per day, but very crowded"
+ },
+ {
+  "fr": "Des shorts animés avec l'IA",
+  "en": "Animated Shorts with AI",
+  "q": "shorts animés ia",
+  "interet": 9,
+  "fraicheur": 8,
+  "valeur": 6,
+  "note": 7.7,
+  "why_fr": "384 000 vues en médiane, sur 2 vidéos seulement",
+  "why_en": "384,000 median views, from only 2 videos"
+ },
+ {
+  "fr": "Créer ton propre skill Claude",
+  "en": "Build your own Claude skill",
+  "q": "claude skills",
+  "interet": 7,
+  "fraicheur": 7,
+  "valeur": 8,
+  "note": 7.3,
+  "why_fr": "5 000 vues par jour",
+  "why_en": "5,000 views per day"
+ },
+ {
+  "fr": "Un site web avec Claude Code",
+  "en": "A website with Claude Code",
+  "q": "claude code site web",
+  "interet": 7,
+  "fraicheur": 6,
+  "valeur": 7,
+  "note": 6.7,
+  "why_fr": "4 600 vues par jour, beaucoup de tutos",
+  "why_en": "4,600 views per day, many tutorials"
+ },
+ {
+  "fr": "Images et vidéos IA dans Claude (Higgsfield)",
+  "en": "AI images and videos inside Claude (Higgsfield)",
+  "q": "claude higgsfield",
+  "interet": 4,
+  "fraicheur": 9,
+  "valeur": 7,
+  "note": 6.7,
+  "why_fr": "très récent, mais 270 vues par jour",
+  "why_en": "very new, but 270 views per day"
+ },
+ {
+  "fr": "Claude + TradingView",
+  "en": "Claude + TradingView",
+  "q": "claude tradingview",
+  "interet": 5,
+  "fraicheur": 7,
+  "valeur": 6,
+  "note": 6.0,
+  "why_fr": "940 vues par jour",
+  "why_en": "940 views per day"
+ },
+ {
+  "fr": "Claude contre ChatGPT",
+  "en": "Claude vs ChatGPT",
+  "q": "claude vs chatgpt",
+  "interet": 5,
+  "fraicheur": 5,
+  "valeur": 4,
+  "note": 4.7,
+  "why_fr": "1 300 vues par jour, sujet usé",
+  "why_en": "1,300 views per day, overdone"
+ },
+ {
+  "fr": "Claude Cowork",
+  "en": "Claude Cowork",
+  "q": "claude cowork",
+  "interet": 3,
+  "fraicheur": 6,
+  "valeur": 5,
+  "note": 4.7,
+  "why_fr": "110 vues par jour en médiane",
+  "why_en": "110 views per day (median)"
+ }
+]
