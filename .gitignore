@@ -1,0 +1,6 @@
+build/
+episodes/*/tmp_*/
+episodes/*/footage/
+episodes/*/segments_test.json
+episodes/*/segments_real.json
+*.wav

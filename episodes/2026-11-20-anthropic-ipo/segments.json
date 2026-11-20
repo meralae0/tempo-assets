@@ -1,0 +1,246 @@
+{
+ "slug": "2026-11-20-anthropic-ipo",
+ "date": {
+  "fr": "20 NOV 2026",
+  "en": "NOV 20, 2026"
+ },
+ "badge": {
+  "fr": "ANALYSE · ÉCO",
+  "en": "ANALYSIS · ECON"
+ },
+ "title": {
+  "fr": "Anthropic entre en bourse : plus lourd que Meta en un jour",
+  "en": "Anthropic goes public: worth more than Meta in a day"
+ },
+ "footage": {
+  "nasa": {
+   "path": "footage/tb_nasa_nasdaq_720p.webm",
+   "dur": 1255,
+   "crop": 0.08,
+   "windows": [
+    [
+     20,
+     1200
+    ]
+   ]
+  },
+  "timessquare": {
+   "path": "footage/tb_timessquare_night_1080p.webm",
+   "dur": 405,
+   "crop": 0.05
+  },
+  "downtown": {
+   "path": "footage/tb_downtown_night_1080p.webm",
+   "dur": 513,
+   "crop": 0.05
+  },
+  "morning": {
+   "path": "footage/tb_ny_morning_1080p.webm",
+   "dur": 286,
+   "crop": 0.05
+  },
+  "datacenter": {
+   "path": "footage/tb_datacenter_1080p.webm",
+   "dur": 547,
+   "crop": 0.06,
+   "windows": [
+    [
+     60,
+     520
+    ]
+   ]
+  }
+ },
+ "segments": [
+  {
+   "id": "seg01",
+   "title": {
+    "fr": "Accroche",
+    "en": "Hook"
+   },
+   "text": {
+    "fr": [
+     "Quatre-vingt-trois dollars à vingt heures.",
+     "Cent onze dollars et demi à midi.",
+     "Quatre-vingt-dix-sept dollars à la clôture.",
+     "En une seule journée, une entreprise qui n'existait pas il y a six ans a pesé plus lourd en bourse que Meta."
+    ],
+    "en": [
+     "Eighty-three dollars at 8 p.m.",
+     "One hundred and eleven and a half at noon.",
+     "Ninety-seven at the close.",
+     "In a single day, a company that didn't exist six years ago became worth more on the stock market than Meta."
+    ]
+   },
+   "graphic": "counter_clip",
+   "graphic_dur": 9,
+   "footage": [
+    "timessquare"
+   ]
+  },
+  {
+   "id": "seg02",
+   "title": {
+    "fr": "Les chiffres",
+    "en": "The numbers"
+   },
+   "text": {
+    "fr": [
+     "Jeudi 19 novembre, Anthropic, la société qui développe l'assistant Claude, est entrée au Nasdaq sous le symbole A-N-T.",
+     "Le prix d'introduction avait été fixé la veille à 83 dollars, au-dessus de la fourchette prévue de 70 à 78 dollars.",
+     "À l'ouverture, à 11 h 48 heure de New York, le titre bondit à 111 dollars 50 : plus 34 %.",
+     "Puis la séance se calme.",
+     "Clôture à 97 dollars 17, soit plus 17 % par rapport au prix d'introduction.",
+     "Plus de 846 millions d'actions ont changé de mains, un volume supérieur au premier jour de SpaceX en juin."
+    ],
+    "en": [
+     "On Thursday, November 19, Anthropic, the company behind the Claude assistant, listed on the Nasdaq under the ticker A-N-T.",
+     "The IPO price had been set the night before at 83 dollars, above the expected range of 70 to 78.",
+     "At the open, 11:48 New York time, the stock jumped to 111 dollars 50: up 34 percent.",
+     "Then the session cooled.",
+     "It closed at 97 dollars 17, up 17 percent from the IPO price.",
+     "More than 846 million shares changed hands, more than SpaceX on its first day in June."
+    ]
+   },
+   "graphic": "session_chart",
+   "graphic_dur": 14,
+   "footage": [
+    "nasa",
+    "timessquare"
+   ]
+  },
+  {
+   "id": "seg03",
+   "title": {
+    "fr": "Ce que ça vaut",
+    "en": "What it's worth"
+   },
+   "text": {
+    "fr": [
+     "Selon Forbes, l'opération a permis de lever 81 milliards de dollars.",
+     "Bloomberg parle d'une introduction record.",
+     "La valorisation, elle, dépend du calcul : 1 270 milliards de dollars sur les actions en circulation ; près de 1 770 milliards en comptant toutes les actions potentielles.",
+     "Dans les deux cas, c'est plus que Meta, valorisée 1 550 milliards."
+    ],
+    "en": [
+     "According to Forbes, the offering raised 81 billion dollars.",
+     "Bloomberg calls it a record IPO.",
+     "The valuation depends on how you count: 1.27 trillion dollars on shares outstanding; close to 1.77 trillion on a fully diluted basis.",
+     "Either way, that is more than Meta, valued at 1.55 trillion."
+    ]
+   },
+   "graphic": "bars_clip",
+   "graphic_dur": 12,
+   "footage": [
+    "downtown",
+    "nasa"
+   ]
+  },
+  {
+   "id": "seg04",
+   "title": {
+    "fr": "Pourquoi maintenant",
+    "en": "Why now"
+   },
+   "text": {
+    "fr": [
+     "Le calendrier n'est pas un hasard.",
+     "Depuis trois semaines, le secteur de l'IA est secoué : l'action Nvidia a perdu environ 20 % et son directeur général, Jensen Huang, a démissionné.",
+     "Les investisseurs se demandaient si la bulle de l'IA allait se dégonfler.",
+     "Anthropic a choisi ce moment pour tester leur appétit.",
+     "Résultat : un démarrage fort, mais une fin de séance en retrait de 13 % par rapport au plus haut."
+    ],
+    "en": [
+     "The timing is no accident.",
+     "For three weeks, the AI sector has been shaken: Nvidia's stock has lost about 20 percent and its CEO, Jensen Huang, has resigned.",
+     "Investors were asking whether the AI bubble was about to deflate.",
+     "Anthropic chose this moment to test their appetite.",
+     "The result: a strong start, but a close 13 percent below the day's high."
+    ]
+   },
+   "graphic": "nvidia_clip",
+   "graphic_dur": 12,
+   "footage": [
+    "datacenter",
+    "downtown"
+   ]
+  },
+  {
+   "id": "seg05",
+   "title": {
+    "fr": "Trois scénarios",
+    "en": "Three scenarios"
+   },
+   "text": {
+    "fr": [
+     "Scénario 1 : la confiance revient.",
+     "Le titre se stabilise au-dessus du prix d'introduction et entraîne les fournisseurs de puces en Asie.",
+     "Scénario 2 : la volatilité continue.",
+     "Les investisseurs particuliers, très présents le premier jour, prennent leurs bénéfices.",
+     "Scénario 3 : l'effet domino.",
+     "D'autres acteurs de l'IA accélèrent leur propre entrée en bourse pour profiter de la fenêtre."
+    ],
+    "en": [
+     "Scenario one: confidence returns.",
+     "The stock settles above its IPO price and lifts chip suppliers across Asia.",
+     "Scenario two: volatility continues.",
+     "Retail investors, very active on day one, take their profits.",
+     "Scenario three: the domino effect.",
+     "Other AI players speed up their own listings to catch the window."
+    ]
+   },
+   "graphic": "scenarios_clip",
+   "graphic_dur": 18,
+   "footage": [
+    "morning",
+    "datacenter"
+   ]
+  },
+  {
+   "id": "seg06",
+   "title": {
+    "fr": "Conclusion",
+    "en": "Takeaway"
+   },
+   "text": {
+    "fr": [
+     "Une chose est sûre : pour la première fois, une entreprise d'IA pure est cotée.",
+     "Chaque jour de bourse sera désormais un sondage grandeur nature sur l'avenir de l'intelligence artificielle.",
+     "TempoBrief.",
+     "L'actu qui compte, en quelques minutes."
+    ],
+    "en": [
+     "One thing is certain: for the first time, a pure AI company is publicly traded.",
+     "Every trading day is now a real-time poll on the future of artificial intelligence.",
+     "TempoBrief.",
+     "The news that matters, in minutes."
+    ]
+   },
+   "graphic": null,
+   "graphic_dur": 0,
+   "footage": [
+    "timessquare"
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "id": "s1",
+   "from": "seg01",
+   "to": "seg02",
+   "max": 45
+  },
+  {
+   "id": "s2",
+   "from": "seg03",
+   "to": "seg03",
+   "max": 45
+  },
+  {
+   "id": "s3",
+   "from": "seg04",
+   "to": "seg04",
+   "max": 45
+  }
+ ]
+}
