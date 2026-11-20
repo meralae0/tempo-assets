@@ -1,0 +1,740 @@
+{
+ "shots": [
+  {
+   "kind": "shot",
+   "img": "13_test_tape.jpg",
+   "cam": [
+    480,
+    280,
+    620,
+    130
+   ],
+   "blur": [
+    [
+     600,
+     240,
+     340,
+     55
+    ]
+   ],
+   "cursor": [
+    [
+     780,
+     330
+    ],
+    [
+     1033,
+     368
+    ]
+   ],
+   "click": true,
+   "from": 0,
+   "dur": 201
+  },
+  {
+   "kind": "shot",
+   "img": "14_chargeant_competence.jpg",
+   "cam": [
+    470,
+    60,
+    640,
+    120
+   ],
+   "hl": [
+    480,
+    128,
+    220,
+    30
+   ],
+   "label": "Le Skill se charge tout seul",
+   "from": 201,
+   "dur": 94
+  },
+  {
+   "kind": "shot",
+   "img": "16_resultat_script.jpg",
+   "cam": [
+    470,
+    290,
+    600,
+    330
+   ],
+   "cam2": [
+    470,
+    330,
+    600,
+    300
+   ],
+   "from": 295,
+   "dur": 115
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "5 minutes",
+     "c"
+    ],
+    [
+     "0 code · 0 fichier",
+     "w"
+    ]
+   ],
+   "from": 410,
+   "dur": 114
+  },
+  {
+   "kind": "concept",
+   "from": 523,
+   "dur": 308
+  },
+  {
+   "kind": "shot",
+   "img": "02_capacites.jpg",
+   "cam": [
+    360,
+    20,
+    850,
+    670
+   ],
+   "cursor": [
+    [
+     700,
+     500
+    ],
+    [
+     440,
+     276
+    ]
+   ],
+   "click": true,
+   "from": 831,
+   "dur": 137,
+   "step": 1,
+   "stepTitle": "Vérifie l'option"
+  },
+  {
+   "kind": "shot",
+   "img": "02_capacites.jpg",
+   "cam": [
+    540,
+    255,
+    660,
+    125
+   ],
+   "hl": [
+    548,
+    265,
+    640,
+    112
+   ],
+   "label": "Créer et modifier des fichiers : activé",
+   "cursor": [
+    [
+     900,
+     420
+    ],
+    [
+     1165,
+     320
+    ]
+   ],
+   "from": 968,
+   "dur": 138,
+   "step": 1,
+   "stepTitle": "Vérifie l'option"
+  },
+  {
+   "kind": "shot",
+   "img": "03_plugins_skills.jpg",
+   "cam": [
+    380,
+    20,
+    820,
+    200
+   ],
+   "cursor": [
+    [
+     700,
+     160
+    ],
+    [
+     1041,
+     83
+    ]
+   ],
+   "click": true,
+   "from": 1107,
+   "dur": 108,
+   "step": 2,
+   "stepTitle": "Créer avec Claude"
+  },
+  {
+   "kind": "shot",
+   "img": "04_menu_ajouter.jpg",
+   "cam": [
+    880,
+    60,
+    330,
+    190
+   ],
+   "cursor": [
+    [
+     1041,
+     83
+    ],
+    [
+     1136,
+     83
+    ]
+   ],
+   "click": true,
+   "from": 1215,
+   "dur": 49,
+   "step": 2,
+   "stepTitle": "Créer avec Claude"
+  },
+  {
+   "kind": "shot",
+   "img": "06_menu_creer_avec_claude.jpg",
+   "cam": [
+    880,
+    60,
+    330,
+    190
+   ],
+   "hl": [
+    936,
+    181,
+    230,
+    23
+   ],
+   "cursor": [
+    [
+     1136,
+     90
+    ],
+    [
+     1014,
+     192
+    ]
+   ],
+   "click": true,
+   "from": 1264,
+   "dur": 49,
+   "step": 2,
+   "stepTitle": "Créer avec Claude"
+  },
+  {
+   "kind": "shot",
+   "img": "07_creer_prefill.jpg",
+   "cam": [
+    500,
+    230,
+    570,
+    190
+   ],
+   "hl": [
+    518,
+    304,
+    532,
+    34
+   ],
+   "label": "Phrase déjà écrite",
+   "from": 1313,
+   "dur": 100,
+   "step": 2,
+   "stepTitle": "Créer avec Claude"
+  },
+  {
+   "kind": "shot",
+   "img": "07_creer_prefill.jpg",
+   "cam": [
+    500,
+    230,
+    570,
+    190
+   ],
+   "from": 1414,
+   "dur": 83,
+   "step": 3,
+   "stepTitle": "Décris ton Skill"
+  },
+  {
+   "kind": "shot",
+   "img": "08_demande_tapee.jpg",
+   "cam": [
+    510,
+    270,
+    550,
+    150
+   ],
+   "typing": true,
+   "from": 1497,
+   "dur": 439,
+   "step": 3,
+   "stepTitle": "Décris ton Skill"
+  },
+  {
+   "kind": "shot",
+   "img": "08_demande_tapee.jpg",
+   "cam": [
+    500,
+    230,
+    570,
+    200
+   ],
+   "cursor": [
+    [
+     800,
+     360
+    ],
+    [
+     1033,
+     390
+    ]
+   ],
+   "click": true,
+   "from": 1936,
+   "dur": 18,
+   "step": 3,
+   "stepTitle": "Décris ton Skill"
+  },
+  {
+   "kind": "shot",
+   "img": "09_proposition_en_cours.jpg",
+   "cam": [
+    470,
+    60,
+    640,
+    180
+   ],
+   "from": 1954,
+   "dur": 12,
+   "step": 3,
+   "stepTitle": "Décris ton Skill"
+  },
+  {
+   "kind": "shot",
+   "img": "10_carte_skill.jpg",
+   "cam": [
+    470,
+    225,
+    630,
+    200
+   ],
+   "blur": [
+    [
+     493,
+     306,
+     340,
+     15
+    ]
+   ],
+   "hl": [
+    485,
+    236,
+    598,
+    172
+   ],
+   "from": 1965,
+   "dur": 122,
+   "step": 4,
+   "stepTitle": "Relis et enregistre"
+  },
+  {
+   "kind": "shot",
+   "img": "11_contenu.jpg",
+   "cam": [
+    470,
+    320,
+    630,
+    300
+   ],
+   "blur": [
+    [
+     493,
+     306,
+     340,
+     15
+    ]
+   ],
+   "cursor": [
+    [
+     700,
+     300
+    ],
+    [
+     519,
+     340
+    ]
+   ],
+   "click": true,
+   "from": 2087,
+   "dur": 78,
+   "step": 4,
+   "stepTitle": "Relis et enregistre"
+  },
+  {
+   "kind": "shot",
+   "img": "11_contenu.jpg",
+   "cam": [
+    800,
+    560,
+    330,
+    90
+   ],
+   "blur": [
+    [
+     493,
+     306,
+     340,
+     15
+    ]
+   ],
+   "cursor": [
+    [
+     900,
+     560
+    ],
+    [
+     1035,
+     613
+    ]
+   ],
+   "click": true,
+   "from": 2165,
+   "dur": 44,
+   "step": 4,
+   "stepTitle": "Relis et enregistre"
+  },
+  {
+   "kind": "shot",
+   "img": "12_enregistre.jpg",
+   "cam": [
+    470,
+    225,
+    630,
+    90
+   ],
+   "hl": [
+    485,
+    262,
+    598,
+    30
+   ],
+   "label": "Enregistré",
+   "blur": [
+    [
+     700,
+     507,
+     115,
+     16
+    ]
+   ],
+   "from": 2208,
+   "dur": 44,
+   "step": 4,
+   "stepTitle": "Relis et enregistre"
+  },
+  {
+   "kind": "shot",
+   "img": "19_skill_dans_liste.jpg",
+   "cam": [
+    380,
+    120,
+    560,
+    90
+   ],
+   "hl": [
+    388,
+    155,
+    205,
+    35
+   ],
+   "label": "Nouveau",
+   "from": 2252,
+   "dur": 123,
+   "step": 4,
+   "stepTitle": "Relis et enregistre"
+  },
+  {
+   "kind": "shot",
+   "img": "13_test_tape.jpg",
+   "cam": [
+    480,
+    230,
+    620,
+    180
+   ],
+   "blur": [
+    [
+     600,
+     240,
+     340,
+     55
+    ]
+   ],
+   "from": 2376,
+   "dur": 50,
+   "step": 5,
+   "stepTitle": "Teste-le"
+  },
+  {
+   "kind": "shot",
+   "img": "13_test_tape.jpg",
+   "cam": [
+    500,
+    290,
+    580,
+    110
+   ],
+   "hl": [
+    518,
+    306,
+    532,
+    30
+   ],
+   "blur": [
+    [
+     600,
+     240,
+     340,
+     55
+    ]
+   ],
+   "from": 2426,
+   "dur": 151,
+   "step": 5,
+   "stepTitle": "Teste-le"
+  },
+  {
+   "kind": "shot",
+   "img": "14_chargeant_competence.jpg",
+   "cam": [
+    470,
+    60,
+    640,
+    120
+   ],
+   "hl": [
+    480,
+    128,
+    220,
+    30
+   ],
+   "label": "Chargeant une compétence",
+   "from": 2577,
+   "dur": 77,
+   "step": 5,
+   "stepTitle": "Teste-le"
+  },
+  {
+   "kind": "shot",
+   "img": "17_resultat_etapes.jpg",
+   "cam": [
+    470,
+    30,
+    600,
+    370
+   ],
+   "cam2": [
+    470,
+    250,
+    600,
+    380
+   ],
+   "from": 2655,
+   "dur": 58,
+   "step": 5,
+   "stepTitle": "Teste-le"
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "2 erreurs",
+     "r"
+    ],
+    [
+     "fréquentes",
+     "w"
+    ]
+   ],
+   "from": 2713,
+   "dur": 47
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "1 · le Skill",
+     "w"
+    ],
+    [
+     "ne se déclenche pas",
+     "r"
+    ]
+   ],
+   "from": 2760,
+   "dur": 75
+  },
+  {
+   "kind": "shot",
+   "img": "10_carte_skill.jpg",
+   "cam": [
+    470,
+    260,
+    630,
+    80
+   ],
+   "hl": [
+    488,
+    293,
+    580,
+    30
+   ],
+   "label": "La description décide de tout",
+   "blur": [
+    [
+     493,
+     306,
+     340,
+     15
+    ]
+   ],
+   "from": 2835,
+   "dur": 219
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "2 · enregistrer",
+     "w"
+    ],
+    [
+     "sans relire",
+     "r"
+    ]
+   ],
+   "from": 3053,
+   "dur": 80
+  },
+  {
+   "kind": "shot",
+   "img": "11_contenu.jpg",
+   "cam": [
+    470,
+    330,
+    630,
+    280
+   ],
+   "hl": [
+    488,
+    335,
+    70,
+    14
+   ],
+   "label": "Ouvre toujours « Contenu »",
+   "blur": [
+    [
+     493,
+     306,
+     340,
+     15
+    ]
+   ],
+   "from": 3133,
+   "dur": 134
+  },
+  {
+   "kind": "summary",
+   "from": 3267,
+   "dur": 193
+  },
+  {
+   "kind": "gift",
+   "from": 3460,
+   "dur": 111
+  },
+  {
+   "kind": "shot",
+   "img": "05_import_vide.jpg",
+   "cam": [
+    380,
+    20,
+    800,
+    120
+   ],
+   "hl": [
+    985,
+    88,
+    100,
+    18
+   ],
+   "label": ".md accepté",
+   "from": 3571,
+   "dur": 157
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "vidéo 4",
+     "c"
+    ],
+    [
+     "les vrais chiffres",
+     "w"
+    ]
+   ],
+   "from": 3729,
+   "dur": 106
+  },
+  {
+   "kind": "end",
+   "from": 3835,
+   "dur": 218
+  }
+ ],
+ "total": 4053,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   17.44
+  ],
+  [
+   "seg03",
+   27.71
+  ],
+  [
+   "seg04",
+   36.89
+  ],
+  [
+   "seg05",
+   47.12
+  ],
+  [
+   "seg06",
+   65.51
+  ],
+  [
+   "seg07",
+   79.2
+  ],
+  [
+   "seg08",
+   90.42
+  ],
+  [
+   "seg09",
+   108.9
+  ]
+ ]
+}
