@@ -26,7 +26,7 @@ def _subs_dt(a, b, subs, font):
         tot = sum(len(' '.join(bl)) for bl in blocks); t = s
         for bl in blocks:
             d_ = (e - s) * len(' '.join(bl)) / max(1, tot); bs, be = t, t + d_; t = be
-            if be <= a or bs >= b: continue
+            if be <= a + 0.05 or bs >= b - 0.05: continue
             for li, line in enumerate(bl):
                 dt += (f",drawtext=fontfile='{font}':expansion=none:text='{esc(line)}':fontsize=62:fontcolor=0xF5F1EA:borderw=5:bordercolor=black"
                        f":x=(w-text_w)/2:y=h*0.5+260+{li*82}:enable='between(t,{max(0,bs-a):.2f},{min(L,be-a):.2f})'")
@@ -103,7 +103,7 @@ def main(ep_dir, lang):
             tot = sum(len(' '.join(bl)) for bl in blocks); t = s
             for bl in blocks:
                 d_ = (e - s) * len(' '.join(bl)) / max(1, tot); bs, be = t, t + d_; t = be
-                if be <= a or bs >= b: continue
+                if be <= a + 0.05 or bs >= b - 0.05: continue
                 for li, line in enumerate(bl):
                     dt += (f",drawtext=fontfile='{font}':expansion=none:text='{esc(line)}':fontsize=62:fontcolor=0xF5F1EA:borderw=5:bordercolor=black"
                            f":x=(w-text_w)/2:y=h*0.5+260+{li*82}:enable='between(t,{max(0,bs-a):.2f},{min(L,be-a):.2f})'")
