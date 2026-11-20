@@ -12,7 +12,7 @@ plan = {
            (3, T([['2 minutes', 'c'], ['0 code · 0 fichier', 'w']]))],
  'seg02': [(0, dict(kind='concept'))],
  'seg03': [(0, S('02_capacites.jpg', cam=[360, 20, 850, 670], cursor=[[700, 500], [440, 276]], click=True)),
-           (2, S('02_capacites.jpg', cam=[540, 255, 660, 125], hl=[548, 265, 640, 112], label='Créer et modifier des fichiers : activé', cursor=[[900, 420], [1165, 320]]))],
+           (2, S('02_capacites.jpg', cam=[540, 255, 660, 125], hl=[548, 265, 640, 112], label='Créer et modifier des fichiers : activé'))],
  'seg04': [(0, S('03_plugins_skills.jpg', cam=[380, 20, 820, 200], cursor=[[700, 160], [1041, 83]], click=True)),
            (1, S('04_menu_ajouter.jpg', cam=[880, 60, 330, 190], cursor=[[1041, 83], [1136, 83]], click=True)),
            (1.5, S('06_menu_creer_avec_claude.jpg', cam=[880, 60, 330, 190], hl=[936, 181, 230, 23], cursor=[[1136, 90], [1014, 192]], click=True)),

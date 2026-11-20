@@ -21,6 +21,8 @@ const Bg: React.FC = () => {
 
 // ---------- fenêtre navigateur avec caméra ----------
 const VW = 1600, VH = 720; // zone visible
+// position du vrai curseur dans chaque capture (effacé de l'image, redessiné ici pour qu'il n'y ait qu'une seule flèche)
+const BAKED: Record<string, number[]> = {'01_home.jpg': [23, 21], '02_capacites.jpg': [786, 356], '03_plugins_skills.jpg': [786, 356], '04_menu_ajouter.jpg': [1082, 119], '05_import_vide.jpg': [1018, 119], '06_menu_creer_avec_claude.jpg': [1016, 195], '07_creer_prefill.jpg': [1016, 195], '08_demande_tapee.jpg': [782, 324], '09_proposition_en_cours.jpg': [1035, 393], '10_carte_skill.jpg': [1079, 613], '11_contenu.jpg': [521, 343], '12_enregistre.jpg': [1037, 616], '13_test_tape.jpg': [782, 366], '14_chargeant_competence.jpg': [1035, 371], '15_competence_chargee.jpg': [1035, 371], '16_resultat_script.jpg': [1035, 371], '17_resultat_etapes.jpg': [782, 404], '18_resultat_erreurs_sources.jpg': [782, 404], '19_skill_dans_liste.jpg': [786, 356]};
 type Rect = number[];
 const camFor = (r: Rect | undefined) => {
   if (!r) return {s: VW / IW, tx: 0, ty: (VH - IH * VW / IW) / 2};
@@ -47,12 +49,18 @@ const Shot: React.FC<{d: any}> = ({d}) => {
   const P = (x: number, y: number) => [tx + x * s, ty + y * s];
   // curseur
   let cur: number[] | null = null; let clickT = -1;
-  if (d.cursor) {
+  const bk = BAKED[d.img];
+  // raw = capture d'origine avec son vrai curseur (aucune flèche ajoutée) : plan sans déplacement, ou clic à l'endroit où était déjà le curseur
+  const raw = !d.cursor || (bk && Math.hypot(bk[0] - d.cursor[1][0], bk[1] - d.cursor[1][1]) < 30);
+  const path = d.cursor && !raw ? [bk || d.cursor[0], d.cursor[1]] : null;
+  if (path) {
     const t0 = Math.min(18, Math.floor(D * 0.25)), t1 = Math.max(t0 + 4, Math.min(D - 12, 46));
     const m = interpolate(f, [t0, t1], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease});
-    const [x0, y0] = d.cursor[0], [x1, y1] = d.cursor[1];
+    const [x0, y0] = path[0], [x1, y1] = path[1];
     cur = P(lerp(x0, x1, m), lerp(y0, y1, m)); if (d.click) clickT = t1 + 2;
   }
+  let ripple: number[] | null = cur;
+  if (raw && d.click && d.cursor) { clickT = Math.min(30, D - 18); ripple = P(bk ? bk[0] - 2 : d.cursor[1][0], bk ? bk[1] - 2 : d.cursor[1][1]); }
   const ck = clickT > 0 ? interpolate(f, [clickT, clickT + 16], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 0;
   const hl = d.hl ? spring({frame: f - 22, fps, config: {damping: 15}}) : 0;
   const lab = d.label ? spring({frame: f - 34, fps, config: {damping: 14}}) : 0;
@@ -67,14 +75,15 @@ const Shot: React.FC<{d: any}> = ({d}) => {
       </div>
       <div style={{position: 'relative', width: VW, height: VH, overflow: 'hidden'}}>
         <div style={{position: 'absolute', left: tx, top: ty, width: IW * s, height: IH * s}}>
-          <Img src={staticFile('caps/' + d.img)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
+          <Img src={staticFile((raw ? 'caps_raw/' : 'caps/') + d.img)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
           {d.typing && <div style={{position: 'absolute', left: 528 * s, top: 290 * s, width: (1045 - 528) * s, height: 85 * s, background: '#303030', transformOrigin: 'right', transform: `scaleX(${1 - typeReveal})`, marginLeft: 0, right: 0}} />}
           {([] as any[]).map((r: Rect, i: number) => <div key={i} style={{position: 'absolute', left: r[0] * s, top: r[1] * s, width: r[2] * s, height: r[3] * s, backdropFilter: 'blur(9px)', background: 'rgba(30,30,30,0.35)', borderRadius: 6}} />)}
         </div>
         {hp && <div style={{position: 'absolute', left: hp[0] - 8, top: hp[1] - 6, width: hp[2] + 16, height: hp[3] + 12, borderRadius: 12, border: `3px solid ${C.cyan}`, boxShadow: `0 0 0 ${9999 * 0}px rgba(0,0,0,0), 0 0 40px rgba(0,212,255,0.45)`, background: 'rgba(0,212,255,0.06)', opacity: hl, transform: `scale(${0.96 + 0.04 * hl})`}} />}
         {hp && d.label && <div style={{position: 'absolute', left: Math.min(VW - 560, Math.max(20, hp[0])), top: hp[1] + hp[3] + 18 > VH - 70 ? hp[1] - 70 : hp[1] + hp[3] + 18, opacity: lab, transform: `translateY(${(1 - lab) * 12}px)`, fontFamily: 'SG', fontWeight: 700, fontSize: 30, color: '#07080d', background: C.cyan, padding: '10px 20px', borderRadius: 12, boxShadow: '0 12px 40px rgba(0,212,255,0.45)', whiteSpace: 'nowrap'}}>{d.label}</div>}
+        {ripple && ck > 0 && ck < 1 && <div style={{position: 'absolute', left: ripple[0] - 50 * ck, top: ripple[1] - 50 * ck, width: 100 * ck, height: 100 * ck, borderRadius: '50%', border: `4px solid rgba(0,212,255,${1 - ck})`}} />}
         {cur && <>
-          {ck > 0 && ck < 1 && <div style={{position: 'absolute', left: cur[0] - 50 * ck, top: cur[1] - 50 * ck, width: 100 * ck, height: 100 * ck, borderRadius: '50%', border: `4px solid rgba(0,212,255,${1 - ck})`}} />}
+          {false && <div style={{position: 'absolute', left: cur[0] - 50 * ck, top: cur[1] - 50 * ck, width: 100 * ck, height: 100 * ck, borderRadius: '50%', border: `4px solid rgba(0,212,255,${1 - ck})`}} />}
           <Cursor x={cur[0]} y={cur[1]} />
         </>}
       </div>
@@ -94,15 +103,18 @@ const Title: React.FC<{d: any}> = ({d}) => {
 const Concept: React.FC<{d: any}> = ({d}) => {
   const f = useCurrentFrame(); const {fps} = useVideoConfig();
   const a = spring({frame: f, fps, config: {damping: 18}}); const b = spring({frame: f - 40, fps, config: {damping: 16}}); const c = spring({frame: f - 90, fps, config: {damping: 16}});
-  const card = (x: number, title: string, lines: string[], col: string, s: number) => <div style={{position: 'absolute', left: x, top: 330, width: 520, height: 400, borderRadius: 24, background: C.panel, border: `1px solid ${col}66`, boxShadow: `0 30px 90px rgba(0,0,0,0.5), 0 0 60px ${col}22`, padding: 34, opacity: s, transform: `translateY(${(1 - s) * 50}px)`}}>
+  const card = (x: number, title: string, lines: string[], col: string, s: number) => <div style={{position: 'absolute', boxSizing: 'border-box', left: x, top: 330, width: 520, height: 400, borderRadius: 24, background: C.panel, border: `1px solid ${col}66`, boxShadow: `0 30px 90px rgba(0,0,0,0.5), 0 0 60px ${col}22`, padding: 34, opacity: s, transform: `translateY(${(1 - s) * 50}px)`}}>
     <div style={{fontFamily: 'JB', fontSize: 24, color: col, marginBottom: 20}}>{title}</div>
     {lines.map((l, i) => <div key={i} style={{fontFamily: 'SG', fontSize: 34, color: C.white, margin: '14px 0'}}>{l}</div>)}
   </div>;
   return <AbsoluteFill>
     <div style={{position: 'absolute', top: 150, width: '100%', textAlign: 'center', fontFamily: 'SG', fontWeight: 700, fontSize: 80, color: C.white, opacity: a}}>Un Skill = une fiche que Claude garde</div>
     {card(240, 'SKILL · scénariste YouTube', ['① accroche 5 s', '② étapes + bouton exact', '③ 2 erreurs', '④ temps et coût'], C.cyan, a)}
-    <div style={{position: 'absolute', left: 820, top: 500, width: 280 * b, height: 6, borderRadius: 3, background: `linear-gradient(90deg, ${C.cyan}, ${C.violet})`}} />
-    <div style={{position: 'absolute', left: 1080, top: 478, fontFamily: 'SG', fontSize: 50, color: C.violet, opacity: b}}>➜</div>
+    <svg style={{position: 'absolute', left: 776, top: 500, opacity: b}} width="370" height="60" viewBox="0 0 370 60">
+      <defs><linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="340" y2="0"><stop offset="0" stopColor={C.cyan} /><stop offset="1" stopColor={C.violet} /></linearGradient></defs>
+      <line x1="10" y1="30" x2={10 + 320 * b} y2="30" stroke="url(#ag)" strokeWidth="6" strokeLinecap="round" />
+      <path d={`M ${330 * b - 6} 12 L ${330 * b + 18} 30 L ${330 * b - 6} 48`} fill="none" stroke={C.violet} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
     {card(1160, 'TA DEMANDE', ['« Écris le script', 'd\'une vidéo… »', '', '→ Claude ouvre la fiche'], C.violet, c)}
   </AbsoluteFill>;
 };
