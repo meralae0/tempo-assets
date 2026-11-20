@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><title>TempoBrief — bridge</title>
+<style>body{font:14px Inter,system-ui;background:#0B0B0D;color:#F5F1EA;padding:24px;max-width:860px;margin:auto}
+h1{font-family:Georgia,serif;letter-spacing:.1em}a{color:#C9A24A}code{background:#2B2724;padding:2px 6px;border-radius:3px}
+input{width:100%;padding:8px;background:#2B2724;color:#F5F1EA;border:1px solid #444}
+li{margin:6px 0}</style></head><body>
+<h1>TEMPOBRIEF · bridge</h1>
+<p>Ce pont sert à récupérer un fichier du dépôt sous forme de <code>Blob</code> depuis un autre site (YouTube Studio, Meta Business Suite, TikTok Studio) afin de l'injecter dans un champ d'upload.</p>
+<p>Usage depuis la console d'un site cible :</p>
+<pre><code>const r = await fetch('https://meralae0.github.io/tempo-assets/videos/2026-11-20-sujet.mp4');
+const f = new File([await r.blob()], '2026-11-20-sujet.mp4', {type:'video/mp4'});
+const dt = new DataTransfer(); dt.items.add(f);
+const input = document.querySelector('input[type=file]'); input.files = dt.files;
+input.dispatchEvent(new Event('change', {bubbles:true}));</code></pre>
+<p>Tester un chemin : <input id="p" placeholder="videos/2026-11-20-sujet.mp4"> <button onclick="t()">Vérifier</button> <span id="o"></span></p>
+<script>async function t(){const p=document.getElementById('p').value.trim();const o=document.getElementById('o');o.textContent='…';
+try{const r=await fetch(p,{method:'HEAD'});o.textContent=r.ok?`OK ${r.headers.get('content-length')} octets`:`HTTP ${r.status}`}catch(e){o.textContent='erreur '+e.message}}</script>
+</body></html>

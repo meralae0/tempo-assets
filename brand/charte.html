@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><title>Tempo — Charte v1</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--noir:#0B0B0D;--gris:#2B2724;--creme:#F5F1EA;--gclair:#D9D2C7;--or:#C9A24A}
+body{margin:0;background:#15151a;color:var(--creme);font-family:Inter,sans-serif;padding:24px}
+h2{font:600 13px Inter;letter-spacing:.12em;text-transform:uppercase;color:var(--gclair);margin:28px 0 10px}
+.row{display:flex;gap:20px;flex-wrap:wrap}
+.pf{font-family:'Playfair Display',serif}
+.frame{position:relative;background:var(--noir);overflow:hidden;border:1px solid #333}
+.w169{width:640px;height:360px}.w916{width:203px;height:360px}
+/* logo */
+.logo{display:flex;flex-direction:column;align-items:center;gap:6px}
+.logo .word{font:900 56px/1 'Playfair Display';letter-spacing:.18em;color:var(--creme)}
+.logo .line{width:120px;height:2px;background:var(--or)}
+.mono{width:72px;height:72px;border-radius:50%;border:3px solid var(--or);display:flex;align-items:center;justify-content:center;font:900 40px 'Playfair Display';color:var(--creme);background:var(--noir)}
+/* swatches */
+.sw{display:flex;gap:10px}.sw div{width:90px;height:60px;border-radius:4px;font:600 10px Inter;display:flex;align-items:flex-end;padding:6px;box-sizing:border-box}
+/* pastille */
+.badge{position:absolute;top:18px;left:18px;border:2px solid var(--or);border-radius:999px;padding:5px 12px;font:800 11px Inter;letter-spacing:.14em;color:var(--creme);background:rgba(11,11,13,.7)}
+/* bandeau */
+.lt{position:absolute;left:24px;bottom:28px;background:rgba(11,11,13,.85);border-left:4px solid var(--or);padding:12px 18px;max-width:430px}
+.lt .t{font:700 22px/1.2 'Playfair Display';color:var(--creme)}
+.lt .m{font:400 11px Inter;color:var(--gclair);margin-top:6px;letter-spacing:.08em}
+.lt .m b{color:var(--or);font-weight:800;letter-spacing:.18em}
+.bg{position:absolute;inset:0;background:linear-gradient(135deg,#3a3430,#1a1816 60%,#0B0B0D)}
+.ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#55504a;font:400 12px Inter}
+/* end card */
+.end{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:16px}
+.slots{display:flex;gap:16px}.slot{width:180px;height:100px;border:1px dashed #4a443e;display:flex;align-items:center;justify-content:center;font:400 10px Inter;color:#6a635c}
+.sub{border:2px solid var(--or);border-radius:4px;padding:8px 18px;font:800 11px Inter;letter-spacing:.14em;color:var(--or)}
+/* short */
+.prog{position:absolute;top:0;left:0;height:6px;width:62%;background:var(--or)}
+.subt{position:absolute;bottom:70px;left:12px;right:12px;text-align:center;font:800 15px/1.25 Inter;color:var(--creme);text-shadow:0 0 2px #000,0 0 2px #000,2px 2px 0 #000,-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000}
+.cta{position:absolute;bottom:0;left:0;right:0;height:56px;background:var(--noir);border-top:1px solid var(--or);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.cta .w{font:900 16px 'Playfair Display';letter-spacing:.18em}.cta .s{font:600 8px Inter;letter-spacing:.1em;color:var(--gclair)}
+/* thumb */
+.thumb .txt{position:absolute;left:28px;top:50%;transform:translateY(-50%);font:900 72px/1 'Playfair Display';color:var(--creme)}
+.thumb .txt span{color:var(--or);display:block}
+.thumb .pic{position:absolute;right:0;top:0;width:45%;height:100%;background:linear-gradient(180deg,#4a423a,#1f1b18);clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}
+.thumb .mini{position:absolute;right:18px;bottom:14px;font:900 14px 'Playfair Display';letter-spacing:.18em;color:var(--creme)}
+</style></head><body>
+
+<h2>1 · Logo texte + monogramme</h2>
+<div class="row">
+ <div class="frame" style="width:400px;height:200px;display:flex;align-items:center;justify-content:center"><div class="logo"><div class="word">TEMPO</div><div class="line"></div></div></div>
+ <div class="frame" style="width:200px;height:200px;display:flex;align-items:center;justify-content:center"><div class="mono">T</div></div>
+</div>
+
+<h2>2 · Couleurs</h2>
+<div class="sw">
+ <div style="background:#0B0B0D;color:#D9D2C7;border:1px solid #333">Noir #0B0B0D</div>
+ <div style="background:#2B2724;color:#D9D2C7">Gris chaud #2B2724</div>
+ <div style="background:#F5F1EA;color:#0B0B0D">Crème #F5F1EA</div>
+ <div style="background:#D9D2C7;color:#0B0B0D">Gris clair #D9D2C7</div>
+ <div style="background:#C9A24A;color:#0B0B0D">Or #C9A24A</div>
+</div>
+<p style="font:400 12px Inter;color:var(--gclair)">Titres : Playfair Display 700/900 · Corps, chiffres, sous-titres : Inter 400/600/800</p>
+
+<h2>3 · Pastille + bandeau (vidéo longue 16:9)</h2>
+<div class="frame w169"><div class="bg"></div><div class="ph">plan vidéo libre (Wikimedia / NASA / archive.org)</div>
+ <div class="badge">ANALYSE</div>
+ <div class="lt"><div class="t">Nvidia dépasse 5 000 milliards : ce que ça change</div><div class="m"><b>TEMPO</b> &nbsp;·&nbsp; 20 NOV 2026</div></div>
+</div>
+
+<h2>4 · Cartes de fin</h2>
+<div class="row">
+ <div class="frame w169"><div class="end"><div class="logo"><div class="word" style="font-size:40px">TEMPO</div><div class="line"></div></div>
+  <div class="slots"><div class="slot">vidéo suggérée</div><div class="slot">dernière vidéo</div></div><div class="sub">S'ABONNER · SUBSCRIBE</div></div></div>
+ <div class="frame w916"><div class="prog"></div><div class="bg"></div>
+  <div class="subt">le marché a réagi en moins de 3 heures</div>
+  <div class="cta"><div class="w">TEMPO</div><div class="s">VIDÉO COMPLÈTE SUR YOUTUBE</div></div></div>
+</div>
+<p style="font:400 12px Inter;color:var(--gclair)">Short 9:16 : barre de progression or en haut, sous-titres incrustés Inter 800 avec contour noir, pas de titre fixe, carte de fin « Vidéo complète sur YouTube » / « Full video on YouTube ».</p>
+
+<h2>5 · Miniature</h2>
+<div class="frame w169 thumb"><div class="pic"></div><div class="txt">5 000<span>MILLIARDS</span></div><div class="mini">TEMPO</div></div>
+
+</body></html>
