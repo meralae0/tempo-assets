@@ -22,31 +22,36 @@ def spaced(d, xy, txt, font, fill, sp, anchor='mm'):
     for c in txt:
         d.text((x, xy[1]), c, font=font, fill=fill, anchor='l' + anchor[1]); x += d.textlength(c, font=font) + sp
 
-def render(frames_fn, dur, out, alpha=False):
+def render(frames_fn, dur, out, alpha=None):
+    alpha = ALPHA if alpha is None else alpha
     """frames_fn(i, n) -> PIL Image. Encode to out (mp4 yuv420p, or .mov prores4444 if alpha)."""
     n = int(round(dur * FPS)); tmp = out + '_frames'; shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     for i in range(n):
         frames_fn(i, n).save(os.path.join(tmp, f'{i:05d}.png'), compress_level=1)
     if alpha:
+        out = os.path.splitext(out)[0] + '.mov'
         cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', os.path.join(tmp, '%05d.png'), '-c:v', 'qtrle', '-pix_fmt', 'argb', out]
     else:
         cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', os.path.join(tmp, '%05d.png'), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-pix_fmt', 'yuv420p', out]
     subprocess.run(cmd, check=True); shutil.rmtree(tmp); return out
 
+ALPHA = False
 def base():
-    return Image.new('RGB', (W, H), NOIR)
+    return Image.new('RGBA', (W, H), (0, 0, 0, 0)) if ALPHA else Image.new('RGB', (W, H), NOIR)
 
 def fmt(v, lang):
     s = f'{v:,.2f}'
     return s.replace(',', ' ').replace('.', ',') if lang == 'fr' else s
 
 # ---------- 1. Compteur 83 -> 111,50 -> 97,17 ----------
-def counter_clip(out, dur, lang):
+def counter_clip(out, dur, lang, times=None):
     labels = {'fr': ['PRIX D’INTRODUCTION', 'OUVERTURE', 'CLÔTURE'], 'en': ['IPO PRICE', 'OPEN', 'CLOSE']}[lang]
     vals = [83.0, 111.5, 97.17]; seg = dur / 3
     big = pf(260); small = inter(40, 700); unit = pf(110)
+    st = (times[:3] if times and len(times) >= 3 else [0, seg, 2 * seg])
     def f(i, n):
-        t = i / FPS; k = min(2, int(t // seg)); u = ease((t - k * seg) / (seg * 0.6))
+        t = i / FPS; k = max([j for j in range(3) if t >= st[j]] or [0]); nxt = st[k + 1] if k < 2 else dur
+        u = ease((t - st[k]) / max(0.4, (nxt - st[k]) * 0.6))
         v0 = vals[k - 1] if k else 0.0; v = v0 + (vals[k] - v0) * u
         im = base(); d = ImageDraw.Draw(im)
         col = CREME if k != 2 else OR
@@ -60,7 +65,7 @@ def counter_clip(out, dur, lang):
     return render(f, dur, out)
 
 # ---------- 2. Graphique de séance ----------
-def session_chart(out, dur, lang):
+def session_chart(out, dur, lang, times=None):
     pts = [(0, 111.5), (1, 103.0), (2, 96.66), (3, 95.79), (4, 95.89), (5, 97.17)]  # 11:48, 12:30, 13:00, 14:00, 15:00, 16:00
     xl = ['11:48', '12:30', '13:00', '14:00', '15:00', '16:00']
     ipo = 83.0; lo, hi = 78, 118; x0, x1, y0, y1 = 260, 1700, 200, 880
@@ -91,7 +96,7 @@ def session_chart(out, dur, lang):
     return render(f, dur, out)
 
 # ---------- 3. Barres valorisation ----------
-def bars_clip(out, dur, lang):
+def bars_clip(out, dur, lang, times=None):
     rows = {'fr': [('ANTHROPIC — actions en circulation', 1270), ('ANTHROPIC — entièrement dilué', 1770), ('META', 1550)],
             'en': [('ANTHROPIC — shares outstanding', 1270), ('ANTHROPIC — fully diluted', 1770), ('META', 1550)]}[lang]
     unit = {'fr': 'milliards $', 'en': 'billion $'}[lang]
@@ -108,7 +113,7 @@ def bars_clip(out, dur, lang):
     return render(f, dur, out)
 
 # ---------- 4. Courbe Nvidia -20 % ----------
-def nvidia_clip(out, dur, lang):
+def nvidia_clip(out, dur, lang, times=None):
     title = {'fr': 'NVIDIA — 3 DERNIÈRES SEMAINES', 'en': 'NVIDIA — LAST 3 WEEKS'}[lang]
     sub = {'fr': 'environ −20 % depuis fin octobre · démission du PDG Jensen Huang', 'en': 'about −20% since late October · CEO Jensen Huang resigned'}[lang]
     import random; random.seed(7); ys = [100]
@@ -128,14 +133,15 @@ def nvidia_clip(out, dur, lang):
     return render(f, dur, out)
 
 # ---------- 5. Cartes scénarios ----------
-def scenarios_clip(out, dur, lang):
+def scenarios_clip(out, dur, lang, times=None):
     cards = {'fr': [('1', 'LA CONFIANCE REVIENT', 'Le titre se stabilise au-dessus de 83 $'), ('2', 'LA VOLATILITÉ CONTINUE', 'Les particuliers prennent leurs bénéfices'), ('3', 'L’EFFET DOMINO', 'D’autres acteurs de l’IA entrent en bourse')],
              'en': [('1', 'CONFIDENCE RETURNS', 'The stock settles above $83'), ('2', 'VOLATILITY CONTINUES', 'Retail investors take profits'), ('3', 'THE DOMINO EFFECT', 'Other AI players rush to list')]}[lang]
     title = {'fr': 'TROIS SCÉNARIOS', 'en': 'THREE SCENARIOS'}[lang]
     def f(i, n):
         im = base(); d = ImageDraw.Draw(im); spaced(d, (W / 2, 130), title, inter(34, 700), GCL, 8)
         for k, (num, t, s) in enumerate(cards):
-            u = ease((i / FPS - k * (dur / 3) * 0.9) / 0.8)
+            t0 = times[k] if times and len(times) > k else k * (dur / 3) * 0.9
+            u = ease((i / FPS - t0) / 0.8)
             if u <= 0: continue
             x = 160 + k * 560; y = 300 + (1 - u) * 60
             d.rectangle((x, y, x + 480, y + 560), fill=GRIS); d.rectangle((x, y, x + 6, y + 560), fill=OR)
@@ -186,12 +192,18 @@ def end_card(out, lang, short=False, w=W, h=H):
         spaced(d, (w / 2, 815), {'fr': 'S’ABONNER', 'en': 'SUBSCRIBE'}[lang], inter(28, 800), OR, 6)
     im.save(out); return out
 
-def thumbnail(out, big, gold, bg_frame):
+def thumbnail(out, big, gold, bg_frame, big2=None):
     im = Image.new('RGB', (1280, 720), NOIR)
     if bg_frame and os.path.exists(bg_frame):
-        pic = Image.open(bg_frame).convert('RGB'); pic = pic.resize((int(pic.width * 720 / pic.height), 720)).crop((0, 0, 620, 720))
+        pic = Image.open(bg_frame).convert('RGB'); pic = pic.resize((int(pic.width * 720 / pic.height), 720))
+        cx = pic.width // 2; pic = pic.crop((cx - 310, 0, cx + 310, 720))
         mask = Image.new('L', (620, 720), 0); md = ImageDraw.Draw(mask); md.polygon([(80, 0), (620, 0), (620, 720), (0, 720)], fill=255)
         im.paste(pic, (660, 0), mask)
-    d = ImageDraw.Draw(im); f = pf(150)
-    d.text((50, 250), big, font=f, fill=CREME, anchor='lm'); d.text((50, 430), gold, font=f, fill=OR, anchor='lm')
-    spaced(d, (1230, 680), 'TEMPOBRIEF', pf(26), CREME, 5, anchor='rm'); im.save(out); return out
+    d = ImageDraw.Draw(im); lines = [(big, CREME)] + ([(big2, CREME)] if big2 else []) + [(gold, OR)]
+    maxw = 640; sz = 170
+    while sz > 60 and max(d.textlength(t, font=pf(sz)) for t, _ in lines) > maxw: sz -= 4
+    f = pf(sz); lh = sz * 1.05; y = 360 - lh * (len(lines) - 1) / 2
+    for t, c in lines: d.text((50, y), t, font=f, fill=c, anchor='lm'); y += lh
+    fl = pf(26); tw = sum(d.textlength(c, font=fl) for c in 'TEMPOBRIEF') + 5 * 9
+    d.rectangle((1280 - tw - 50, 650, 1280, 710), fill=NOIR)
+    spaced(d, (1280 - tw - 30, 680), 'TEMPOBRIEF', fl, CREME, 5, anchor='lm'); im.save(out, quality=92); return out

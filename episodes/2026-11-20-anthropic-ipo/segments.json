@@ -13,40 +13,63 @@
   "en": "Anthropic goes public: worth more than Meta in a day"
  },
  "footage": {
-  "nasa": {
-   "path": "footage/tb_nasa_nasdaq_720p.webm",
-   "dur": 1255,
-   "crop": 0.08,
-   "windows": [
-    [
-     20,
-     1200
-    ]
-   ]
-  },
   "timessquare": {
    "path": "footage/tb_timessquare_night_1080p.webm",
    "dur": 405,
-   "crop": 0.05
+   "crop": 0.05,
+   "windows": [
+    [
+     5,
+     55
+    ],
+    [
+     132,
+     372
+    ]
+   ]
   },
   "downtown": {
    "path": "footage/tb_downtown_night_1080p.webm",
    "dur": 513,
-   "crop": 0.05
+   "crop": 0.05,
+   "windows": [
+    [
+     3,
+     505
+    ]
+   ]
   },
   "morning": {
    "path": "footage/tb_ny_morning_1080p.webm",
-   "dur": 286,
-   "crop": 0.05
+   "dur": 27,
+   "crop": 0.05,
+   "windows": [
+    [
+     1,
+     8.5
+    ],
+    [
+     17,
+     27
+    ]
+   ]
   },
   "datacenter": {
    "path": "footage/tb_datacenter_1080p.webm",
    "dur": 547,
-   "crop": 0.06,
+   "crop": 0.07,
    "windows": [
     [
-     60,
-     520
+     162,
+     170
+    ],
+    [
+     266,
+     280
+    ],
+    [
+     296,
+     316
     ]
    ]
   }
@@ -72,11 +95,12 @@
      "In a single day, a company that didn't exist six years ago became worth more on the stock market than Meta."
     ]
    },
-   "graphic": "counter_clip",
-   "graphic_dur": 9,
    "footage": [
     "timessquare"
-   ]
+   ],
+   "graphic": "counter_clip",
+   "graphic_until": 3,
+   "graphic_bg": "timessquare"
   },
   {
    "id": "seg02",
@@ -102,12 +126,13 @@
      "More than 846 million shares changed hands, more than SpaceX on its first day in June."
     ]
    },
-   "graphic": "session_chart",
-   "graphic_dur": 14,
    "footage": [
-    "nasa",
-    "timessquare"
-   ]
+    "timessquare",
+    "downtown"
+   ],
+   "graphic": "session_chart",
+   "graphic_dur": 12,
+   "graphic_bg": "downtown"
   },
   {
    "id": "seg03",
@@ -129,12 +154,13 @@
      "Either way, that is more than Meta, valued at 1.55 trillion."
     ]
    },
-   "graphic": "bars_clip",
-   "graphic_dur": 12,
    "footage": [
     "downtown",
-    "nasa"
-   ]
+    "timessquare"
+   ],
+   "graphic": "bars_clip",
+   "graphic_dur": 10,
+   "graphic_bg": "downtown"
   },
   {
    "id": "seg04",
@@ -158,12 +184,13 @@
      "The result: a strong start, but a close 13 percent below the day's high."
     ]
    },
-   "graphic": "nvidia_clip",
-   "graphic_dur": 12,
    "footage": [
     "datacenter",
     "downtown"
-   ]
+   ],
+   "graphic": "nvidia_clip",
+   "graphic_dur": 11,
+   "graphic_bg": "downtown"
   },
   {
    "id": "seg05",
@@ -189,12 +216,12 @@
      "Other AI players speed up their own listings to catch the window."
     ]
    },
-   "graphic": "scenarios_clip",
-   "graphic_dur": 18,
    "footage": [
-    "morning",
-    "datacenter"
-   ]
+    "morning"
+   ],
+   "graphic": "scenarios_clip",
+   "graphic_until": 6,
+   "graphic_bg": "downtown"
   },
   {
    "id": "seg06",
@@ -216,11 +243,11 @@
      "The news that matters, in minutes."
     ]
    },
-   "graphic": null,
-   "graphic_dur": 0,
    "footage": [
-    "timessquare"
-   ]
+    "timessquare",
+    "morning"
+   ],
+   "graphic": null
   }
  ],
  "shorts": [
