@@ -1,0 +1,1317 @@
+{
+ "slug": "briefai-02-trouver-des-sujets",
+ "gfx": "gfx_ai",
+ "date": {
+  "fr": "ÉPISODE 2",
+  "en": "EPISODE 2"
+ },
+ "badge": {
+  "fr": "BRIEFAI · ÉPISODE 2",
+  "en": "BRIEFAI · EPISODE 2"
+ },
+ "title": {
+  "fr": "L'IA trouve les sujets qui marchent",
+  "en": "AI finds topics that work"
+ },
+ "footage": {},
+ "segments": [
+  {
+   "id": "seg01",
+   "title": {
+    "fr": "Résultat",
+    "en": "Result"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 1,
+     "reveal": 0.55,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    },
+    {
+     "at": 2,
+     "fn": "counters",
+     "items": {
+      "fr": [
+       [
+        "277 858",
+        "vues",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "4",
+        "jours",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "277,858",
+        "views",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "4",
+        "days",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "3 étapes",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "+ le prompt offert",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "3 steps",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "+ the free prompt",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Voici les dix vidéos que mon IA veut que je fasse.",
+     "Classées, notées sur dix, avec des chiffres.",
+     "La première, un autre créateur l'a déjà tentée : deux cent soixante-dix-sept mille vues en quatre jours.",
+     "Dans cette vidéo, je te montre comment l'IA a trouvé ces sujets, en trois étapes.",
+     "Et à la fin, je te donne le prompt."
+    ],
+    "en": [
+     "These are the ten videos my AI wants me to make.",
+     "Ranked, scored out of ten, with numbers.",
+     "Another creator already tried the first one: two hundred seventy-seven thousand views in four days.",
+     "In this video, I'll show you how the AI found these topics, in three steps.",
+     "And at the end, I'll give you the prompt."
+    ]
+   }
+  },
+  {
+   "id": "seg02",
+   "title": {
+    "fr": "Pourquoi",
+    "en": "Why"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "stamp",
+     "frame": "shots/fail_title.png",
+     "text": {
+      "fr": "VIDÉO 1 : REFUSÉE",
+      "en": "VIDEO 1: REJECTED"
+     },
+     "sub": {
+      "fr": "le sujet choisi au hasard",
+      "en": "a topic picked at random"
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "RÈGLE N°1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "le sujet d'abord",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "RULE #1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "topic first",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "au feeling",
+        [
+         130,
+         140,
+         160
+        ]
+       ],
+       [
+        "= jouer au loto",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "on a hunch",
+        [
+         130,
+         140,
+         160
+        ]
+       ],
+       [
+        "= playing the lottery",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 4,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "0 devinette",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "chaque note = un chiffre",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "no guessing",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "every score = a number",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Dans la vidéo un, l'IA avait choisi un sujet toute seule.",
+     "Et c'était raté.",
+     "Depuis, la règle numéro un, c'est : le sujet d'abord.",
+     "Mais choisir un sujet au feeling, c'est jouer au loto.",
+     "Alors j'ai demandé à l'IA de ne rien deviner.",
+     "Chaque note doit venir d'un chiffre qu'elle a relevé elle-même."
+    ],
+    "en": [
+     "In video one, the AI picked a topic on its own.",
+     "And it failed.",
+     "Since then, rule number one is: topic first.",
+     "But picking a topic on a hunch is like playing the lottery.",
+     "So I asked the AI not to guess anything.",
+     "Every score has to come from a number it collected itself."
+    ]
+   }
+  },
+  {
+   "id": "seg03",
+   "title": {
+    "fr": "Étape 1",
+    "en": "Step 1"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "ÉTAPE 1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "écouter ce que les gens tapent",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "STEP 1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "listen to what people type",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "search",
+     "query": "claude mcp",
+     "suggestions": [
+      "claude mcp connectors",
+      "claude mcp roblox studio",
+      "claude mcp higgsfield",
+      "claude mcp figma",
+      "claude mcp tradingview",
+      "claude mcp n8n"
+     ],
+     "title": {
+      "fr": "suggestions YouTube · 20/11/2026",
+      "en": "YouTube suggestions · 11/20/2026"
+     }
+    },
+    {
+     "at": 6,
+     "fn": "search",
+     "query": "ai youtube automation",
+     "suggestions": [
+      "ai youtube automation with claude",
+      "ai youtube automation step by step",
+      "ai youtube automation 2026",
+      "ai youtube automation free",
+      "ai youtube automation for beginners"
+     ],
+     "title": {
+      "fr": "suggestions YouTube · 20/11/2026",
+      "en": "YouTube suggestions · 11/20/2026"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Étape un : écouter ce que les gens tapent.",
+     "Quand tu commences une recherche sur YouTube, il te propose la suite.",
+     "Ces suggestions viennent de vraies recherches.",
+     "L'IA a tapé une dizaine de mots-clés.",
+     "Par exemple, Claude MCP.",
+     "YouTube propose : connecteurs, Roblox, Figma, Higgsfield, TradingView.",
+     "Et pour l'automatisation YouTube, il propose : avec Claude, étape par étape, deux mille vingt-six.",
+     "Ça, c'est une liste de sujets que les gens cherchent déjà."
+    ],
+    "en": [
+     "Step one: listen to what people type.",
+     "When you start a search on YouTube, it suggests the rest.",
+     "Those suggestions come from real searches.",
+     "The AI typed about ten keywords.",
+     "For example, Claude MCP.",
+     "YouTube suggests: connectors, Roblox, Figma, Higgsfield, TradingView.",
+     "And for YouTube automation, it suggests: with Claude, step by step, twenty twenty-six.",
+     "That's a list of topics people are already searching for."
+    ]
+   }
+  },
+  {
+   "id": "seg04",
+   "title": {
+    "fr": "Étape 2",
+    "en": "Step 2"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "ÉTAPE 2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "mesurer la demande",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "STEP 2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "measure demand",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "results",
+     "rows": [
+      [
+       "Comment utiliser Claude avec Blender",
+       "49 781",
+       "2 j",
+       "24 890"
+      ],
+      [
+       "Claude + Blender Is The Best Way To Make AI Videos (Full Course)",
+       "277 858",
+       "4 j",
+       "69 464"
+      ],
+      [
+       "Seedance 2.5 fait enfin ce que je lui demande (Claude + Blender)",
+       "2 127",
+       "4 h",
+       "4 254"
+      ],
+      [
+       "Claude + Blender est la meilleure façon de créer des animations 3D (Co",
+       "46 707",
+       "1 j",
+       "46 707"
+      ],
+      [
+       "Comment utiliser Claude Code dans Blender 5.2 (MCP)",
+       "16 070",
+       "11 j",
+       "1 461"
+      ],
+      [
+       "Configuration de Blender MCP : Connecter Claude à Blender (Add-on offi",
+       "50 192",
+       "11 j",
+       "4 563"
+      ],
+      [
+       "Claude + Blender ont résolu le plus gros problème de la vidéo par IA",
+       "83 828",
+       "9 j",
+       "9 314"
+      ],
+      [
+       "J'ai donné à Claude Fable 5.2 le contrôle total sur Blender (C'est dev",
+       "58 206",
+       "7 j",
+       "8 315"
+      ]
+     ],
+     "title": {
+      "fr": "« claude blender » · ce mois-ci · 8 premières vidéos",
+      "en": "\"claude blender\" · this month · first 8 videos"
+     }
+    },
+    {
+     "at": 4,
+     "fn": "median",
+     "values": [
+      6237.142857142857,
+      5448.909090909091,
+      18257.625,
+      31253.375,
+      36169.5,
+      16307.0,
+      8774.1,
+      53848.5,
+      58786.857142857145,
+      4206.4
+     ],
+     "title": {
+      "fr": "vues par jour · 10 vidéos",
+      "en": "views per day · 10 videos"
+     }
+    },
+    {
+     "at": 7,
+     "fn": "counters",
+     "items": {
+      "fr": [
+       [
+        "17 000",
+        "chaîne sans visage\n+ Claude",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "6 500",
+        "montage\navec Claude",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "110",
+        "Claude\nCowork",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "17,000",
+        "faceless channel\n+ Claude",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "6,500",
+        "editing\nwith Claude",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "110",
+        "Claude\nCowork",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Étape deux : mesurer la demande.",
+     "Pour chaque sujet, l'IA lance la recherche avec le filtre « ce mois-ci ».",
+     "Elle relève les vues et la date des dix premières vidéos.",
+     "Puis elle calcule les vues par jour.",
+     "Et elle garde la médiane, pas la moyenne.",
+     "Pourquoi ?",
+     "Parce qu'une seule vidéo à un million de vues fausse tout.",
+     "Résultat : une chaîne sans visage avec Claude, c'est dix-sept mille vues par jour en médiane.",
+     "Le montage vidéo avec Claude, six mille cinq cents.",
+     "Claude Cowork, à peine cent dix."
+    ],
+    "en": [
+     "Step two: measure demand.",
+     "For each topic, the AI runs the search with the \"this month\" filter.",
+     "It writes down the views and the date of the first ten videos.",
+     "Then it works out views per day.",
+     "And it keeps the median, not the average.",
+     "Why?",
+     "Because a single video with a million views skews everything.",
+     "The result: a faceless channel with Claude gets seventeen thousand views per day on median.",
+     "Video editing with Claude, six thousand five hundred.",
+     "Claude Cowork, barely one hundred ten."
+    ]
+   }
+  },
+  {
+   "id": "seg05",
+   "title": {
+    "fr": "Étape 3",
+    "en": "Step 3"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "ÉTAPE 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "noter sur 10",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "STEP 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "score out of 10",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "gauges",
+     "items": {
+      "fr": [
+       [
+        "Intérêt",
+        8,
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Fraîcheur",
+        10,
+        [
+         124,
+         92,
+         255
+        ]
+       ],
+       [
+        "Valeur",
+        8,
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "Interest",
+        8,
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Freshness",
+        10,
+        [
+         124,
+         92,
+         255
+        ]
+       ],
+       [
+        "Value",
+        8,
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ]
+     },
+     "total": {
+      "fr": "Note finale : 8,7 / 10",
+      "en": "Final score: 8.7 / 10"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Étape trois : noter chaque sujet sur dix, avec trois critères.",
+     "L'intérêt, c'est la demande qu'on vient de mesurer.",
+     "La fraîcheur : est-ce que les meilleures vidéos ont moins de deux semaines ?",
+     "Et la valeur : est-ce que tu repars avec quelque chose que tu peux refaire, et est-ce que je peux le montrer pour de vrai ?",
+     "La note finale, c'est la moyenne des trois."
+    ],
+    "en": [
+     "Step three: score each topic out of ten, on three criteria.",
+     "Interest is the demand we just measured.",
+     "Freshness: are the best videos less than two weeks old?",
+     "And value: do you leave with something you can redo, and can I actually show it for real?",
+     "The final score is the average of the three."
+    ]
+   }
+  },
+  {
+   "id": "seg06",
+   "title": {
+    "fr": "Le classement",
+    "en": "The ranking"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 0,
+     "reveal": 0.3,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    },
+    {
+     "at": 1,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 9,
+     "reveal": 0.03,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    },
+    {
+     "at": 3,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 3,
+     "reveal": 0.03,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    },
+    {
+     "at": 5,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 2,
+     "reveal": 0.03,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    },
+    {
+     "at": 6,
+     "fn": "ranking",
+     "rows": "ranking.json",
+     "hl": 1,
+     "reveal": 0.03,
+     "title": {
+      "fr": "Les 10 vidéos que mon IA veut faire",
+      "en": "The 10 videos my AI wants to make"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Et voilà le classement.",
+     "Claude contre ChatGPT finit presque dernier.",
+     "Le sujet est usé : tout le monde l'a déjà fait.",
+     "La chaîne sans visage a la plus forte demande.",
+     "Mais elle arrive troisième, parce que c'est déjà très chargé.",
+     "Deuxième, le montage vidéo avec Claude.",
+     "Et numéro un, avec huit virgule sept : Claude qui pilote Blender pour créer un personnage en trois dimensions.",
+     "Les vidéos sont toutes récentes, et la meilleure a fait deux cent soixante-dix-sept mille vues en quatre jours."
+    ],
+    "en": [
+     "And here's the ranking.",
+     "Claude versus ChatGPT ends up almost last.",
+     "The topic is worn out: everyone has done it.",
+     "The faceless channel has the strongest demand.",
+     "But it comes third, because it's already very crowded.",
+     "Second, video editing with Claude.",
+     "And number one, with eight point seven: Claude driving Blender to create a 3D character.",
+     "The videos are all recent, and the best one got two hundred seventy-seven thousand views in four days."
+    ]
+   }
+  },
+  {
+   "id": "seg07",
+   "title": {
+    "fr": "Le gagnant",
+    "en": "The winner"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "vidéo 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Claude → MCP → Blender",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "video 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Claude → MCP → Blender",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "1 prompt",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "= le personnage de la chaîne",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "1 prompt",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "= the channel's character",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "résultat · ratés · coût",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "result · failures · cost",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Alors c'est décidé.",
+     "La prochaine vidéo, c'est celle-là.",
+     "Je vais relier Claude à Blender, et lui demander de créer le personnage de cette chaîne, avec un seul prompt.",
+     "Tu verras le résultat, les ratés, et combien ça coûte."
+    ],
+    "en": [
+     "So it's decided.",
+     "The next video is that one.",
+     "I'm going to connect Claude to Blender, and ask it to create this channel's character, from a single prompt.",
+     "You'll see the result, the failures, and what it costs."
+    ]
+   }
+  },
+  {
+   "id": "seg08",
+   "title": {
+    "fr": "Les limites",
+    "en": "The limits"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "2 limites",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "2 limits",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "les vues des autres",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "≠ les miennes",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "their views",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "≠ mine",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "10 vidéos",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "par recherche",
+        [
+         130,
+         140,
+         160
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "10 videos",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "per search",
+        [
+         130,
+         140,
+         160
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "à refaire",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "avant chaque vidéo",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "redo it",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "before every video",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Attention, deux limites.",
+     "Les vues des autres ne garantissent pas les miennes.",
+     "Et l'échantillon est petit : dix vidéos par recherche.",
+     "C'est pour ça qu'il faut refaire cette recherche avant chaque vidéo.",
+     "Les sujets changent vite."
+    ],
+    "en": [
+     "Careful, two limits.",
+     "Other people's views don't guarantee mine.",
+     "And the sample is small: ten videos per search.",
+     "That's why you need to redo this research before every video.",
+     "Topics change fast."
+    ]
+   }
+  },
+  {
+   "id": "seg09",
+   "title": {
+    "fr": "Le cadeau",
+    "en": "The gift"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-sujets-fr.md",
+      "en": "../../prompts/topic-finder-prompt-en.md"
+     },
+     "start": 1,
+     "end": 30,
+     "hl_at": 2
+    },
+    {
+     "at": 1,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-sujets-fr.md",
+      "en": "../../prompts/topic-finder-prompt-en.md"
+     },
+     "start": 6,
+     "end": 8,
+     "hl": [
+      7
+     ],
+     "hl_at": 0.1
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "coût de la recherche",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "0 € de plus",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "research cost",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "0 extra",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "vidéo 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Claude + Blender",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "video 3",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "Claude + Blender",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Le prompt complet est gratuit, en français et en anglais, dans la description.",
+     "Remplace ton thème entre crochets, colle-le dans ton IA, et tu auras ton propre classement en quelques minutes.",
+     "Pour cette recherche, ça m'a coûté zéro euro de plus.",
+     "Abonne-toi pour voir si le numéro un tient sa promesse."
+    ],
+    "en": [
+     "The full prompt is free, in English and French, in the description.",
+     "Put your theme in the brackets, paste it into your AI, and you'll have your own ranking in a few minutes.",
+     "This research cost me zero extra.",
+     "Subscribe to see if number one lives up to its promise."
+    ]
+   }
+  }
+ ],
+ "shorts": [
+  {
+   "id": "s1",
+   "from": "seg01",
+   "to": "seg02",
+   "max": 45
+  },
+  {
+   "id": "s2",
+   "from": "seg04",
+   "to": "seg05",
+   "max": 45
+  },
+  {
+   "id": "s3",
+   "from": "seg06",
+   "to": "seg07",
+   "max": 45
+  }
+ ]
+}

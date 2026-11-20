@@ -1,0 +1,283 @@
+1
+00:00:00,000 --> 00:00:02,866
+These are the ten videos my AI wants me to
+make.
+
+2
+00:00:02,886 --> 00:00:04,953
+Ranked, scored out of ten, with numbers.
+
+3
+00:00:04,973 --> 00:00:10,051
+Another creator already tried the first
+one: two hundred seventy-seven thousand
+
+4
+00:00:10,071 --> 00:00:11,277
+views in four days.
+
+5
+00:00:11,297 --> 00:00:14,199
+In this video, I'll show you how the AI
+found these topics, in three steps.
+
+6
+00:00:14,219 --> 00:00:17,330
+And at the end, I'll give you the prompt.
+
+7
+00:00:17,350 --> 00:00:20,219
+In video one, the AI picked a topic on its
+own.
+
+8
+00:00:20,239 --> 00:00:21,320
+And it failed.
+
+9
+00:00:21,340 --> 00:00:24,397
+Since then, rule number one is: topic
+first.
+
+10
+00:00:24,417 --> 00:00:27,191
+But picking a topic on a hunch is like
+playing the lottery.
+
+11
+00:00:27,211 --> 00:00:29,734
+So I asked the AI not to guess anything.
+
+12
+00:00:29,754 --> 00:00:33,080
+Every score has to come from a number it
+collected itself.
+
+13
+00:00:33,100 --> 00:00:35,487
+Step one: listen to what people type.
+
+14
+00:00:35,507 --> 00:00:37,988
+When you start a search on YouTube, it
+suggests the rest.
+
+15
+00:00:38,008 --> 00:00:42,170
+Those suggestions come from real searches.
+
+16
+00:00:42,190 --> 00:00:43,966
+The AI typed about ten keywords.
+
+17
+00:00:43,986 --> 00:00:45,097
+For example, Claude MCP.
+
+18
+00:00:45,117 --> 00:00:48,429
+YouTube suggests: connectors, Roblox,
+Figma, Higgsfield, TradingView.
+
+19
+00:00:48,449 --> 00:00:52,588
+And for YouTube automation, it suggests:
+with Claude, step by step, twenty
+
+20
+00:00:52,608 --> 00:00:53,206
+twenty-six.
+
+21
+00:00:53,226 --> 00:00:57,390
+That's a list of topics people are already
+searching for.
+
+22
+00:00:57,410 --> 00:00:59,150
+Step two: measure demand.
+
+23
+00:00:59,170 --> 00:01:01,788
+For each topic, the AI runs the search
+with the "this month" filter.
+
+24
+00:01:01,808 --> 00:01:05,813
+It writes down the views and the date of
+the first ten videos.
+
+25
+00:01:05,833 --> 00:01:07,382
+Then it works out views per day.
+
+26
+00:01:07,402 --> 00:01:09,525
+And it keeps the median, not the average.
+
+27
+00:01:09,544 --> 00:01:10,245
+Why?
+
+28
+00:01:10,265 --> 00:01:13,583
+Because a single video with a million
+views skews everything.
+
+29
+00:01:13,603 --> 00:01:17,385
+The result: a faceless channel with Claude
+gets seventeen thousand views per day on
+
+30
+00:01:17,405 --> 00:01:17,706
+median.
+
+31
+00:01:17,726 --> 00:01:20,176
+Video editing with Claude, six thousand
+five hundred.
+
+32
+00:01:20,196 --> 00:01:22,420
+Claude Cowork, barely one hundred ten.
+
+33
+00:01:22,440 --> 00:01:25,711
+Step three: score each topic out of ten,
+on three criteria.
+
+34
+00:01:25,731 --> 00:01:27,881
+Interest is the demand we just measured.
+
+35
+00:01:27,901 --> 00:01:30,767
+Freshness: are the best videos less than
+two weeks old?
+
+36
+00:01:30,787 --> 00:01:36,748
+And value: do you leave with something you
+can redo, and can I actually show it for
+
+37
+00:01:36,768 --> 00:01:37,108
+real?
+
+38
+00:01:37,128 --> 00:01:38,650
+The final score is the average of the
+three.
+
+39
+00:01:38,670 --> 00:01:40,001
+And here's the ranking.
+
+40
+00:01:40,021 --> 00:01:43,205
+Claude versus ChatGPT ends up almost last.
+
+41
+00:01:43,225 --> 00:01:47,838
+The topic is worn out: everyone has done
+it.
+
+42
+00:01:47,858 --> 00:01:50,637
+The faceless channel has the strongest
+demand.
+
+43
+00:01:50,657 --> 00:01:54,953
+But it comes third, because it's already
+very crowded.
+
+44
+00:01:54,973 --> 00:01:57,936
+Second, video editing with Claude.
+
+45
+00:01:57,956 --> 00:01:59,154
+And number one, with eight point seven:
+Claude driving Blender to create a 3D
+
+46
+00:01:59,174 --> 00:01:59,312
+character.
+
+47
+00:01:59,332 --> 00:02:06,772
+The videos are all recent, and the best
+one got two hundred seventy-seven thousand
+
+48
+00:02:06,792 --> 00:02:08,500
+views in four days.
+
+49
+00:02:08,520 --> 00:02:09,446
+So it's decided.
+
+50
+00:02:09,466 --> 00:02:10,920
+The next video is that one.
+
+51
+00:02:10,940 --> 00:02:15,733
+I'm going to connect Claude to Blender,
+and ask it to create this channel's
+
+52
+00:02:15,753 --> 00:02:17,786
+character, from a single prompt.
+
+53
+00:02:17,806 --> 00:02:21,710
+You'll see the result, the failures, and
+what it costs.
+
+54
+00:02:21,730 --> 00:02:22,991
+Careful, two limits.
+
+55
+00:02:23,011 --> 00:02:26,426
+Other people's views don't guarantee mine.
+
+56
+00:02:26,446 --> 00:02:28,025
+And the sample is small: ten videos per
+search.
+
+57
+00:02:28,045 --> 00:02:31,056
+That's why you need to redo this research
+before every video.
+
+58
+00:02:31,076 --> 00:02:33,440
+Topics change fast.
+
+59
+00:02:33,460 --> 00:02:37,911
+The full prompt is free, in English and
+French, in the description.
+
+60
+00:02:37,931 --> 00:02:42,058
+Put your theme in the brackets, paste it
+into your AI, and you'll have your own
+
+61
+00:02:42,078 --> 00:02:43,370
+ranking in a few minutes.
+
+62
+00:02:43,390 --> 00:02:45,943
+This research cost me zero extra.
+
+63
+00:02:45,963 --> 00:02:48,950
+Subscribe to see if number one lives up to
+its promise.

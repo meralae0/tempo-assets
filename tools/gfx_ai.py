@@ -226,7 +226,7 @@ def prompt(out, dur, lang, times=None, path=None, start=1, end=None, title=None,
     """Fichier prompt affiché dans un éditeur : lignes qui s'écrivent, titres ## en cyan, lignes hl surlignées,
     plus=True : lignes ajoutées (diff vert)."""
     p = path[lang] if isinstance(path, dict) else path
-    src = open(p, encoding='utf-8').read().splitlines(); end = end or len(src)
+    src = open(p, encoding='utf-8').read().splitlines(); end = min(end or len(src), len(src))
     title = (title[lang] if isinstance(title, dict) else title) or os.path.basename(p)
     hl = hl[lang] if isinstance(hl, dict) else hl
     x0, y0, x1, y1 = 150, 90, W - 150, H - 90
@@ -267,6 +267,124 @@ def prompt(out, dur, lang, times=None, path=None, start=1, end=None, title=None,
                 col = WHITE if (ln in hl and ha > 0) or plus or not hl else tuple(int(WHITE[q] * 0.55 + GREY[q] * 0.1) for q in range(3))
                 ld.text((84, yy + 4), txt, font=fb, fill=col + (al,))
         im.alpha_composite(lay, (x0 + 2, y0 + 64)); return im
+    return render(fr, dur, out)
+
+def _arg(x, lang):
+    return x[lang] if isinstance(x, dict) else x
+
+def ranking(out, dur, lang, times=None, rows=None, title=None, hl=1, reveal=0.6, count=None):
+    """Tableau de classement : lignes (texte, note) qui apparaissent du bas vers le haut ou du haut ; n°hl surligné."""
+    import json as _j
+    rws = _j.load(open(rows)) if isinstance(rows, str) else rows
+    rws = rws[:count] if count else rws
+    fT = sg(40, 700); fr_ = sg(34, 500); fn = mono(34, 700)
+    n = len(rws); step = min(0.45, dur * reveal / max(1, n))
+    def fr(i, nn):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        if title: glow_text(im, (W / 2, 80), _arg(title, lang), sg(52, 700), WHITE, r=10)
+        x0, x1 = 230, W - 230; y0 = 150; rh = min(84, (H - 200) // max(n, 1))
+        for k, r in enumerate(rws):
+            a = ease((t - (n - 1 - k) * step) / 0.35)
+            if a <= 0: continue
+            y = y0 + k * rh + (1 - a) * 30; top = (k + 1) == hl
+            ha = ease((t - n * step - 0.2) / 0.4) if top else 0
+            col = PANEL if not top else tuple(int(PANEL[q] + (0 - PANEL[q]) * 0) for q in range(3))
+            d.rounded_rectangle((x0, y, x1, y + rh - 12), radius=14, fill=PANEL + (int(235 * a),), outline=((CYAN if top and ha > 0 else (40, 46, 64)) + (int(255 * a),)), width=3 if top and ha > 0 else 2)
+            d.text((x0 + 30, y + (rh - 12) / 2), f"{k + 1:>2}", font=fn, fill=(CYAN if top else GREY) + (int(255 * a),), anchor='lm')
+            d.text((x0 + 120, y + (rh - 12) / 2), r[lang] if lang in r else r['fr'], font=fr_, fill=WHITE + (int(255 * a),), anchor='lm')
+            note = r['note']; nc = GREEN if note >= 8 else (CYAN if note >= 6.5 else (RED if note < 5 else GREY))
+            d.text((x1 - 40, y + (rh - 12) / 2), f"{note:.1f}".replace('.', ',' if lang == 'fr' else '.'), font=fn, fill=nc + (int(255 * a),), anchor='rm')
+        return im
+    return render(fr, dur, out)
+
+def search(out, dur, lang, times=None, query='', suggestions=None, title=None):
+    """Barre de recherche recréée : la requête se tape, puis les vraies suggestions tombent."""
+    sug = _arg(suggestions, lang) if suggestions else []
+    f = sg(46, 500); fs = sg(40, 400)
+    def fr(i, nn):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        if title: glow_text(im, (W / 2, 90), _arg(title, lang), mono(30, 600), GREY, r=6)
+        bx0, bx1, by = 360, W - 360, 170
+        d.rounded_rectangle((bx0, by, bx1, by + 90), radius=45, fill=(22, 25, 36, 255), outline=(60, 68, 88, 255), width=2)
+        d.ellipse((bx0 + 36, by + 28, bx0 + 66, by + 58), outline=GREY, width=4); d.line((bx0 + 62, by + 54, bx0 + 76, by + 68), fill=GREY, width=4)
+        n = int(min(len(query), max(0, t - 0.2) * 14)); txt = query[:n] + ('|' if int(t * 2) % 2 == 0 else '')
+        d.text((bx0 + 100, by + 45), txt, font=f, fill=WHITE, anchor='lm')
+        t0 = 0.2 + len(query) / 14 + 0.3
+        for k, s_ in enumerate(sug):
+            a = ease((t - t0 - k * 0.22) / 0.3)
+            if a <= 0: continue
+            y = by + 110 + k * 66
+            d.rounded_rectangle((bx0, y, bx1, y + 58), radius=10, fill=(17, 19, 28, int(240 * a)))
+            q = query.lower(); disp = s_
+            if disp.lower().startswith(q):
+                d.text((bx0 + 100, y + 29), disp[:len(q)], font=fs, fill=GREY + (int(255 * a),), anchor='lm')
+                w0 = d.textlength(disp[:len(q)], font=fs)
+                d.text((bx0 + 100 + w0, y + 29), disp[len(q):], font=sg(40, 700), fill=CYAN + (int(255 * a),), anchor='lm')
+            else:
+                d.text((bx0 + 100, y + 29), disp, font=fs, fill=WHITE + (int(255 * a),), anchor='lm')
+        return im
+    return render(fr, dur, out)
+
+def results(out, dur, lang, times=None, rows=None, title=None, show_vpd=True):
+    """Liste de résultats (vues, âge) sans miniatures + calcul vues/jour."""
+    rws = rows; f = sg(32, 500); fm = mono(30, 600)
+    def fr(i, nn):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        if title: glow_text(im, (W / 2, 80), _arg(title, lang), mono(30, 600), GREY, r=6)
+        x0, x1 = 200, W - 200
+        d.text((x1 - 420, 140), {'fr': 'vues', 'en': 'views'}[lang], font=mono(24), fill=DIM, anchor='rm')
+        d.text((x1 - 250, 140), {'fr': 'âge', 'en': 'age'}[lang], font=mono(24), fill=DIM, anchor='rm')
+        if show_vpd: d.text((x1 - 20, 140), {'fr': 'vues / jour', 'en': 'views / day'}[lang], font=mono(24), fill=CYAN, anchor='rm')
+        for k, (ttl, v, age, vpd) in enumerate(rws):
+            a = ease((t - 0.2 - k * 0.18) / 0.3)
+            if a <= 0: continue
+            y = 180 + k * 82
+            d.rounded_rectangle((x0, y, x1, y + 70), radius=10, fill=PANEL + (int(235 * a),))
+            d.text((x0 + 24, y + 35), ttl[:44] + ('…' if len(ttl) > 44 else ''), font=f, fill=WHITE + (int(255 * a),), anchor='lm')
+            d.text((x1 - 420, y + 35), v, font=fm, fill=WHITE + (int(255 * a),), anchor='rm')
+            d.text((x1 - 250, y + 35), age, font=fm, fill=GREY + (int(255 * a),), anchor='rm')
+            b = ease((t - 0.2 - len(rws) * 0.18 - 0.3 - k * 0.12) / 0.3)
+            if show_vpd and b > 0: d.text((x1 - 20, y + 35), vpd, font=fm, fill=CYAN + (int(255 * b),), anchor='rm')
+        return im
+    return render(fr, dur, out)
+
+def median(out, dur, lang, times=None, values=None, unit=None, title=None):
+    """Barres de vues/jour + ligne médiane vs moyenne."""
+    import statistics as stt
+    vals = values; med = stt.median(vals); avg = sum(vals) / len(vals); mx = max(vals)
+    def fr(i, nn):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        if title: glow_text(im, (W / 2, 90), _arg(title, lang), sg(52, 700), WHITE, r=10)
+        bx0, by0, bw, bh = 300, H - 170, (W - 600) / len(vals), 650
+        for k, v in enumerate(sorted(vals)):
+            a = ease((t - 0.2 - k * 0.1) / 0.4); h = bh * (v / mx) * a
+            d.rounded_rectangle((bx0 + k * bw + 10, by0 - h, bx0 + (k + 1) * bw - 10, by0), radius=8, fill=(VIOLET if v != mx else RED))
+        c = ease((t - 1.6) / 0.5)
+        if c > 0:
+            for val, col, lab in [(avg, RED, {'fr': 'moyenne', 'en': 'average'}), (med, GREEN, {'fr': 'médiane', 'en': 'median'})]:
+                y = by0 - bh * val / mx
+                d.line((bx0, y, bx0 + (W - 600) * c, y), fill=col, width=5)
+                d.text((bx0 + (W - 600) + 20, y), lab[lang], font=sg(40, 700), fill=col, anchor='lm')
+        return im
+    return render(fr, dur, out)
+
+def gauges(out, dur, lang, times=None, items=None, total=None):
+    """3 critères en jauges + note finale."""
+    its = items[lang]
+    def fr(i, nn):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        for k, (lab, val, col) in enumerate(its):
+            t0 = 0.3 + k * (dur * 0.22); a = ease((t - t0) / 0.6)
+            if a <= 0: continue
+            y = 260 + k * 170
+            d.text((360, y), lab, font=sg(54, 700), fill=WHITE, anchor='lm')
+            d.rounded_rectangle((900, y - 22, 1560, y + 22), radius=22, fill=(30, 34, 48))
+            d.rounded_rectangle((900, y - 22, 900 + 660 * val / 10 * a, y + 22), radius=22, fill=tuple(col))
+            d.text((1600, y), f"{val * a:.0f}/10", font=mono(44, 700), fill=tuple(col), anchor='lm')
+        if total:
+            b = ease((t - dur * 0.8) / 0.5)
+            if b > 0: glow_text(im, (W / 2, H - 140), _arg(total, lang), sg(64, 700), CYAN, r=12)
+        return im
     return render(fr, dur, out)
 
 # ---------- habillage (même interface que gfx.py) ----------
