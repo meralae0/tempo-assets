@@ -1,0 +1,679 @@
+{
+ "slug": "2026-11-20-ia-jour1",
+ "gfx": "gfx_ai",
+ "date": {
+  "fr": "JOUR 1",
+  "en": "DAY 1"
+ },
+ "badge": {
+  "fr": "EXPÉRIENCE IA · JOUR 1",
+  "en": "AI EXPERIMENT · DAY 1"
+ },
+ "title": {
+  "fr": "J'ai laissé une IA créer ma chaîne YouTube",
+  "en": "I let an AI build my YouTube channel"
+ },
+ "footage": {},
+ "segments": [
+  {
+   "id": "seg01",
+   "title": {
+    "fr": "Accroche",
+    "en": "Hook"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "J'ai laissé une IA",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "créer ma chaîne YouTube",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "I let an AI",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "build my YouTube channel",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "window",
+     "shot": "shots/channel.jpg",
+     "title": "youtube.com/@briefai"
+    },
+    {
+     "at": 4,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "méthodes · ratés",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "vues · argent",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "methods · failures",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "views · money",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 5,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "JOUR 1",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "DAY 1",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Cette chaîne a été créée par une intelligence artificielle.",
+     "Le nom, le logo, la bannière, les outils de montage.",
+     "Tout.",
+     "Moi, je n'ai tapé que mes mots de passe.",
+     "Et je vais tout vous montrer : les méthodes, les ratés, les vues, et l'argent.",
+     "Voici le jour 1."
+    ],
+    "en": [
+     "This channel was built by an artificial intelligence.",
+     "The name, the logo, the banner, the editing tools.",
+     "Everything.",
+     "All I typed were my passwords.",
+     "And I'll show you everything: the methods, the failures, the views, and the money.",
+     "This is day one."
+    ]
+   }
+  },
+  {
+   "id": "seg02",
+   "title": {
+    "fr": "Le brief",
+    "en": "The brief"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "terminal",
+     "title": "brief.txt",
+     "lines": {
+      "fr": [
+       "# brief pour Claude",
+       "Crée une chaîne d'actualité",
+       "en français et en anglais",
+       "Publie tout en automatique",
+       "Ne me demande que les mots de passe"
+      ],
+      "en": [
+       "# brief for Claude",
+       "Build a news channel",
+       "in French and English",
+       "Publish everything automatically",
+       "Only ask me for passwords"
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "window",
+     "shot": "../../brand/banner.png",
+     "title": "charte v1 — TempoBrief"
+    },
+    {
+     "at": 3,
+     "fn": "window",
+     "shot": "shots/github.jpg",
+     "title": "github.com · tempo-assets/tools",
+     "blur": [
+      [
+       30,
+       0,
+       160,
+       30
+      ]
+     ]
+    },
+    {
+     "at": 3.55,
+     "fn": "code",
+     "path": "../../tools/gfx.py",
+     "start": 30,
+     "n": 24,
+     "title": {
+      "fr": "tools/gfx.py — écrit par Claude",
+      "en": "tools/gfx.py — written by Claude"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "À midi, j'ai donné une seule consigne à Claude, l'IA d'Anthropic.",
+     "Crée une chaîne d'actualité, en français et en anglais, et publie tout en automatique.",
+     "En quelques minutes, elle avait une charte graphique.",
+     "Puis elle a ouvert un dépôt GitHub, et elle a écrit elle-même six programmes de montage vidéo."
+    ],
+    "en": [
+     "At noon, I gave Claude, Anthropic's AI, a single instruction.",
+     "Build a news channel, in French and English, and publish everything automatically.",
+     "Within minutes, it had a full visual identity.",
+     "Then it opened a GitHub repository and wrote six video editing programs on its own."
+    ]
+   }
+  },
+  {
+   "id": "seg03",
+   "title": {
+    "fr": "Le nom",
+    "en": "The name"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "handles",
+     "items": [
+      "temponews",
+      "tempo.news",
+      "tempoactu",
+      "tempo.daily",
+      "tempohq",
+      "DailyTempo",
+      "dailybrief",
+      "dailybrieftv",
+      "thedailybrief"
+     ],
+     "ok": "tempobrief",
+     "title": {
+      "fr": "Identifiant YouTube",
+      "en": "YouTube handle"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Premier obstacle : le nom.",
+     "Tempo News, pris.",
+     "Tempo Daily, pris.",
+     "Daily Brief, pris aussi.",
+     "Neuf identifiants refusés.",
+     "Un seul était libre :",
+     "Tempo Brief.",
+     "La chaîne existait."
+    ],
+    "en": [
+     "First obstacle: the name.",
+     "Tempo News, taken.",
+     "Tempo Daily, taken.",
+     "Daily Brief, taken too.",
+     "Nine handles rejected.",
+     "Only one was free: Tempo Brief.",
+     "The channel existed."
+    ]
+   }
+  },
+  {
+   "id": "seg04",
+   "title": {
+    "fr": "Le raté",
+    "en": "The fail"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "window",
+     "shot": "shots/trends.jpg",
+     "title": "trends.google.com"
+    },
+    {
+     "at": 1,
+     "fn": "window",
+     "shot": "shots/fail_title.png",
+     "title": {
+      "fr": "vidéo n°1 — non publiée",
+      "en": "video #1 — never published"
+     },
+     "width": 1300
+    },
+    {
+     "at": 3,
+     "fn": "stamp",
+     "frame": "shots/fail_drone.png",
+     "text": {
+      "fr": "HORS SUJET",
+      "en": "OFF TOPIC"
+     },
+     "sub": {
+      "fr": "des images de New York pour parler d'une IA",
+      "en": "New York drone shots for an AI story"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Ensuite, elle a fait sa veille sur Google Trends, et elle a choisi un sujet.",
+     "L'entrée en bourse d'Anthropic.",
+     "Son propre créateur.",
+     "Elle a monté la vidéo, mais avec des images de drone de New York qui n'avaient aucun rapport avec le sujet.",
+     "Et dans la voix, il y avait ceci."
+    ],
+    "en": [
+     "Next, it checked Google Trends and picked a topic.",
+     "Anthropic going public.",
+     "Its own creator.",
+     "It edited the video, but with drone shots of New York that had nothing to do with the story.",
+     "And in the voiceover, there was this."
+    ]
+   }
+  },
+  {
+   "id": "seg04b",
+   "title": {
+    "fr": "L'extrait",
+    "en": "The clip"
+   },
+   "clip": true,
+   "text": {
+    "fr": [
+     "« Lis ce texte comme un présentateur de journal télévisé, voix grave, posée, articulée, rythme soutenu mais naturel, sans emphase excessive. »"
+    ],
+    "en": [
+     "“Read this as a TV news anchor, deep, calm, articulate, brisk but natural pace, no excessive emphasis.” (in French)"
+    ]
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "wave",
+     "wav": "audio/fr/seg04b.wav",
+     "quote": {
+      "fr": "« Lis ce texte comme un présentateur de journal télévisé… sans emphase excessive. »",
+      "en": "“Read this as a TV news anchor… no excessive emphasis.”"
+     }
+    }
+   ]
+  },
+  {
+   "id": "seg05",
+   "title": {
+    "fr": "La décision",
+    "en": "The decision"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "stamp",
+     "frame": "shots/fail_title.png",
+     "text": {
+      "fr": "REFUSÉ",
+      "en": "REJECTED"
+     },
+     "sub": {
+      "fr": "rien n'a été publié",
+      "en": "nothing was published"
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "RÈGLE N°1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "je valide le sujet",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "RULE #1",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "I approve the topic",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 4,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "sport · cinéma · people",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "presque pas d'images libres",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "sports · movies · celebs",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "almost no free footage",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 6,
+     "fn": "rename",
+     "old": "TempoBrief",
+     "avatar": "../../brand/avatar_briefai.png"
+    }
+   ],
+   "text": {
+    "fr": [
+     "La voix lisait les instructions à voix haute.",
+     "J'ai dit non.",
+     "Rien n'a été publié.",
+     "Nouvelle règle : je valide chaque sujet avant la production.",
+     "Et un vrai problème est apparu.",
+     "Pour le sport, le cinéma ou les people, il n'existe presque pas d'images libres de droits.",
+     "Alors on a changé de cap.",
+     "La chaîne s'appelle maintenant Brief A I.",
+     "Et elle parle de ce qu'elle connaît le mieux : l'intelligence artificielle."
+    ],
+    "en": [
+     "The voice was reading its instructions out loud.",
+     "I said no.",
+     "Nothing was published.",
+     "New rule: I approve every topic before production.",
+     "And a real problem showed up.",
+     "For sports, movies or celebrities, there is almost no copyright-free footage.",
+     "So we changed course.",
+     "The channel is now called Brief A I.",
+     "And it covers what it knows best: artificial intelligence."
+    ]
+   }
+  },
+  {
+   "id": "seg06",
+   "title": {
+    "fr": "Bilan",
+    "en": "Takeaways"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "counters",
+     "items": {
+      "fr": [
+       [
+        "3h30",
+        "de travail",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "6",
+        "programmes\nécrits",
+        [
+         124,
+         92,
+         255
+        ]
+       ],
+       [
+        "1",
+        "vidéo\nrefusée",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "0",
+        "vue pour\nl'instant",
+        [
+         130,
+         140,
+         160
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "3.5h",
+        "of work",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "6",
+        "programs\nwritten",
+        [
+         124,
+         92,
+         255
+        ]
+       ],
+       [
+        "1",
+        "video\nrejected",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "0",
+        "views\nso far",
+        [
+         130,
+         140,
+         160
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "chaque semaine",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "vues · abonnés · coûts · revenus",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "every week",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "views · subs · costs · revenue",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 4,
+     "fn": "window",
+     "shot": "shots/channel.jpg",
+     "title": "youtube.com/@briefai"
+    }
+   ],
+   "text": {
+    "fr": [
+     "Bilan du jour 1 : trois heures et demie, une chaîne complète, six programmes, une vidéo refusée, et zéro vue pour l'instant.",
+     "L'IA va vite pour exécuter.",
+     "Mais choisir ce qui mérite d'être fait, ça reste un travail d'humain.",
+     "À partir de maintenant, chaque semaine, je publie les vrais chiffres : vues, abonnés, coûts et revenus.",
+     "Abonne-toi pour suivre l'expérience."
+    ],
+    "en": [
+     "Day one: three and a half hours, a complete channel, six programs, one rejected video, and zero views so far.",
+     "AI is fast at execution.",
+     "But deciding what is worth making is still a human job.",
+     "From now on, every week, I'll publish the real numbers: views, subscribers, costs and revenue.",
+     "Subscribe to follow the experiment."
+    ]
+   }
+  }
+ ],
+ "shorts": [
+  {
+   "id": "s1",
+   "from": "seg01",
+   "to": "seg01",
+   "max": 45
+  },
+  {
+   "id": "s2",
+   "from": "seg04",
+   "to": "seg04b",
+   "max": 45
+  },
+  {
+   "id": "s3",
+   "from": "seg03",
+   "to": "seg03",
+   "max": 45
+  }
+ ]
+}

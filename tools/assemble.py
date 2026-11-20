@@ -4,7 +4,8 @@ episode_dir contient: segments.json, audio/<lang>/seg01.wav..., footage/*.webm (
 """
 import os, sys, json, subprocess, random, re, shutil
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import gfx
+import gfx, importlib
+G = gfx
 
 FFMPEG = ['ffmpeg', '-y', '-loglevel', 'error']
 
@@ -91,7 +92,25 @@ def concat(clips, out):
     subprocess.run(FFMPEG + ['-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', out], check=True); os.remove(lst); return out
 
 def build_segment_visual(seg, lang, audio_dur, ep, tmp, used, times):
-    """seg: {graphic: name|None, graphic_dur, footage: [names], shot_len:[2,4]}"""
+    """seg: {graphic: name|None, graphic_dur, footage: [names], shot_len:[2,4]} ou {shots:[{at, fn, ...}]}"""
+    if seg.get('shots'):
+        st = [a for a, b, s in times]
+        def t_at(at):
+            at = at[lang] if isinstance(at, dict) else at; k = int(at); fr = at - k
+            if k >= len(st): return audio_dur
+            nxt = st[k + 1] if k + 1 < len(st) else audio_dur
+            return st[k] + fr * (nxt - st[k])
+        starts = [0.0 if i == 0 else t_at(sh['at']) for i, sh in enumerate(seg['shots'])] + [audio_dur]
+        clips = []
+        for i, sh in enumerate(seg['shots']):
+            d = max(0.5, starts[i + 1] - starts[i]); args = {k: v for k, v in sh.items() if k not in ('at', 'fn')}
+            rel = [max(0.0, a - starts[i]) for a in st if starts[i] <= a < starts[i + 1]]
+            fn = getattr(G, sh['fn']); o = os.path.join(tmp, f"{seg['id']}_s{i}.mp4")
+            if sh['fn'] in ('counters', 'scenarios_clip'): args['times'] = rel
+            clips.append(fn(o, d, lang, **args))
+        out = concat(clips, os.path.join(tmp, f'{seg["id"]}_v.mp4'))
+        subprocess.run(FFMPEG + ['-i', out, '-t', f'{audio_dur:.3f}', '-c', 'copy', out.replace('_v.mp4', '_vt.mp4')], check=True)
+        return out.replace('_v.mp4', '_vt.mp4')
     clips = []; remaining = audio_dur; k = 0
     g = seg.get('graphic'); srcs = seg['footage']
     if g:
@@ -124,7 +143,9 @@ def build_segment_visual(seg, lang, audio_dur, ep, tmp, used, times):
     return out.replace('_v.mp4', '_vt.mp4')
 
 def main(ep_dir, lang):
+    global G
     ep = json.load(open(os.path.join(ep_dir, 'segments.json'))); load_align(ep_dir)
+    G = importlib.import_module(ep.get('gfx', 'gfx'))
     tmp = os.path.join(ep_dir, 'tmp_' + lang); shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     random.seed(42); used = {}
     audio_parts = []; visuals = []; subs = []; t0 = 0.0; chapters = []
@@ -135,7 +156,7 @@ def main(ep_dir, lang):
         for a, b, s in st: subs.append((t0 + a, t0 + b, s))
         visuals.append(build_segment_visual(seg, lang, D, ep, tmp, used, st)); audio_parts.append(wav); t0 += D
     total = t0
-    end_png = gfx.end_card(os.path.join(tmp, 'end.png'), lang)
+    end_png = G.end_card(os.path.join(tmp, 'end.png'), lang)
     end_mp4 = os.path.join(tmp, 'end.mp4')
     subprocess.run(FFMPEG + ['-loop', '1', '-i', end_png, '-t', '8', '-r', '30', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', end_mp4], check=True)
     video = concat(visuals + [end_mp4], os.path.join(tmp, 'video.mp4'))
@@ -145,8 +166,8 @@ def main(ep_dir, lang):
         for w in audio_parts: f.write(f"file '{os.path.abspath(w)}'\n")
     subprocess.run(FFMPEG + ['-f', 'concat', '-safe', '0', '-i', lst, '-af', 'apad=pad_dur=8', voice], check=True)
     # overlays
-    lt = gfx.lower_third(os.path.join(tmp, 'lt.png'), ep['title'][lang], ep['date'][lang], lang)
-    bd = gfx.badge(os.path.join(tmp, 'badge.png'), ep['badge'][lang])
+    lt = G.lower_third(os.path.join(tmp, 'lt.png'), ep['title'][lang], ep['date'][lang], lang)
+    bd = G.badge(os.path.join(tmp, 'badge.png'), ep['badge'][lang])
     first = ep['segments'][0]; lt_a = 0.5
     if first.get('graphic'):
         gu = first.get('graphic_until'); st0 = sentence_times(os.path.join(ep_dir, 'audio', lang, first['id'] + '.wav'), first['text'][lang])
