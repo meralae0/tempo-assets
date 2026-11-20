@@ -1,0 +1,82 @@
+{
+ "fr": [
+  {
+   "id": "RÉSULTAT",
+   "text": "Regarde. Je demande juste : « écris le script d'une vidéo sur un logo gratuit avec l'IA ». Claude charge mon Skill, vérifie les boutons sur le site, et me rend un script complet : les étapes, les erreurs, les sources. Dans cinq minutes, tu auras le même. Sans coder, et sans fichier."
+  },
+  {
+   "id": "C'EST QUOI",
+   "text": "Un Skill, c'est une fiche d'instructions que Claude garde. Quand ta demande correspond, il l'ouvre tout seul et suit tes règles. Tu l'écris une fois, il sert à chaque fois."
+  },
+  {
+   "id": "ÉTAPE 1",
+   "text": "Étape un : vérifie l'option. Ouvre les Paramètres, puis Capacités. « Créer et modifier des fichiers » doit être activé. Les Skills en ont besoin."
+  },
+  {
+   "id": "ÉTAPE 2",
+   "text": "Étape deux : ouvre Plug-ins, puis l'onglet Skills. Clique sur Ajouter, puis sur « Créer avec Claude ». Une conversation s'ouvre, avec une phrase déjà écrite."
+  },
+  {
+   "id": "ÉTAPE 3",
+   "text": "Étape trois : remplace-la par ta demande. Dis ce que le Skill doit faire, et comment. Moi, je veux un scénariste : une accroche de cinq secondes, des étapes avec le bouton exact, deux erreurs fréquentes, puis le temps et le coût. Phrases courtes, et une source pour chaque chiffre. Envoie."
+  },
+  {
+   "id": "ÉTAPE 4",
+   "text": "Étape quatre : Claude écrit le Skill et te montre une carte. Ouvre « Contenu » pour le relire. Si c'est bon, clique sur Enregistrer. Le Skill apparaît dans tes Plug-ins, avec l'étiquette Nouveau."
+  },
+  {
+   "id": "ÉTAPE 5",
+   "text": "Étape cinq : teste-le. Ouvre une nouvelle conversation et demande normalement. Pas besoin de citer le Skill. Regarde : « Chargeant une compétence ». Claude l'a trouvé tout seul."
+  },
+  {
+   "id": "ERREURS",
+   "text": "Deux erreurs fréquentes. Un : le Skill ne se déclenche pas. C'est presque toujours la description, trop vague. Demande à Claude de la réécrire avec les mots que tu tapes vraiment. Deux : tu enregistres sans relire. Ouvre toujours « Contenu » : c'est là que tu vois s'il a bien compris tes règles."
+  },
+  {
+   "id": "RÉSULTAT ET CADEAU",
+   "text": "Résultat : cinq minutes, zéro euro de plus, et un assistant qui écrit à ta façon, à chaque fois. Ma demande exacte et mon fichier Skill sont gratuits dans la description. Si tu as déjà un fichier SKILL point md, le menu Ajouter permet aussi de l'importer. Prochaine vidéo : les vrais chiffres de la chaîne après une semaine. Abonne-toi."
+  }
+ ],
+ "en": [
+  {
+   "id": "RESULT",
+   "text": "Look. I just ask: \"write the script for a video about a free logo with AI.\" Claude loads my Skill, checks the buttons on the website, and gives me a complete script: the steps, the mistakes, the sources. In five minutes, you'll have the same. No code, and no file."
+  },
+  {
+   "id": "WHAT IT IS",
+   "text": "A Skill is an instruction sheet that Claude keeps. When your request matches, it opens it on its own and follows your rules. You write it once, and it works every time."
+  },
+  {
+   "id": "STEP 1",
+   "text": "Step one: check the setting. Open Settings, then Capabilities. \"Create and edit files\" must be turned on. Skills need it."
+  },
+  {
+   "id": "STEP 2",
+   "text": "Step two: open Plugins, then the Skills tab. Click Add, then \"Create with Claude.\" A conversation opens, with a sentence already written."
+  },
+  {
+   "id": "STEP 3",
+   "text": "Step three: replace it with your request. Say what the Skill should do, and how. I want a scriptwriter: a five-second hook, steps with the exact button, two common mistakes, then the time and the cost. Short sentences, and a source for every number. Send it."
+  },
+  {
+   "id": "STEP 4",
+   "text": "Step four: Claude writes the Skill and shows you a card. Open \"Content\" to read it. If it looks right, click Save. The Skill shows up in your Plugins, with a New label."
+  },
+  {
+   "id": "STEP 5",
+   "text": "Step five: test it. Open a new conversation and ask normally. No need to mention the Skill. Look: \"Loading a skill.\" Claude found it on its own."
+  },
+  {
+   "id": "MISTAKES",
+   "text": "Two common mistakes. One: the Skill never triggers. It's almost always the description, too vague. Ask Claude to rewrite it with the words you actually type. Two: you save without reading. Always open \"Content\": that's where you see if it understood your rules."
+  },
+  {
+   "id": "RESULT AND GIFT",
+   "text": "The result: five minutes, zero extra cost, and an assistant that writes your way, every time. My exact request and my Skill file are free in the description. If you already have a SKILL dot md file, the Add menu also lets you import it. Next video: the channel's real numbers after one week. Subscribe."
+  }
+ ],
+ "fr_A": "Regarde. Je demande juste : « écris le script d'une vidéo sur un logo gratuit avec l'IA ». Claude charge mon Skill, vérifie les boutons sur le site, et me rend un script complet : les étapes, les erreurs, les sources. Dans cinq minutes, tu auras le même. Sans coder, et sans fichier. Un Skill, c'est une fiche d'instructions que Claude garde. Quand ta demande correspond, il l'ouvre tout seul et suit tes règles. Tu l'écris une fois, il sert à chaque fois. Étape un : vérifie l'option. Ouvre les Paramètres, puis Capacités. « Créer et modifier des fichiers » doit être activé. Les Skills en ont besoin. Étape deux : ouvre Plug-ins, puis l'onglet Skills. Clique sur Ajouter, puis sur « Créer avec Claude ». Une conversation s'ouvre, avec une phrase déjà écrite. Étape trois : remplace-la par ta demande. Dis ce que le Skill doit faire, et comment. Moi, je veux un scénariste : une accroche de cinq secondes, des étapes avec le bouton exact, deux erreurs fréquentes, puis le temps et le coût. Phrases courtes, et une source pour chaque chiffre. Envoie.",
+ "fr_B": "Étape quatre : Claude écrit le Skill et te montre une carte. Ouvre « Contenu » pour le relire. Si c'est bon, clique sur Enregistrer. Le Skill apparaît dans tes Plug-ins, avec l'étiquette Nouveau. Étape cinq : teste-le. Ouvre une nouvelle conversation et demande normalement. Pas besoin de citer le Skill. Regarde : « Chargeant une compétence ». Claude l'a trouvé tout seul. Deux erreurs fréquentes. Un : le Skill ne se déclenche pas. C'est presque toujours la description, trop vague. Demande à Claude de la réécrire avec les mots que tu tapes vraiment. Deux : tu enregistres sans relire. Ouvre toujours « Contenu » : c'est là que tu vois s'il a bien compris tes règles. Résultat : cinq minutes, zéro euro de plus, et un assistant qui écrit à ta façon, à chaque fois. Ma demande exacte et mon fichier Skill sont gratuits dans la description. Si tu as déjà un fichier SKILL point md, le menu Ajouter permet aussi de l'importer. Prochaine vidéo : les vrais chiffres de la chaîne après une semaine. Abonne-toi.",
+ "en_A": "Look. I just ask: \"write the script for a video about a free logo with AI.\" Claude loads my Skill, checks the buttons on the website, and gives me a complete script: the steps, the mistakes, the sources. In five minutes, you'll have the same. No code, and no file. A Skill is an instruction sheet that Claude keeps. When your request matches, it opens it on its own and follows your rules. You write it once, and it works every time. Step one: check the setting. Open Settings, then Capabilities. \"Create and edit files\" must be turned on. Skills need it. Step two: open Plugins, then the Skills tab. Click Add, then \"Create with Claude.\" A conversation opens, with a sentence already written. Step three: replace it with your request. Say what the Skill should do, and how. I want a scriptwriter: a five-second hook, steps with the exact button, two common mistakes, then the time and the cost. Short sentences, and a source for every number. Send it.",
+ "en_B": "Step four: Claude writes the Skill and shows you a card. Open \"Content\" to read it. If it looks right, click Save. The Skill shows up in your Plugins, with a New label. Step five: test it. Open a new conversation and ask normally. No need to mention the Skill. Look: \"Loading a skill.\" Claude found it on its own. Two common mistakes. One: the Skill never triggers. It's almost always the description, too vague. Ask Claude to rewrite it with the words you actually type. Two: you save without reading. Always open \"Content\": that's where you see if it understood your rules. The result: five minutes, zero extra cost, and an assistant that writes your way, every time. My exact request and my Skill file are free in the description. If you already have a SKILL dot md file, the Add menu also lets you import it. Next video: the channel's real numbers after one week. Subscribe."
+}
