@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:02,689
+Eighty-three dollars at 8 p.m.
+
+2
+00:00:02,709 --> 00:00:05,882
+One hundred and eleven and a half at noon.
+
+3
+00:00:05,902 --> 00:00:07,621
+Ninety-seven at the close.
+
+4
+00:00:07,641 --> 00:00:17,242
+In a single day, a company that didn't
+exist six years ago became worth more on
+
+5
+00:00:17,262 --> 00:00:20,530
+the stock market than Meta.
+
+6
+00:00:20,550 --> 00:00:29,608
+On Thursday, November 19, Anthropic, the
+company behind the Claude assistant,
+
+7
+00:00:29,628 --> 00:00:34,796
+listed on the Nasdaq under the ticker
+A-N-T.
+
+8
+00:00:34,816 --> 00:00:39,341
+The IPO price had been set the night
+before at 83 dollars, above the expected
+
+9
+00:00:39,361 --> 00:00:40,404
+range of 70 to 78.
+
+10
+00:00:40,424 --> 00:00:46,307
+At the open, 11:48 New York time, the
+stock jumped to 111 dollars 50: up 34
+
+11
+00:00:46,327 --> 00:00:46,936
+percent.
+
+12
+00:00:46,956 --> 00:00:48,357
+Then the session cooled.
+
+13
+00:00:48,377 --> 00:00:53,055
+It closed at 97 dollars 17, up 17 percent
+from the IPO price.
+
+14
+00:00:53,075 --> 00:00:57,933
+More than 846 million shares changed
+hands, more than SpaceX on its first day
+
+15
+00:00:57,953 --> 00:00:58,440
+in June.
+
+16
+00:00:58,460 --> 00:01:03,735
+According to Forbes, the offering raised
+81 billion dollars.
+
+17
+00:01:03,755 --> 00:01:05,281
+Bloomberg calls it a record IPO.
+
+18
+00:01:05,301 --> 00:01:11,001
+The valuation depends on how you count:
+1.27 trillion dollars on shares
+
+19
+00:01:11,021 --> 00:01:15,914
+outstanding; close to 1.77 trillion on a
+fully diluted basis.
+
+20
+00:01:15,934 --> 00:01:23,710
+Either way, that is more than Meta, valued
+at 1.55 trillion.
+
+21
+00:01:23,730 --> 00:01:26,116
+The timing is no accident.
+
+22
+00:01:26,136 --> 00:01:30,770
+For three weeks, the AI sector has been
+shaken: Nvidia's stock has lost about 20
+
+23
+00:01:30,790 --> 00:01:33,562
+percent and its CEO, Jensen Huang, has
+resigned.
+
+24
+00:01:33,582 --> 00:01:36,386
+Investors were asking whether the AI
+bubble was about to deflate.
+
+25
+00:01:36,406 --> 00:01:40,210
+Anthropic chose this moment to test their
+appetite.
+
+26
+00:01:40,230 --> 00:01:53,500
+The result: a strong start, but a close 13
+percent below the day's high.
+
+27
+00:01:53,520 --> 00:01:56,708
+Scenario one: confidence returns.
+
+28
+00:01:56,728 --> 00:02:03,305
+The stock settles above its IPO price and
+lifts chip suppliers across Asia.
+
+29
+00:02:03,325 --> 00:02:05,780
+Scenario two: volatility continues.
+
+30
+00:02:05,800 --> 00:02:10,172
+Retail investors, very active on day one,
+take their profits.
+
+31
+00:02:10,192 --> 00:02:13,603
+Scenario three: the domino effect.
+
+32
+00:02:13,623 --> 00:02:19,130
+Other AI players speed up their own
+listings to catch the window.
+
+33
+00:02:19,150 --> 00:02:26,857
+One thing is certain: for the first time,
+a pure AI company is publicly traded.
+
+34
+00:02:26,877 --> 00:02:36,611
+Every trading day is now a real-time poll
+on the future of artificial intelligence.
+
+35
+00:02:36,631 --> 00:02:37,384
+TempoBrief.
+
+36
+00:02:37,404 --> 00:02:39,400
+The news that matters, in minutes.

@@ -1,0 +1,188 @@
+1
+00:00:00,000 --> 00:00:02,230
+Quatre-vingt-trois dollars à vingt heures.
+
+2
+00:00:02,250 --> 00:00:04,935
+Cent onze dollars et demi à midi.
+
+3
+00:00:04,955 --> 00:00:07,260
+Quatre-vingt-dix-sept dollars à la
+clôture.
+
+4
+00:00:07,280 --> 00:00:16,694
+En une seule journée, une entreprise qui
+n'existait pas il y a six ans a pesé plus
+
+5
+00:00:16,714 --> 00:00:19,570
+lourd en bourse que Meta.
+
+6
+00:00:19,590 --> 00:00:28,745
+Jeudi 19 novembre, Anthropic, la société
+qui développe l'assistant Claude, est
+
+7
+00:00:28,765 --> 00:00:33,332
+entrée au Nasdaq sous le symbole A-N-T.
+
+8
+00:00:33,352 --> 00:00:37,719
+Le prix d'introduction avait été fixé la
+veille à 83 dollars, au-dessus de la
+
+9
+00:00:37,739 --> 00:00:39,827
+fourchette prévue de 70 à 78 dollars.
+
+10
+00:00:39,847 --> 00:00:46,025
+À l'ouverture, à 11 h 48 heure de New
+York, le titre bondit à 111 dollars 50 :
+
+11
+00:00:46,045 --> 00:00:46,820
+plus 34 %.
+
+12
+00:00:46,840 --> 00:00:48,770
+Puis la séance se calme.
+
+13
+00:00:48,790 --> 00:00:54,220
+Clôture à 97 dollars 17, soit plus 17 %
+par rapport au prix d'introduction.
+
+14
+00:00:54,240 --> 00:00:56,313
+Plus de 846 millions d'actions ont changé
+de mains, un volume supérieur au premier
+
+15
+00:00:56,333 --> 00:00:56,900
+jour de SpaceX en juin.
+
+16
+00:00:56,920 --> 00:01:01,632
+Selon Forbes, l'opération a permis de
+lever 81 milliards de dollars.
+
+17
+00:01:01,652 --> 00:01:04,620
+Bloomberg parle d'une introduction record.
+
+18
+00:01:04,640 --> 00:01:13,313
+La valorisation, elle, dépend du calcul :
+1 270 milliards de dollars sur les actions
+
+19
+00:01:13,333 --> 00:01:20,661
+en circulation ; près de 1 770 milliards
+en comptant toutes les actions
+
+20
+00:01:20,681 --> 00:01:22,006
+potentielles.
+
+21
+00:01:22,026 --> 00:01:26,270
+Dans les deux cas, c'est plus que Meta,
+valorisée 1 550 milliards.
+
+22
+00:01:26,290 --> 00:01:29,071
+Le calendrier n'est pas un hasard.
+
+23
+00:01:29,091 --> 00:01:34,062
+Depuis trois semaines, le secteur de l'IA
+est secoué : l'action Nvidia a perdu
+
+24
+00:01:34,082 --> 00:01:38,350
+environ 20 % et son directeur général,
+Jensen Huang, a démissionné.
+
+25
+00:01:38,370 --> 00:01:42,130
+Les investisseurs se demandaient si la
+bulle de l'IA allait se dégonfler.
+
+26
+00:01:42,150 --> 00:01:45,045
+Anthropic a choisi ce moment pour tester
+leur appétit.
+
+27
+00:01:45,065 --> 00:01:55,070
+Résultat : un démarrage fort, mais une fin
+de séance en retrait de 13 % par rapport
+
+28
+00:01:55,090 --> 00:01:56,640
+au plus haut.
+
+29
+00:01:56,660 --> 00:02:00,575
+Scénario 1 : la confiance revient.
+
+30
+00:02:00,595 --> 00:02:05,363
+Le titre se stabilise au-dessus du prix
+d'introduction et entraîne les
+
+31
+00:02:05,383 --> 00:02:07,415
+fournisseurs de puces en Asie.
+
+32
+00:02:07,435 --> 00:02:10,092
+Scénario 2 : la volatilité continue.
+
+33
+00:02:10,112 --> 00:02:18,021
+Les investisseurs particuliers, très
+présents le premier jour, prennent leurs
+
+34
+00:02:18,041 --> 00:02:19,051
+bénéfices.
+
+35
+00:02:19,071 --> 00:02:21,141
+Scénario 3 : l'effet domino.
+
+36
+00:02:21,161 --> 00:02:24,935
+D'autres acteurs de l'IA accélèrent leur
+propre entrée en bourse pour profiter de
+
+37
+00:02:24,955 --> 00:02:25,450
+la fenêtre.
+
+38
+00:02:25,470 --> 00:02:33,689
+Une chose est sûre : pour la première
+fois, une entreprise d'IA pure est cotée.
+
+39
+00:02:33,709 --> 00:02:40,099
+Chaque jour de bourse sera désormais un
+sondage grandeur nature sur l'avenir de
+
+40
+00:02:40,119 --> 00:02:42,371
+l'intelligence artificielle.
+
+41
+00:02:42,391 --> 00:02:43,239
+TempoBrief.
+
+42
+00:02:43,260 --> 00:02:45,040
+L'actu qui compte, en quelques minutes.

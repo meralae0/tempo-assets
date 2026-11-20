@@ -18,7 +18,26 @@ def silences(wav, th='-35dB', mind=0.35):
     ends = [float(x) for x in re.findall(r'silence_end: ([\d.]+)', out)]
     return list(zip(starts, ends))
 
+ALIGN = {}
+def load_align(ep_dir):
+    f = os.path.join(ep_dir, 'align.json')
+    if os.path.exists(f): ALIGN.update(json.load(open(f)))
+
 def sentence_times(wav, sentences):
+    key = os.path.basename(os.path.dirname(wav)) + '_' + os.path.splitext(os.path.basename(wav))[0]
+    st = ALIGN.get(key)
+    if st and len(st) == len(sentences):
+        D = dur_of(wav); ends = [e for s, e in silences(wav, mind=0.18)]
+        snapped = [0.0]
+        for t in st[1:]:
+            c = min(ends, key=lambda e: abs(e - t), default=t)
+            snapped.append(c - 0.05 if abs(c - t) <= 0.7 else t)
+        snapped = [max(snapped[i], snapped[i - 1] + 0.3) if i else 0.0 for i in range(len(snapped))]
+        bounds = snapped + [D]
+        return [(bounds[i], bounds[i + 1], sentences[i]) for i in range(len(sentences))]
+    return _sentence_times_dp(wav, sentences)
+
+def _sentence_times_dp(wav, sentences):
     """Aligne les phrases sur la voix : cibles proportionnelles au nombre de caractères, mesurées en temps de parole
     (silences exclus), puis choix ordonné des coupures parmi les silences détectés (programmation dynamique)."""
     D = dur_of(wav); sil = [(s, e) for s, e in silences(wav, mind=0.18) if s > 0.2 and e < D - 0.2]
@@ -105,7 +124,7 @@ def build_segment_visual(seg, lang, audio_dur, ep, tmp, used, times):
     return out.replace('_v.mp4', '_vt.mp4')
 
 def main(ep_dir, lang):
-    ep = json.load(open(os.path.join(ep_dir, 'segments.json')))
+    ep = json.load(open(os.path.join(ep_dir, 'segments.json'))); load_align(ep_dir)
     tmp = os.path.join(ep_dir, 'tmp_' + lang); shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     random.seed(42); used = {}
     audio_parts = []; visuals = []; subs = []; t0 = 0.0; chapters = []
