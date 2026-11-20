@@ -1,0 +1,1433 @@
+{
+ "slug": "briefai-01-prompt-maitre",
+ "gfx": "gfx_ai",
+ "date": {
+  "fr": "ÉPISODE 1",
+  "en": "EPISODE 1"
+ },
+ "badge": {
+  "fr": "BRIEFAI · ÉPISODE 1",
+  "en": "BRIEFAI · EPISODE 1"
+ },
+ "title": {
+  "fr": "UN prompt → une chaîne YouTube",
+  "en": "ONE prompt → a YouTube channel"
+ },
+ "footage": {},
+ "segments": [
+  {
+   "id": "seg01",
+   "title": {
+    "fr": "Accroche",
+    "en": "Hook"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "UN prompt",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "→ une chaîne YouTube",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "ONE prompt",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "→ a YouTube channel",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "window",
+     "shot": "shots/channel.jpg",
+     "title": "youtube.com/@briefai"
+    },
+    {
+     "at": 2,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 1,
+     "end": 30,
+     "hl": [],
+     "hl_at": 2
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "3 erreurs",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "3 corrections",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "3 mistakes",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "3 fixes",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 5,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "prompt v2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "GRATUIT",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "prompt v2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "FREE",
+        [
+         40,
+         220,
+         140
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Cette chaîne YouTube a été créée par une intelligence artificielle, à partir d'un seul prompt.",
+     "Le nom, le logo, la bannière, les programmes de montage, et même cette voix.",
+     "Dans cette vidéo, je te montre ce prompt, bloc par bloc.",
+     "Les trois erreurs que l'IA a faites.",
+     "Et comment je les ai corrigées.",
+     "À la fin, je te donne la version corrigée, gratuitement."
+    ],
+    "en": [
+     "This YouTube channel was built by an artificial intelligence, from a single prompt.",
+     "The name, the logo, the banner, the editing programs, and even this voice.",
+     "In this video, I'll show you that prompt, block by block.",
+     "The three mistakes the AI made.",
+     "And how I fixed them.",
+     "At the end, I'll give you the fixed version, for free."
+    ]
+   }
+  },
+  {
+   "id": "seg02",
+   "title": {
+    "fr": "Le départ",
+    "en": "The start"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "terminal",
+     "title": "brief.txt",
+     "lines": {
+      "fr": [
+       "# brief pour Claude",
+       "Crée une chaîne YouTube",
+       "en français et en anglais",
+       "Fais tout dans le navigateur",
+       "Ne me demande que les mots de passe"
+      ],
+      "en": [
+       "# brief for Claude",
+       "Build a YouTube channel",
+       "in French and English",
+       "Do everything in the browser",
+       "Only ask me for passwords"
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "répondre aux questions",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "taper mes mots de passe",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "dire oui ou non",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "answer its questions",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "type my passwords",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "say yes or no",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "tout le reste :",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "l'IA",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "everything else:",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "the AI",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "window",
+     "shot": "../../brand/banner_briefai.png",
+     "title": {
+      "fr": "charte — BriefAI",
+      "en": "brand — BriefAI"
+     }
+    },
+    {
+     "at": 3.35,
+     "fn": "window",
+     "shot": "shots/github.jpg",
+     "title": "github.com · tempo-assets/tools",
+     "blur": [
+      [
+       30,
+       0,
+       160,
+       30
+      ]
+     ]
+    },
+    {
+     "at": 3.65,
+     "fn": "code",
+     "path": "../../tools/assemble.py",
+     "start": 145,
+     "n": 24,
+     "title": {
+      "fr": "tools/assemble.py — écrit par Claude",
+      "en": "tools/assemble.py — written by Claude"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Tout a commencé par un texte d'une page, que j'ai collé dans Claude, l'assistant d'Anthropic, relié à mon navigateur.",
+     "Ensuite, je n'ai fait que trois choses : répondre à ses questions, taper mes mots de passe, et dire oui ou non.",
+     "Tout le reste, c'est l'IA.",
+     "En un après-midi : la chaîne, son identité visuelle, un dépôt de code, et des programmes qui montent les vidéos automatiquement."
+    ],
+    "en": [
+     "It all started with a one-page text that I pasted into Claude, Anthropic's assistant, connected to my browser.",
+     "After that, I only did three things: answer its questions, type my passwords, and say yes or no.",
+     "Everything else was the AI.",
+     "In one afternoon: the channel, its visual identity, a code repository, and programs that edit the videos automatically."
+    ]
+   }
+  },
+  {
+   "id": "seg03",
+   "title": {
+    "fr": "Le rôle",
+    "en": "The role"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 7,
+     "end": 8,
+     "hl": [
+      8
+     ],
+     "hl_at": 0.25
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "avant : des conseils",
+        [
+         130,
+         140,
+         160
+        ]
+       ],
+       [
+        "maintenant : il agit",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "before: advice",
+        [
+         130,
+         140,
+         160
+        ]
+       ],
+       [
+        "now: it acts",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Le prompt commence par un rôle.",
+     "Tu es le producteur de ma chaîne.",
+     "Tu fais le travail, moi je décide.",
+     "Cette phrase change tout.",
+     "L'IA ne te donne plus des conseils.",
+     "Elle agit."
+    ],
+    "en": [
+     "The prompt starts with a role.",
+     "You are the producer of my channel.",
+     "You do the work, I make the decisions.",
+     "That sentence changes everything.",
+     "The AI stops giving you advice.",
+     "It takes action."
+    ]
+   }
+  },
+  {
+   "id": "seg04",
+   "title": {
+    "fr": "Le démarrage",
+    "en": "The kick-off"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 10,
+     "end": 14,
+     "hl": [
+      11,
+      12,
+      13,
+      14
+     ],
+     "hl_at": 0.2
+    },
+    {
+     "at": 1,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 16,
+     "end": 17,
+     "hl": [
+      17
+     ],
+     "hl_at": 0.2
+    },
+    {
+     "at": 4,
+     "fn": "handles",
+     "items": [
+      "temponews",
+      "tempo.news",
+      "tempoactu",
+      "tempo.daily",
+      "tempohq",
+      "DailyTempo",
+      "dailybrief",
+      "dailybrieftv",
+      "thedailybrief"
+     ],
+     "ok": "tempobrief",
+     "title": {
+      "fr": "Identifiant YouTube",
+      "en": "YouTube handle"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Ensuite, on décrit la chaîne : le thème, les langues, le public, et surtout ce que le spectateur gagne à chaque vidéo.",
+     "Puis le démarrage.",
+     "L'IA pose toutes ses questions en une seule fois, et propose trois noms avec un identifiant vérifié.",
+     "Vérifié, c'est important.",
+     "Chez nous, neuf identifiants étaient déjà pris.",
+     "Tempo News, Daily Brief, et sept autres.",
+     "L'IA les a testés un par un dans YouTube Studio, jusqu'à trouver un nom libre."
+    ],
+    "en": [
+     "Next, you describe the channel: the theme, the languages, the audience, and above all what viewers get from every video.",
+     "Then the kick-off.",
+     "The AI asks all its questions at once, and proposes three names with a checked handle.",
+     "Checked matters.",
+     "For us, nine handles were already taken.",
+     "Tempo News, Daily Brief, and seven more.",
+     "The AI tested them one by one in YouTube Studio, until it found a free name."
+    ]
+   }
+  },
+  {
+   "id": "seg05",
+   "title": {
+    "fr": "Les accès",
+    "en": "Access"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 19,
+     "end": 22,
+     "hl": [
+      20,
+      21,
+      22
+     ],
+     "hl_at": 0.25
+    },
+    {
+     "at": 4,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "ta ceinture",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "de sécurité",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "your",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "seatbelt",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Le bloc des accès fixe les limites.",
+     "L'IA fait tout dans le navigateur.",
+     "Mais elle ne me demande que les mots de passe.",
+     "Et elle ne supprime rien, et ne dépense rien, sans mon accord.",
+     "C'est ta ceinture de sécurité."
+    ],
+    "en": [
+     "The access block sets the limits.",
+     "The AI does everything in the browser.",
+     "But it only asks me for passwords.",
+     "And it never deletes anything, or spends money, without my approval.",
+     "That's your seatbelt."
+    ]
+   }
+  },
+  {
+   "id": "seg06",
+   "title": {
+    "fr": "Erreur 1",
+    "en": "Mistake 1"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "vidéo n°1",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "3 problèmes",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "video #1",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "3 problems",
+        [
+         255,
+         77,
+         90
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "window",
+     "shot": "shots/fail_title.png",
+     "title": {
+      "fr": "vidéo n°1 — non publiée",
+      "en": "video #1 — never published"
+     },
+     "width": 1300
+    },
+    {
+     "at": 5,
+     "fn": "stamp",
+     "frame": "shots/fail_title.png",
+     "text": {
+      "fr": "REFUSÉ",
+      "en": "REJECTED"
+     },
+     "sub": {
+      "fr": "le sujet n'était pas validé",
+      "en": "the topic wasn't approved"
+     }
+    },
+    {
+     "at": 6,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 24,
+     "end": 25,
+     "hl": [
+      25
+     ],
+     "hl_at": 0.1,
+     "title": {
+      "fr": "règle n°1",
+      "en": "rule #1"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Jusque-là, tout allait bien.",
+     "Puis l'IA a produit sa première vidéo.",
+     "Et trois choses ont mal tourné.",
+     "Un : elle a choisi le sujet toute seule.",
+     "L'entrée en bourse d'Anthropic, l'entreprise qui l'a créée.",
+     "Ce n'était pas ce que je voulais.",
+     "Correction, règle numéro un : le sujet d'abord.",
+     "L'IA propose trois sujets notés sur dix, et ne produit rien avant mon accord."
+    ],
+    "en": [
+     "Up to that point, everything went well.",
+     "Then the AI produced its first video.",
+     "And three things went wrong.",
+     "One: it picked the topic on its own.",
+     "Anthropic going public, the company that created it.",
+     "That wasn't what I wanted.",
+     "Fix, rule number one: topic first.",
+     "The AI proposes three topics scored out of ten, and produces nothing before my approval."
+    ]
+   }
+  },
+  {
+   "id": "seg07",
+   "title": {
+    "fr": "Erreur 2",
+    "en": "Mistake 2"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "stamp",
+     "frame": "shots/fail_drone.png",
+     "text": {
+      "fr": "HORS SUJET",
+      "en": "OFF TOPIC"
+     },
+     "sub": {
+      "fr": "des images de New York pour parler d'une IA",
+      "en": "New York drone shots for an AI story"
+     }
+    },
+    {
+     "at": 2,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 24,
+     "end": 26,
+     "hl": [
+      26
+     ],
+     "hl_at": 0.1,
+     "title": {
+      "fr": "règle n°2",
+      "en": "rule #2"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Deux : pour illustrer, elle a pris des images de drone de New York.",
+     "Aucun rapport avec le sujet.",
+     "Correction, règle numéro deux : chaque plan montre ce que dit la phrase.",
+     "Et seulement des images dont on a le droit : captures d'écran, animations, sources libres citées."
+    ],
+    "en": [
+     "Two: for the visuals, it used drone shots of New York.",
+     "Nothing to do with the story.",
+     "Fix, rule number two: every shot shows what the sentence says.",
+     "And only visuals we have the rights to: screen captures, animations, credited free sources."
+    ]
+   }
+  },
+  {
+   "id": "seg08",
+   "title": {
+    "fr": "Erreur 3",
+    "en": "Mistake 3"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "erreur n°3",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "la voix",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "mistake #3",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "the voice",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 1,
+     "fn": "terminal",
+     "title": "tts_request.json",
+     "lines": {
+      "fr": [
+       "{ \"voice\": \"Charon\",",
+       "  \"text\": \"Lis ce texte comme un",
+       "   présentateur de journal…",
+       "   + le texte à lire\" }"
+      ],
+      "en": [
+       "{ \"voice\": \"Charon\",",
+       "  \"text\": \"Lis ce texte comme un",
+       "   présentateur de journal…",
+       "   + the words to read\" }"
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Trois, et c'est la plus drôle.",
+     "Pour la voix, elle a envoyé une consigne de style à l'outil de synthèse vocale.",
+     "Écoute le résultat."
+    ],
+    "en": [
+     "Three, and this one is the funniest.",
+     "For the voice, it sent a style instruction to the text-to-speech tool.",
+     "Listen to the result."
+    ]
+   }
+  },
+  {
+   "id": "seg09",
+   "clip": true,
+   "title": {
+    "fr": "Extrait original",
+    "en": "Original clip"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "wave",
+     "wav": "audio/fr/seg09.wav",
+     "quote": {
+      "fr": "« Lis ce texte comme un présentateur de journal télévisé… sans emphase excessive. »",
+      "en": "“Read this as a TV news anchor… no excessive emphasis.”"
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Lis ce texte comme un présentateur de journal télévisé, voix grave, posée, articulée, rythme soutenu mais naturel, sans emphase excessive."
+    ],
+    "en": [
+     "[in French] Read this text like a TV news anchor: deep, calm, articulate voice, brisk but natural pace, no excessive emphasis."
+    ]
+   }
+  },
+  {
+   "id": "seg10",
+   "title": {
+    "fr": "Correction 3",
+    "en": "Fix 3"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "12 / 12 fichiers",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "consigne lue à voix haute",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "12 / 12 files",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "instruction read aloud",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "non détecté",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "par l'IA",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "not caught",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "by the AI",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 24,
+     "end": 27,
+     "hl": [
+      27
+     ],
+     "hl_at": 0.1,
+     "title": {
+      "fr": "règle n°3",
+      "en": "rule #3"
+     }
+    },
+    {
+     "at": 4,
+     "fn": "terminal",
+     "title": "qc_voix.log",
+     "lines": {
+      "fr": [
+       "$ transcrire fr_A.wav fr_B.wav",
+       "début : « Cette chaîne YouTube… »",
+       "fin : « …pour ne pas la rater. »",
+       "consigne détectée : 0",
+       "OK"
+      ],
+      "en": [
+       "$ transcribe en_A.wav en_B.wav",
+       "start: \"This YouTube channel…\"",
+       "end: \"…so you don't miss it.\"",
+       "instruction found: 0",
+       "OK"
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "La voix a lu la consigne à voix haute.",
+     "Dans les douze fichiers audio.",
+     "Et l'IA ne l'a pas remarqué.",
+     "Correction, règle numéro trois : n'envoyer que le texte à lire, puis transcrire chaque fichier pour vérifier.",
+     "Aujourd'hui, cette vérification est faite à chaque vidéo."
+    ],
+    "en": [
+     "The voice read the instruction out loud.",
+     "In all twelve audio files.",
+     "And the AI didn't notice.",
+     "Fix, rule number three: send only the words to read, then transcribe every file to check it.",
+     "Today, that check runs on every video."
+    ]
+   }
+  },
+  {
+   "id": "seg11",
+   "title": {
+    "fr": "Les autres règles",
+    "en": "Other rules"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 28,
+     "end": 30,
+     "hl": [],
+     "hl_at": 0,
+     "plus": true,
+     "title": {
+      "fr": "prompt v1 → v2",
+      "en": "prompt v1 → v2"
+     }
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "contenu de masse",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "= non monétisé",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "mass-produced",
+        [
+         255,
+         77,
+         90
+        ]
+       ],
+       [
+        "= not monetized",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "outils d'IA cités",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "dans la description",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "AI tools listed",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "in the description",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "J'ai ajouté trois règles.",
+     "Chaque chiffre a une source.",
+     "Chaque vidéo apporte quelque chose de nouveau, parce que YouTube ne monétise pas le contenu produit en masse et répétitif.",
+     "Et la description dit quels outils d'IA ont été utilisés."
+    ],
+    "en": [
+     "I added three more rules.",
+     "Every number has a source.",
+     "Every video brings something new, because YouTube doesn't monetize mass-produced, repetitive content.",
+     "And the description says which AI tools were used."
+    ]
+   }
+  },
+  {
+   "id": "seg12",
+   "title": {
+    "fr": "La fin du prompt",
+    "en": "End of the prompt"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 32,
+     "end": 38,
+     "hl": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+     ],
+     "hl_at": 0.15
+    },
+    {
+     "at": 1,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 40,
+     "end": 44,
+     "hl": [
+      41
+     ],
+     "hl_at": 0.1
+    },
+    {
+     "at": 2,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "chaque semaine",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "vues · abonnés · coûts · revenus",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "every week",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "views · subs · costs · revenue",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "La fin du prompt décrit la production, étape par étape, du script jusqu'aux shorts.",
+     "Puis la validation : rien n'est publié sans mon accord.",
+     "Et chaque semaine, un rapport : vues, abonnés, coûts et revenus."
+    ],
+    "en": [
+     "The end of the prompt describes production, step by step, from the script to the Shorts.",
+     "Then approval: nothing gets published without my okay.",
+     "And every week, a report: views, subscribers, costs and revenue."
+    ]
+   }
+  },
+  {
+   "id": "seg13",
+   "title": {
+    "fr": "Le cadeau",
+    "en": "The gift"
+   },
+   "shots": [
+    {
+     "at": 0,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 1,
+     "end": 30,
+     "hl": [],
+     "hl_at": 2,
+     "title": {
+      "fr": "github.com/meralae0/tempo-assets · prompt-maitre-v2-fr.md",
+      "en": "github.com/meralae0/tempo-assets · master-prompt-v2-en.md"
+     }
+    },
+    {
+     "at": 1,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "GRATUIT",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "FR + EN · lien en description",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "FREE",
+        [
+         40,
+         220,
+         140
+        ]
+       ],
+       [
+        "EN + FR · link in description",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 2,
+     "fn": "prompt",
+     "path": {
+      "fr": "../../prompts/prompt-maitre-v2-fr.md",
+      "en": "../../prompts/master-prompt-v2-en.md"
+     },
+     "start": 10,
+     "end": 14,
+     "hl": [
+      11,
+      12,
+      13,
+      14
+     ],
+     "hl_at": 0.15,
+     "title": {
+      "fr": "remplace les [crochets]",
+      "en": "replace the [brackets]"
+     }
+    },
+    {
+     "at": 3,
+     "fn": "window",
+     "shot": "shots/channel.jpg",
+     "title": "youtube.com/@briefai"
+    },
+    {
+     "at": 4,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "vidéo 2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "trouver des sujets qui marchent",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "video 2",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "finding topics that work",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "text": {
+    "fr": [
+     "Voilà le prompt maître, version deux.",
+     "Il est gratuit, en français et en anglais, dans la description.",
+     "Remplace ce qui est entre crochets par ton thème, colle-le dans ton IA, et regarde-la travailler.",
+     "Sur cette chaîne, je construis une vraie chaîne YouTube avec l'IA, brique par brique, et je te montre les vrais chiffres.",
+     "Prochaine vidéo : comment l'IA trouve des sujets qui marchent.",
+     "Abonne-toi pour ne pas la rater."
+    ],
+    "en": [
+     "That's the master prompt, version two.",
+     "It's free, in English and French, in the description.",
+     "Replace what's in brackets with your theme, paste it into your AI, and watch it work.",
+     "On this channel, I'm building a real YouTube channel with AI, brick by brick, and showing you the real numbers.",
+     "Next video: how AI finds topics that work.",
+     "Subscribe so you don't miss it."
+    ]
+   }
+  }
+ ],
+ "shorts": [
+  {
+   "id": "s1",
+   "from": "seg01",
+   "to": "seg03",
+   "max": 45
+  },
+  {
+   "id": "s2",
+   "from": "seg08",
+   "to": "seg10",
+   "max": 45
+  },
+  {
+   "id": "s3",
+   "from": "seg06",
+   "to": "seg07",
+   "max": 45
+  }
+ ]
+}

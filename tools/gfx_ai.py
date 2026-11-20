@@ -213,6 +213,62 @@ def title(out, dur, lang, times=None, lines=None):
         return im
     return render(fr, dur, out)
 
+
+def _wrap(txt, font, maxw, d):
+    words = txt.split(' '); lines = []; cur = ''
+    for w in words:
+        t = (cur + ' ' + w).strip()
+        if d.textlength(t, font=font) <= maxw: cur = t
+        else: lines.append(cur); cur = w
+    lines.append(cur); return lines
+
+def prompt(out, dur, lang, times=None, path=None, start=1, end=None, title=None, hl=(), plus=False, hl_at=0.45):
+    """Fichier prompt affiché dans un éditeur : lignes qui s'écrivent, titres ## en cyan, lignes hl surlignées,
+    plus=True : lignes ajoutées (diff vert)."""
+    p = path[lang] if isinstance(path, dict) else path
+    src = open(p, encoding='utf-8').read().splitlines(); end = end or len(src)
+    title = (title[lang] if isinstance(title, dict) else title) or os.path.basename(p)
+    hl = hl[lang] if isinstance(hl, dict) else hl
+    x0, y0, x1, y1 = 150, 90, W - 150, H - 90
+    probe = ImageDraw.Draw(Image.new('RGB', (10, 10)))
+    for fs in (46, 42, 38, 34, 31):
+        fb = mono(fs, 500); fh = sg(int(fs * 1.4), 700); rows = []
+        for ln in range(start, end + 1):
+            raw = src[ln - 1].replace('**', '')
+            if not raw.strip() or raw.strip() == '---': rows.append((ln, '', 'gap')); continue
+            if raw.startswith('#'): rows.append((ln, raw.lstrip('#').strip(), 'h')); continue
+            for k, w in enumerate(_wrap(raw, fb, x1 - x0 - 200, probe)): rows.append((ln, w, 'b' if k == 0 else 'c'))
+        hgt = {'gap': int(fs * 0.7), 'h': int(fs * 2.3), 'b': int(fs * 1.48), 'c': int(fs * 1.48)}
+        if sum(hgt[r[2]] for r in rows) <= (y1 - y0 - 120): break
+    vis = [r for r in rows]; nrev = len([r for r in vis if r[2] != 'gap']); step = min(0.35, dur * 0.55 / max(1, nrev))
+    def fr(i, n):
+        t = i / FPS; im = background(); d = ImageDraw.Draw(im)
+        d.rounded_rectangle((x0, y0, x1, y1), radius=18, fill=PANEL + (248,), outline=(40, 46, 64, 255), width=2)
+        for k, c in enumerate([RED, (255, 190, 60), GREEN]): d.ellipse((x0 + 26 + k * 30, y0 + 22, x0 + 42 + k * 30, y0 + 38), fill=c)
+        d.text((x0 + 140, y0 + 30), title, font=mono(22), fill=GREY, anchor='lm'); d.line((x0, y0 + 60, x1, y0 + 60), fill=(40, 46, 64), width=2)
+        lay = Image.new('RGBA', (x1 - x0 - 4, y1 - y0 - 66), (0, 0, 0, 0)); ld = ImageDraw.Draw(lay)
+        ys = []; y = 18; kk = 0; shown = []
+        for r in vis:
+            if r[2] == 'gap': ys.append(y); y += hgt['gap']; shown.append(1); continue
+            a = ease((t - kk * step) / 0.25); kk += 1; ys.append(y); y += hgt[r[2]]; shown.append(a)
+        last = max([ys[j] + hgt['b'] + 10 for j in range(len(vis)) if shown[j] > 0] + [0]); off = max(0, last - (lay.height - 30))
+        ha = ease((t - dur * hl_at) / 0.4)
+        for j, (ln, txt, kind) in enumerate(vis):
+            a = shown[j]; yy = ys[j] - off
+            if kind == 'gap' or a <= 0 or yy < -60 or yy > lay.height + 10: continue
+            al = int(255 * a)
+            if (ln in hl and ha > 0) or plus:
+                bg = (GREEN if plus else CYAN); g = int((70 if plus else 60) * (1 if plus else ha) * a)
+                ld.rectangle((60, yy - 4, lay.width - 20, yy + hgt[kind] - 4), fill=bg + (g,))
+                if not plus: ld.rectangle((60, yy - 4, 66, yy + hgt[kind] - 4), fill=CYAN + (int(255 * ha),))
+            if kind != 'c': ld.text((12, yy + (int(fs*0.45) if kind == 'h' else 6)), ('+' if plus else f'{ln:>2}'), font=mono(24), fill=(GREEN if plus else DIM) + (al,))
+            if kind == 'h': ld.text((84, yy), txt, font=fh, fill=CYAN + (al,))
+            else:
+                col = WHITE if (ln in hl and ha > 0) or plus or not hl else tuple(int(WHITE[q] * 0.55 + GREY[q] * 0.1) for q in range(3))
+                ld.text((84, yy + 4), txt, font=fb, fill=col + (al,))
+        im.alpha_composite(lay, (x0 + 2, y0 + 64)); return im
+    return render(fr, dur, out)
+
 # ---------- habillage (même interface que gfx.py) ----------
 def lower_third(out, title, date, lang):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im); f = sg(42, 700)

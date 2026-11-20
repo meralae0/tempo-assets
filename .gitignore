@@ -13,3 +13,5 @@ episodes/*/sheets/
 episodes/*/thumb_*.jpg
 episodes/*/music.mp3
 __pycache__/
+episodes/*/tmp_*/
+episodes/*/raw/
