@@ -1,1 +1,1 @@
-OK ./briefai-02-trouver-des-sujets_fr.mp4 169.0 s LUFS -15.9 -> -14.0
+OK ./briefai-02-trouver-des-sujets_fr.mp4 188.8 s LUFS -15.8 -> -14.0

@@ -356,6 +356,90 @@
     },
     {
      "at": 1,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "YouTube complète",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "ta recherche",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "YouTube finishes",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "your search",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 3,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "≈ 10 mots-clés",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "tapés par l'IA",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "≈ 10 keywords",
+        [
+         0,
+         212,
+         255
+        ]
+       ],
+       [
+        "typed by the AI",
+        [
+         240,
+         244,
+         250
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "at": 4,
      "fn": "search",
      "query": "claude mcp",
      "suggestions": [
@@ -385,6 +469,48 @@
      "title": {
       "fr": "suggestions YouTube · 20/11/2026",
       "en": "YouTube suggestions · 11/20/2026"
+     }
+    },
+    {
+     "at": 7,
+     "fn": "title",
+     "lines": {
+      "fr": [
+       [
+        "= des sujets",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "déjà recherchés",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ],
+      "en": [
+       [
+        "= topics people",
+        [
+         240,
+         244,
+         250
+        ]
+       ],
+       [
+        "already search for",
+        [
+         0,
+         212,
+         255
+        ]
+       ]
+      ]
      }
     }
    ],

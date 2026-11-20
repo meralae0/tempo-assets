@@ -204,10 +204,12 @@ def counters(out, dur, lang, times=None, items=None):
 
 def title(out, dur, lang, times=None, lines=None):
     ls = lines[lang]
+    stag = min(0.6, dur * 0.15); mx = max(len(x) for x, c in ls)
+    spd = max(28, mx / max(0.3, min(1.0, dur * 0.4 - stag * (len(ls) - 1))))
     def fr(i, n):
         t = i / FPS; im = background(); d = ImageDraw.Draw(im); y = H / 2 - (len(ls) - 1) * 70
         for k, (txt, col) in enumerate(ls):
-            sh = int(min(len(txt), max(0, (t - k * 0.6)) * 28))
+            sh = int(min(len(txt), max(0, (t - k * stag)) * spd))
             if sh <= 0: continue
             glow_text(im, (W / 2, y + k * 140), txt[:sh] + ('_' if sh < len(txt) else ''), sg(96, 700), tuple(col), r=14)
         return im
@@ -374,7 +376,7 @@ def gauges(out, dur, lang, times=None, items=None, total=None):
     def fr(i, nn):
         t = i / FPS; im = background(); d = ImageDraw.Draw(im)
         for k, (lab, val, col) in enumerate(its):
-            t0 = 0.3 + k * (dur * 0.22); a = ease((t - t0) / 0.6)
+            t0 = (times[k] if times and k < len(times) else 0.3 + k * (dur * 0.22)); a = ease((t - t0) / 0.6)
             if a <= 0: continue
             y = 260 + k * 170
             d.text((360, y), lab, font=sg(54, 700), fill=WHITE, anchor='lm')
@@ -382,7 +384,7 @@ def gauges(out, dur, lang, times=None, items=None, total=None):
             d.rounded_rectangle((900, y - 22, 900 + 660 * val / 10 * a, y + 22), radius=22, fill=tuple(col))
             d.text((1600, y), f"{val * a:.0f}/10", font=mono(44, 700), fill=tuple(col), anchor='lm')
         if total:
-            b = ease((t - dur * 0.8) / 0.5)
+            b = ease((t - (times[3] if times and len(times) > 3 else dur * 0.8)) / 0.5)
             if b > 0: glow_text(im, (W / 2, H - 140), _arg(total, lang), sg(64, 700), CYAN, r=12)
         return im
     return render(fr, dur, out)

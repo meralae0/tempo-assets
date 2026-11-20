@@ -20,6 +20,7 @@ def silences(wav, th='-35dB', mind=0.35):
     return list(zip(starts, ends))
 
 ALIGN = {}
+SHOT_T = []; SEG_T0 = [0.0]
 def load_align(ep_dir):
     f = os.path.join(ep_dir, 'align.json')
     if os.path.exists(f): ALIGN.update(json.load(open(f)))
@@ -106,8 +107,12 @@ def build_segment_visual(seg, lang, audio_dur, ep, tmp, used, times):
             d = max(0.5, starts[i + 1] - starts[i]); args = {k: v for k, v in sh.items() if k not in ('at', 'fn')}
             rel = [max(0.0, a - starts[i]) for a in st if starts[i] <= a < starts[i + 1]]
             fn = getattr(G, sh['fn']); o = os.path.join(tmp, f"{seg['id']}_s{i}.mp4")
-            if sh['fn'] in ('counters', 'scenarios_clip'): args['times'] = rel
-            clips.append(fn(o, d, lang, **args))
+            if sh['fn'] in ('counters', 'scenarios_clip', 'gauges'): args['times'] = rel
+            c = fn(o, d, lang, **args)
+            if i > 0:
+                cf = c.replace('.mp4', '_f.mp4')
+                subprocess.run(FFMPEG + ['-i', c, '-vf', 'fade=t=in:st=0:d=0.2', '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-pix_fmt', 'yuv420p', cf], check=True); c = cf
+            SHOT_T.append(SEG_T0[0] + starts[i]); clips.append(c)
         out = concat(clips, os.path.join(tmp, f'{seg["id"]}_v.mp4'))
         subprocess.run(FFMPEG + ['-i', out, '-t', f'{audio_dur:.3f}', '-c', 'copy', out.replace('_v.mp4', '_vt.mp4')], check=True)
         return out.replace('_v.mp4', '_vt.mp4')
@@ -154,6 +159,7 @@ def main(ep_dir, lang):
         chapters.append((t0, seg['title'][lang]))
         st = sentence_times(wav, seg['text'][lang])
         for a, b, s in st: subs.append((t0 + a, t0 + b, s))
+        SEG_T0[0] = t0; SHOT_T.append(t0)
         visuals.append(build_segment_visual(seg, lang, D, ep, tmp, used, st)); audio_parts.append(wav); t0 += D
     total = t0
     end_png = G.end_card(os.path.join(tmp, 'end.png'), lang)
@@ -165,6 +171,15 @@ def main(ep_dir, lang):
     with open(lst, 'w') as f:
         for w in audio_parts: f.write(f"file '{os.path.abspath(w)}'\n")
     subprocess.run(FFMPEG + ['-f', 'concat', '-safe', '0', '-i', lst, '-af', 'apad=pad_dur=8', voice], check=True)
+    # whoosh discret à chaque changement de plan
+    import numpy as np, wave as _wv
+    vr = _wv.open(voice); sr = vr.getframerate(); ch = vr.getnchannels(); x = np.frombuffer(vr.readframes(vr.getnframes()), np.int16).astype(np.float32); vr.close()
+    if ch > 1: x = x.reshape(-1, ch).mean(axis=1)
+    rng = np.random.default_rng(7); L = int(0.35 * sr); env = np.sin(np.linspace(0, np.pi, L)) ** 2
+    for ts in sorted(set(round(t, 2) for t in SHOT_T if t > 0.5)):
+        nz = rng.standard_normal(L); nz = np.convolve(nz, np.ones(12) / 12, mode='same') - np.convolve(nz, np.ones(60) / 60, mode='same')
+        a = int(max(0, ts - 0.15) * sr); seg_ = (nz * env * 1400)[:max(0, len(x) - a)]; x[a:a + len(seg_)] += seg_
+    x = np.clip(x, -32767, 32767).astype(np.int16); vw = _wv.open(voice, 'wb'); vw.setnchannels(1); vw.setsampwidth(2); vw.setframerate(sr); vw.writeframes(x.tobytes()); vw.close()
     # overlays
     lt = G.lower_third(os.path.join(tmp, 'lt.png'), ep['title'][lang], ep['date'][lang], lang)
     bd = G.badge(os.path.join(tmp, 'badge.png'), ep['badge'][lang])
@@ -193,7 +208,7 @@ def main(ep_dir, lang):
     I = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', meas)[-1]); gain = -14.0 - I
     if abs(gain) > 0.3:
         fixed = out.replace('.mp4', '_ln.mp4')
-        subprocess.run(FFMPEG + ['-i', out, '-c:v', 'copy', '-af', f'volume={gain:.2f}dB,alimiter=limit=0.84', '-c:a', 'aac', '-b:a', '192k', fixed], check=True); os.replace(fixed, out)
+        subprocess.run(FFMPEG + ['-i', out, '-c:v', 'copy', '-af', f'volume={gain:.2f}dB,alimiter=limit=0.72:level=false', '-c:a', 'aac', '-b:a', '192k', fixed], check=True); os.replace(fixed, out)
     print('OK', out, round(total, 1), 's', 'LUFS', I, '->', round(I + gain, 1))
 
 if __name__ == '__main__':

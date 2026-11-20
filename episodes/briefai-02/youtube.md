@@ -18,14 +18,14 @@ Prochaine vidéo : Claude + Blender crée le personnage de la chaîne.
 
 Chapitres
 00:00 Résultat
-00:17 Pourquoi
-00:33 Étape 1
-00:57 Étape 2
-01:22 Étape 3
-01:38 Le classement
-02:08 Le gagnant
-02:21 Les limites
-02:33 Le cadeau
+00:19 Pourquoi
+00:37 Étape 1
+01:04 Étape 2
+01:33 Étape 3
+01:52 Le classement
+02:24 Le gagnant
+02:38 Les limites
+02:52 Le cadeau
 
 Comment cette vidéo a été faite : recherche, script, montage et graphismes réalisés avec Claude (Anthropic) ; voix générée avec Gemini TTS (Google) ; sujet et validation par un humain.
 
@@ -48,14 +48,14 @@ Next video: Claude + Blender creates the channel's character.
 
 Chapters
 00:00 Result
-00:17 Why
-00:33 Step 1
-00:57 Step 2
-01:22 Step 3
-01:38 The ranking
-02:08 The winner
-02:21 The limits
-02:33 The gift
+00:19 Why
+00:37 Step 1
+01:04 Step 2
+01:33 Step 3
+01:52 The ranking
+02:24 The winner
+02:38 The limits
+02:52 The gift
 
 How this video was made: research, script, editing and graphics made with Claude (Anthropic); voice generated with Gemini TTS (Google); topic and approval by a human.
 

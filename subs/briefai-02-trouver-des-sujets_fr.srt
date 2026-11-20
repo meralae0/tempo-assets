@@ -1,292 +1,292 @@
 1
-00:00:00,000 --> 00:00:02,506
+00:00:00,000 --> 00:00:03,247
 Voici les dix vidéos que mon IA veut que
 je fasse.
 
 2
-00:00:02,526 --> 00:00:05,375
+00:00:03,267 --> 00:00:05,521
 Classées, notées sur dix, avec des
 chiffres.
 
 3
-00:00:05,395 --> 00:00:09,703
+00:00:05,541 --> 00:00:10,789
 La première, un autre créateur l'a déjà
 tentée : deux cent soixante-dix-sept mille
 
 4
-00:00:09,723 --> 00:00:10,812
+00:00:10,809 --> 00:00:12,138
 vues en quatre jours.
 
 5
-00:00:10,832 --> 00:00:14,523
+00:00:12,158 --> 00:00:16,325
 Dans cette vidéo, je te montre comment
 l'IA a trouvé ces sujets, en trois étapes.
 
 6
-00:00:14,543 --> 00:00:17,330
+00:00:16,345 --> 00:00:19,607
 Et à la fin, je te donne le prompt.
 
 7
-00:00:17,350 --> 00:00:20,124
+00:00:19,627 --> 00:00:22,912
 Dans la vidéo un, l'IA avait choisi un
 sujet toute seule.
 
 8
-00:00:20,144 --> 00:00:21,329
+00:00:22,932 --> 00:00:24,357
 Et c'était raté.
 
 9
-00:00:21,349 --> 00:00:24,432
+00:00:24,377 --> 00:00:27,624
 Depuis, la règle numéro un, c'est : le
 sujet d'abord.
 
 10
-00:00:24,452 --> 00:00:26,853
+00:00:27,644 --> 00:00:30,753
 Mais choisir un sujet au feeling, c'est
 jouer au loto.
 
 11
-00:00:26,873 --> 00:00:28,853
+00:00:30,773 --> 00:00:33,562
 Alors j'ai demandé à l'IA de ne rien
 deviner.
 
 12
-00:00:28,873 --> 00:00:33,080
+00:00:33,582 --> 00:00:36,987
 Chaque note doit venir d'un chiffre
 qu'elle a relevé elle-même.
 
 13
-00:00:33,100 --> 00:00:35,151
+00:00:37,008 --> 00:00:39,808
 Étape un : écouter ce que les gens tapent.
 
 14
-00:00:35,171 --> 00:00:38,301
+00:00:39,828 --> 00:00:43,194
 Quand tu commences une recherche sur
 YouTube, il te propose la suite.
 
 15
-00:00:38,321 --> 00:00:40,549
+00:00:43,214 --> 00:00:45,716
 Ces suggestions viennent de vraies
 recherches.
 
 16
-00:00:40,569 --> 00:00:43,154
+00:00:45,736 --> 00:00:48,548
 L'IA a tapé une dizaine de mots-clés.
 
 17
-00:00:43,174 --> 00:00:45,324
+00:00:48,568 --> 00:00:50,931
 Par exemple, Claude MCP.
 
 18
-00:00:45,344 --> 00:00:49,419
+00:00:50,951 --> 00:00:55,685
 YouTube propose : connecteurs, Roblox,
 Figma, Higgsfield, TradingView.
 
 19
-00:00:49,439 --> 00:00:53,536
+00:00:55,705 --> 00:01:00,003
 Et pour l'automatisation YouTube, il
 propose : avec Claude, étape par étape,
 
 20
-00:00:53,556 --> 00:00:54,674
+00:01:00,023 --> 00:01:01,196
 deux mille vingt-six.
 
 21
-00:00:54,694 --> 00:00:57,390
+00:01:01,216 --> 00:01:04,109
 Ça, c'est une liste de sujets que les gens
 cherchent déjà.
 
 22
-00:00:57,410 --> 00:00:59,196
+00:01:04,129 --> 00:01:06,334
 Étape deux : mesurer la demande.
 
 23
-00:00:59,216 --> 00:01:02,498
+00:01:06,354 --> 00:01:09,888
 Pour chaque sujet, l'IA lance la recherche
 avec le filtre « ce mois-ci ».
 
 24
-00:01:02,518 --> 00:01:04,978
+00:01:09,908 --> 00:01:14,161
 Elle relève les vues et la date des dix
 premières vidéos.
 
 25
-00:01:04,998 --> 00:01:07,686
+00:01:14,181 --> 00:01:15,581
 Puis elle calcule les vues par jour.
 
 26
-00:01:07,706 --> 00:01:09,072
+00:01:15,601 --> 00:01:18,024
 Et elle garde la médiane, pas la moyenne.
 
 27
-00:01:09,092 --> 00:01:11,288
+00:01:18,044 --> 00:01:18,997
 Pourquoi ?
 
 28
-00:01:11,308 --> 00:01:13,965
+00:01:19,017 --> 00:01:22,680
 Parce qu'une seule vidéo à un million de
 vues fausse tout.
 
 29
-00:01:13,985 --> 00:01:17,608
+00:01:22,700 --> 00:01:27,978
 Résultat : une chaîne sans visage avec
 Claude, c'est dix-sept mille vues par jour
 
 30
-00:01:17,628 --> 00:01:18,103
+00:01:27,998 --> 00:01:28,698
 en médiane.
 
 31
-00:01:18,123 --> 00:01:19,266
+00:01:28,718 --> 00:01:31,490
 Le montage vidéo avec Claude, six mille
 cinq cents.
 
 32
-00:01:19,286 --> 00:01:22,420
+00:01:31,510 --> 00:01:33,839
 Claude Cowork, à peine cent dix.
 
 33
-00:01:22,440 --> 00:01:24,768
+00:01:33,859 --> 00:01:37,548
 Étape trois : noter chaque sujet sur dix,
 avec trois critères.
 
 34
-00:01:24,788 --> 00:01:28,179
+00:01:37,568 --> 00:01:41,190
 L'intérêt, c'est la demande qu'on vient de
 mesurer.
 
 35
-00:01:28,199 --> 00:01:31,112
+00:01:41,210 --> 00:01:44,389
 La fraîcheur : est-ce que les meilleures
 vidéos ont moins de deux semaines ?
 
 36
-00:01:31,132 --> 00:01:34,422
+00:01:44,409 --> 00:01:47,860
 Et la valeur : est-ce que tu repars avec
 quelque chose que tu peux refaire, et
 
 37
-00:01:34,442 --> 00:01:36,288
+00:01:47,880 --> 00:01:49,818
 est-ce que je peux le montrer pour de
 vrai ?
 
 38
-00:01:36,308 --> 00:01:38,650
+00:01:49,838 --> 00:01:52,518
 La note finale, c'est la moyenne des
 trois.
 
 39
-00:01:38,670 --> 00:01:40,254
+00:01:52,538 --> 00:01:54,471
 Et voilà le classement.
 
 40
-00:01:40,274 --> 00:01:43,377
+00:01:54,491 --> 00:01:57,987
 Claude contre ChatGPT finit presque
 dernier.
 
 41
-00:01:43,397 --> 00:01:46,247
+00:01:58,007 --> 00:02:01,115
 Le sujet est usé : tout le monde l'a déjà
 fait.
 
 42
-00:01:46,267 --> 00:01:49,326
+00:02:01,135 --> 00:02:04,378
 La chaîne sans visage a la plus forte
 demande.
 
 43
-00:01:49,346 --> 00:01:53,272
+00:02:04,398 --> 00:02:08,514
 Mais elle arrive troisième, parce que
 c'est déjà très chargé.
 
 44
-00:01:53,292 --> 00:01:55,348
+00:02:08,534 --> 00:02:11,126
 Deuxième, le montage vidéo avec Claude.
 
 45
-00:01:55,368 --> 00:02:00,298
+00:02:11,146 --> 00:02:16,237
 Et numéro un, avec huit virgule sept :
 Claude qui pilote Blender pour créer un
 
 46
-00:02:00,318 --> 00:02:02,265
+00:02:16,257 --> 00:02:18,268
 personnage en trois dimensions.
 
 47
-00:02:02,285 --> 00:02:05,949
+00:02:18,288 --> 00:02:22,026
 Les vidéos sont toutes récentes, et la
 meilleure a fait deux cent
 
 48
-00:02:05,969 --> 00:02:08,500
+00:02:22,046 --> 00:02:24,628
 soixante-dix-sept mille vues en quatre
 jours.
 
 49
-00:02:08,520 --> 00:02:09,671
+00:02:24,648 --> 00:02:26,214
 Alors c'est décidé.
 
 50
-00:02:09,691 --> 00:02:11,677
+00:02:26,234 --> 00:02:28,465
 La prochaine vidéo, c'est celle-là.
 
 51
-00:02:11,697 --> 00:02:16,377
+00:02:28,485 --> 00:02:33,353
 Je vais relier Claude à Blender, et lui
 demander de créer le personnage de cette
 
 52
-00:02:16,397 --> 00:02:18,022
+00:02:33,373 --> 00:02:35,064
 chaîne, avec un seul prompt.
 
 53
-00:02:18,042 --> 00:02:21,710
+00:02:35,084 --> 00:02:38,838
 Tu verras le résultat, les ratés, et
 combien ça coûte.
 
 54
-00:02:21,730 --> 00:02:23,313
+00:02:38,858 --> 00:02:40,805
 Attention, deux limites.
 
 55
-00:02:23,333 --> 00:02:25,677
+00:02:40,825 --> 00:02:43,459
 Les vues des autres ne garantissent pas
 les miennes.
 
 56
-00:02:25,697 --> 00:02:28,798
+00:02:43,479 --> 00:02:46,843
 Et l'échantillon est petit : dix vidéos
 par recherche.
 
 57
-00:02:28,818 --> 00:02:31,894
+00:02:46,863 --> 00:02:50,119
 C'est pour ça qu'il faut refaire cette
 recherche avant chaque vidéo.
 
 58
-00:02:31,914 --> 00:02:33,440
+00:02:50,139 --> 00:02:52,036
 Les sujets changent vite.
 
 59
-00:02:33,460 --> 00:02:37,593
+00:02:52,056 --> 00:02:56,601
 Le prompt complet est gratuit, en français
 et en anglais, dans la description.
 
 60
-00:02:37,613 --> 00:02:41,247
+00:02:56,621 --> 00:03:00,419
 Remplace ton thème entre crochets,
 colle-le dans ton IA, et tu auras ton
 
 61
-00:02:41,267 --> 00:02:43,175
+00:03:00,439 --> 00:03:02,434
 propre classement en quelques minutes.
 
 62
-00:02:43,195 --> 00:02:45,938
+00:03:02,454 --> 00:03:05,454
 Pour cette recherche, ça m'a coûté zéro
 euro de plus.
 
 63
-00:02:45,958 --> 00:02:48,950
+00:03:05,474 --> 00:03:08,813
 Abonne-toi pour voir si le numéro un tient
 sa promesse.
