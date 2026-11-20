@@ -15,3 +15,7 @@ Indépendant de tout autre dépôt du compte.
 | `bridge.html` | pont GitHub Pages : expose les fichiers (CORS) pour injection dans YouTube Studio / Meta / TikTok |
 
 Pages : https://meralae0.github.io/tempo-assets/
+
+## Prompts gratuits / Free prompts
+- [Prompt maître v2 (FR)](prompts/prompt-maitre-v2-fr.md)
+- [Master prompt v2 (EN)](prompts/master-prompt-v2-en.md)
