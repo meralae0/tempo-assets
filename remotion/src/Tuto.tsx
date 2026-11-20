@@ -69,7 +69,7 @@ const Shot: React.FC<{d: any}> = ({d}) => {
         <div style={{position: 'absolute', left: tx, top: ty, width: IW * s, height: IH * s}}>
           <Img src={staticFile('caps/' + d.img)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
           {d.typing && <div style={{position: 'absolute', left: 528 * s, top: 290 * s, width: (1045 - 528) * s, height: 85 * s, background: '#303030', transformOrigin: 'right', transform: `scaleX(${1 - typeReveal})`, marginLeft: 0, right: 0}} />}
-          {(d.blur || []).map((r: Rect, i: number) => <div key={i} style={{position: 'absolute', left: r[0] * s, top: r[1] * s, width: r[2] * s, height: r[3] * s, backdropFilter: 'blur(9px)', background: 'rgba(30,30,30,0.35)', borderRadius: 6}} />)}
+          {([] as any[]).map((r: Rect, i: number) => <div key={i} style={{position: 'absolute', left: r[0] * s, top: r[1] * s, width: r[2] * s, height: r[3] * s, backdropFilter: 'blur(9px)', background: 'rgba(30,30,30,0.35)', borderRadius: 6}} />)}
         </div>
         {hp && <div style={{position: 'absolute', left: hp[0] - 8, top: hp[1] - 6, width: hp[2] + 16, height: hp[3] + 12, borderRadius: 12, border: `3px solid ${C.cyan}`, boxShadow: `0 0 0 ${9999 * 0}px rgba(0,0,0,0), 0 0 40px rgba(0,212,255,0.45)`, background: 'rgba(0,212,255,0.06)', opacity: hl, transform: `scale(${0.96 + 0.04 * hl})`}} />}
         {hp && d.label && <div style={{position: 'absolute', left: Math.min(VW - 560, Math.max(20, hp[0])), top: hp[1] + hp[3] + 18 > VH - 70 ? hp[1] - 70 : hp[1] + hp[3] + 18, opacity: lab, transform: `translateY(${(1 - lab) * 12}px)`, fontFamily: 'SG', fontWeight: 700, fontSize: 30, color: '#07080d', background: C.cyan, padding: '10px 20px', borderRadius: 12, boxShadow: '0 12px 40px rgba(0,212,255,0.45)', whiteSpace: 'nowrap'}}>{d.label}</div>}
@@ -109,7 +109,7 @@ const Concept: React.FC<{d: any}> = ({d}) => {
 
 const Summary: React.FC<{d: any}> = ({d}) => {
   const f = useCurrentFrame(); const {fps} = useVideoConfig();
-  const items = [['5 min', 'de création', C.cyan], ['0 €', 'en plus', C.green], ['0', 'ligne de code', C.violet]];
+  const items = [['2 min', 'de création', C.cyan], ['0 €', 'en plus', C.green], ['0', 'ligne de code', C.violet]];
   return <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'row', gap: 40}}>
     {items.map(([v, l, c], i) => { const s = spring({frame: f - i * 8, fps, config: {damping: 15}});
       return <div key={i} style={{width: 420, height: 380, borderRadius: 26, background: C.panel, border: `2px solid ${c}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', opacity: s, transform: `translateY(${(1 - s) * 50}px)`, boxShadow: `0 0 70px ${c}33`}}>

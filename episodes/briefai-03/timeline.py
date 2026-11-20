@@ -9,7 +9,7 @@ plan = {
  'seg01': [(0, S('13_test_tape.jpg', cam=[480, 280, 620, 130], blur=[[600, 240, 340, 55]], cursor=[[780, 330], [1033, 368]], click=True)),
            (2, S('14_chargeant_competence.jpg', cam=[470, 60, 640, 120], hl=[480, 128, 220, 30], label='Le Skill se charge tout seul')),
            (2.45, S('16_resultat_script.jpg', cam=[470, 290, 600, 330], cam2=[470, 330, 600, 300])),
-           (3, T([['5 minutes', 'c'], ['0 code · 0 fichier', 'w']]))],
+           (3, T([['2 minutes', 'c'], ['0 code · 0 fichier', 'w']]))],
  'seg02': [(0, dict(kind='concept'))],
  'seg03': [(0, S('02_capacites.jpg', cam=[360, 20, 850, 670], cursor=[[700, 500], [440, 276]], click=True)),
            (2, S('02_capacites.jpg', cam=[540, 255, 660, 125], hl=[548, 265, 640, 112], label='Créer et modifier des fichiers : activé', cursor=[[900, 420], [1165, 320]]))],

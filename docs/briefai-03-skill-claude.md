@@ -1,4 +1,4 @@
-# BriefAI #3 — « Crée ton propre Skill Claude en 5 minutes (sans coder, sans fichier) »
+# BriefAI #3 — « Crée ton propre Skill Claude en 2 minutes (sans coder, sans fichier) »
 
 Format tuto : vraies captures de claude.ai (compte d'Alae, 20/11/2026, barre latérale masquée) animées dans Remotion (compteur d'étapes, zooms, curseur, clics).
 Une vidéo en français + piste audio anglaise. Cadeau : la demande exacte à copier + le fichier SKILL.md (skills/scenariste-youtube sur GitHub).

@@ -48,7 +48,7 @@
    ],
    "label": "Le Skill se charge tout seul",
    "from": 201,
-   "dur": 94
+   "dur": 102
   },
   {
    "kind": "shot",
@@ -65,14 +65,14 @@
     600,
     300
    ],
-   "from": 295,
-   "dur": 115
+   "from": 303,
+   "dur": 125
   },
   {
    "kind": "title",
    "lines": [
     [
-     "5 minutes",
+     "2 minutes",
      "c"
     ],
     [
@@ -80,12 +80,12 @@
      "w"
     ]
    ],
-   "from": 410,
-   "dur": 114
+   "from": 428,
+   "dur": 123
   },
   {
    "kind": "concept",
-   "from": 523,
+   "from": 551,
    "dur": 308
   },
   {
@@ -108,7 +108,7 @@
     ]
    ],
    "click": true,
-   "from": 831,
+   "from": 859,
    "dur": 137,
    "step": 1,
    "stepTitle": "Vérifie l'option"
@@ -139,7 +139,7 @@
      320
     ]
    ],
-   "from": 968,
+   "from": 996,
    "dur": 138,
    "step": 1,
    "stepTitle": "Vérifie l'option"
@@ -164,7 +164,7 @@
     ]
    ],
    "click": true,
-   "from": 1107,
+   "from": 1135,
    "dur": 108,
    "step": 2,
    "stepTitle": "Créer avec Claude"
@@ -189,7 +189,7 @@
     ]
    ],
    "click": true,
-   "from": 1215,
+   "from": 1242,
    "dur": 49,
    "step": 2,
    "stepTitle": "Créer avec Claude"
@@ -220,7 +220,7 @@
     ]
    ],
    "click": true,
-   "from": 1264,
+   "from": 1292,
    "dur": 49,
    "step": 2,
    "stepTitle": "Créer avec Claude"
@@ -241,7 +241,7 @@
     34
    ],
    "label": "Phrase déjà écrite",
-   "from": 1313,
+   "from": 1341,
    "dur": 100,
    "step": 2,
    "stepTitle": "Créer avec Claude"
@@ -255,7 +255,7 @@
     570,
     190
    ],
-   "from": 1414,
+   "from": 1441,
    "dur": 83,
    "step": 3,
    "stepTitle": "Décris ton Skill"
@@ -270,7 +270,7 @@
     150
    ],
    "typing": true,
-   "from": 1497,
+   "from": 1525,
    "dur": 439,
    "step": 3,
    "stepTitle": "Décris ton Skill"
@@ -295,7 +295,7 @@
     ]
    ],
    "click": true,
-   "from": 1936,
+   "from": 1964,
    "dur": 18,
    "step": 3,
    "stepTitle": "Décris ton Skill"
@@ -309,7 +309,7 @@
     640,
     180
    ],
-   "from": 1954,
+   "from": 1981,
    "dur": 12,
    "step": 3,
    "stepTitle": "Décris ton Skill"
@@ -337,7 +337,7 @@
     598,
     172
    ],
-   "from": 1965,
+   "from": 1993,
    "dur": 122,
    "step": 4,
    "stepTitle": "Relis et enregistre"
@@ -370,7 +370,7 @@
     ]
    ],
    "click": true,
-   "from": 2087,
+   "from": 2115,
    "dur": 78,
    "step": 4,
    "stepTitle": "Relis et enregistre"
@@ -403,7 +403,7 @@
     ]
    ],
    "click": true,
-   "from": 2165,
+   "from": 2192,
    "dur": 44,
    "step": 4,
    "stepTitle": "Relis et enregistre"
@@ -432,7 +432,7 @@
      16
     ]
    ],
-   "from": 2208,
+   "from": 2236,
    "dur": 44,
    "step": 4,
    "stepTitle": "Relis et enregistre"
@@ -453,7 +453,7 @@
     35
    ],
    "label": "Nouveau",
-   "from": 2252,
+   "from": 2280,
    "dur": 123,
    "step": 4,
    "stepTitle": "Relis et enregistre"
@@ -475,7 +475,7 @@
      55
     ]
    ],
-   "from": 2376,
+   "from": 2404,
    "dur": 50,
    "step": 5,
    "stepTitle": "Teste-le"
@@ -503,7 +503,7 @@
      55
     ]
    ],
-   "from": 2426,
+   "from": 2454,
    "dur": 151,
    "step": 5,
    "stepTitle": "Teste-le"
@@ -524,7 +524,7 @@
     30
    ],
    "label": "Chargeant une compétence",
-   "from": 2577,
+   "from": 2605,
    "dur": 77,
    "step": 5,
    "stepTitle": "Teste-le"
@@ -544,7 +544,7 @@
     600,
     380
    ],
-   "from": 2655,
+   "from": 2682,
    "dur": 58,
    "step": 5,
    "stepTitle": "Teste-le"
@@ -561,7 +561,7 @@
      "w"
     ]
    ],
-   "from": 2713,
+   "from": 2740,
    "dur": 47
   },
   {
@@ -576,7 +576,7 @@
      "r"
     ]
    ],
-   "from": 2760,
+   "from": 2788,
    "dur": 75
   },
   {
@@ -603,7 +603,7 @@
      15
     ]
    ],
-   "from": 2835,
+   "from": 2862,
    "dur": 219
   },
   {
@@ -618,7 +618,7 @@
      "r"
     ]
    ],
-   "from": 3053,
+   "from": 3081,
    "dur": 80
   },
   {
@@ -645,18 +645,18 @@
      15
     ]
    ],
-   "from": 3133,
+   "from": 3161,
    "dur": 134
   },
   {
    "kind": "summary",
-   "from": 3267,
-   "dur": 193
+   "from": 3295,
+   "dur": 206
   },
   {
    "kind": "gift",
-   "from": 3460,
-   "dur": 111
+   "from": 3501,
+   "dur": 150
   },
   {
    "kind": "shot",
@@ -674,7 +674,7 @@
     18
    ],
    "label": ".md accepté",
-   "from": 3571,
+   "from": 3651,
    "dur": 157
   },
   {
@@ -689,16 +689,16 @@
      "w"
     ]
    ],
-   "from": 3729,
+   "from": 3808,
    "dur": 106
   },
   {
    "kind": "end",
-   "from": 3835,
+   "from": 3914,
    "dur": 218
   }
  ],
- "total": 4053,
+ "total": 4132,
  "segs": [
   [
    "seg01",
@@ -706,35 +706,35 @@
   ],
   [
    "seg02",
-   17.44
+   18.36
   ],
   [
    "seg03",
-   27.71
+   28.64
   ],
   [
    "seg04",
-   36.89
+   37.82
   ],
   [
    "seg05",
-   47.12
+   48.04
   ],
   [
    "seg06",
-   65.51
+   66.43
   ],
   [
    "seg07",
-   79.2
+   80.12
   ],
   [
    "seg08",
-   90.42
+   91.35
   ],
   [
    "seg09",
-   108.9
+   109.83
   ]
  ]
 }
