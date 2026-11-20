@@ -660,19 +660,19 @@
   {
    "id": "s1",
    "from": "seg01",
-   "to": "seg01",
+   "to": "seg02",
    "max": 45
   },
   {
    "id": "s2",
    "from": "seg04",
-   "to": "seg04b",
+   "to": "seg05",
    "max": 45
   },
   {
    "id": "s3",
-   "from": "seg03",
-   "to": "seg03",
+   "from": "seg05",
+   "to": "seg06",
    "max": 45
   }
  ]

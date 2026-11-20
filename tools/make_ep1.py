@@ -50,6 +50,6 @@ ep = {'slug': '2026-11-20-ia-jour1', 'gfx': 'gfx_ai', 'date': {'fr': 'JOUR 1', '
       'badge': {'fr': 'EXPÉRIENCE IA · JOUR 1', 'en': 'AI EXPERIMENT · DAY 1'},
       'title': {'fr': "J'ai laissé une IA créer ma chaîne YouTube", 'en': 'I let an AI build my YouTube channel'},
       'footage': {}, 'segments': segs,
-      'shorts': [{'id': 's1', 'from': 'seg01', 'to': 'seg01', 'max': 45}, {'id': 's2', 'from': 'seg04', 'to': 'seg04b', 'max': 45}, {'id': 's3', 'from': 'seg03', 'to': 'seg03', 'max': 45}]}
+      'shorts': [{'id': 's1', 'from': 'seg01', 'to': 'seg02', 'max': 45}, {'id': 's2', 'from': 'seg04', 'to': 'seg05', 'max': 45}, {'id': 's3', 'from': 'seg05', 'to': 'seg06', 'max': 45}]}
 json.dump(ep, open('segments.json', 'w'), ensure_ascii=False, indent=1)
 print([len(x) for x in J['fr']], [len(x) for x in J['en']])

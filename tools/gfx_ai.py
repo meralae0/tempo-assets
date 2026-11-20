@@ -193,7 +193,7 @@ def counters(out, dur, lang, times=None, items=None):
     def fr(i, n):
         t = i / FPS; im = background(); d = ImageDraw.Draw(im); cw = 400
         for k, (val, lab, col) in enumerate(items):
-            t0 = st[k] if k < len(st) else k * 0.7; a = ease((t - t0) / 0.6)
+            t0 = 0.3 + k * min(0.9, dur / (len(items) + 1)); a = ease((t - t0) / 0.6)
             if a <= 0: continue
             x = W / 2 - (len(items) * cw + (len(items) - 1) * 30) / 2 + k * (cw + 30); y = 300 + (1 - a) * 40
             d.rounded_rectangle((x, y, x + cw, y + 420), radius=22, fill=PANEL + (235,), outline=(tuple(col) + (200,)), width=3)
@@ -249,5 +249,6 @@ def thumbnail(out, big, gold, bg_frame=None, big2=None, avatar=None):
     y = 360 - sz * 1.05 * (len(lines) - 1) / 2
     for t, c in lines: glow_text(im, (60, y), t, sg(sz, 700), c, anchor='lm', r=12); y += sz * 1.05
     if avatar:
-        av = Image.open(avatar).convert('RGBA').resize((380, 380)); im.alpha_composite(av, (840, 170))
+        av = Image.open(avatar).convert('RGBA').resize((380, 380)); m = av.convert('L').point(lambda p: 0 if p < 40 else min(255, (p - 40) * 4))
+        av.putalpha(m); im.alpha_composite(av, (840, 170))
     im.convert('RGB').save(out, quality=92); return out

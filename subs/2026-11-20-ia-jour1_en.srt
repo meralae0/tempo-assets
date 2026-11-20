@@ -1,0 +1,188 @@
+1
+00:00:00,000 --> 00:00:02,909
+This channel was built by an artificial
+intelligence.
+
+2
+00:00:02,929 --> 00:00:06,434
+The name, the logo, the banner, the
+editing tools.
+
+3
+00:00:06,454 --> 00:00:07,181
+Everything.
+
+4
+00:00:07,201 --> 00:00:09,193
+All I typed were my passwords.
+
+5
+00:00:09,213 --> 00:00:13,989
+And I'll show you everything: the methods,
+the failures, the views, and the money.
+
+6
+00:00:14,009 --> 00:00:15,540
+This is day one.
+
+7
+00:00:15,560 --> 00:00:19,669
+At noon, I gave Claude, Anthropic's AI, a
+single instruction.
+
+8
+00:00:19,689 --> 00:00:23,326
+Build a news channel, in French and
+English, and publish everything
+
+9
+00:00:23,346 --> 00:00:24,090
+automatically.
+
+10
+00:00:24,110 --> 00:00:26,948
+Within minutes, it had a full visual
+identity.
+
+11
+00:00:26,968 --> 00:00:31,601
+Then it opened a GitHub repository and
+wrote six video editing programs on its
+
+12
+00:00:31,621 --> 00:00:31,840
+own.
+
+13
+00:00:31,860 --> 00:00:34,186
+First obstacle: the name.
+
+14
+00:00:34,206 --> 00:00:35,695
+Tempo News, taken.
+
+15
+00:00:35,715 --> 00:00:37,241
+Tempo Daily, taken.
+
+16
+00:00:37,261 --> 00:00:38,228
+Daily Brief, taken too.
+
+17
+00:00:38,248 --> 00:00:39,886
+Nine handles rejected.
+
+18
+00:00:39,906 --> 00:00:42,149
+Only one was free: Tempo Brief.
+
+19
+00:00:42,169 --> 00:00:43,580
+The channel existed.
+
+20
+00:00:43,600 --> 00:00:46,019
+Next, it checked Google Trends and picked
+a topic.
+
+21
+00:00:46,039 --> 00:00:47,735
+Anthropic going public.
+
+22
+00:00:47,755 --> 00:00:49,030
+Its own creator.
+
+23
+00:00:49,050 --> 00:00:52,830
+It edited the video, but with drone shots
+of New York that had nothing to do with
+
+24
+00:00:52,850 --> 00:00:53,299
+the story.
+
+25
+00:00:53,319 --> 00:00:55,480
+And in the voiceover, there was this.
+
+26
+00:00:55,500 --> 00:01:01,786
+“Read this as a TV news anchor, deep,
+calm, articulate, brisk but natural pace,
+
+27
+00:01:01,806 --> 00:01:04,580
+no excessive emphasis.” (in French)
+
+28
+00:01:04,600 --> 00:01:07,451
+The voice was reading its instructions out
+loud.
+
+29
+00:01:07,471 --> 00:01:08,463
+I said no.
+
+30
+00:01:08,483 --> 00:01:09,714
+Nothing was published.
+
+31
+00:01:09,734 --> 00:01:12,950
+New rule: I approve every topic before
+production.
+
+32
+00:01:12,970 --> 00:01:14,675
+And a real problem showed up.
+
+33
+00:01:14,695 --> 00:01:19,088
+For sports, movies or celebrities, there
+is almost no copyright-free footage.
+
+34
+00:01:19,108 --> 00:01:20,592
+So we changed course.
+
+35
+00:01:20,612 --> 00:01:22,723
+The channel is now called Brief A I.
+
+36
+00:01:22,743 --> 00:01:26,080
+And it covers what it knows best:
+artificial intelligence.
+
+37
+00:01:26,100 --> 00:01:31,029
+Day one: three and a half hours, a
+complete channel, six programs, one
+
+38
+00:01:31,049 --> 00:01:33,716
+rejected video, and zero views so far.
+
+39
+00:01:33,736 --> 00:01:35,866
+AI is fast at execution.
+
+40
+00:01:35,886 --> 00:01:39,120
+But deciding what is worth making is still
+a human job.
+
+41
+00:01:39,140 --> 00:01:44,580
+From now on, every week, I'll publish the
+real numbers: views, subscribers, costs
+
+42
+00:01:44,600 --> 00:01:45,389
+and revenue.
+
+43
+00:01:45,409 --> 00:01:47,460
+Subscribe to follow the experiment.
