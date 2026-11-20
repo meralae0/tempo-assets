@@ -4,3 +4,12 @@ episodes/*/footage/
 episodes/*/segments_test.json
 episodes/*/segments_real.json
 *.wav
+
+episodes/*/*.mp4
+episodes/*/*.srt
+episodes/*/shorts/
+episodes/*/timing_*.json
+episodes/*/sheets/
+episodes/*/thumb_*.jpg
+episodes/*/music.mp3
+__pycache__/
