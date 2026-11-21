@@ -1,0 +1,23 @@
+{"slug":"briefai-05-black-friday-fausse-promo","segments":[
+{"id":"seg01","title":{"fr":"La fausse remise","en":"The fake discount"},"text":{
+"fr":["Moins 29 % sur cette manette pour le Black Friday.","En vrai ? C'est moins 14 %.","Et l'IA l'a même trouvée moins chère ailleurs.","Je te montre comment vérifier n'importe quelle promo en trente secondes."],
+"en":["29 percent off this controller for Black Friday.","For real? It's 14 percent.","And the AI even found it cheaper somewhere else.","I'll show you how to check any deal in thirty seconds."]}},
+{"id":"seg02","title":{"fr":"Le piège","en":"The trap"},"text":{
+"fr":["Regarde sous le prix.","Le moins 29 % est calculé sur le « prix conseillé ».","Mais la règle, c'est le prix le plus bas des trente derniers jours.","Ici : 65 euros.","Donc la vraie remise, c'est 14 %."],
+"en":["Look under the price.","The 29 percent is calculated on the \"recommended price\".","But the rule is the lowest price of the last thirty days.","Here: 65 euros.","So the real discount is 14 percent."]}},
+{"id":"seg03","title":{"fr":"Étape 1","en":"Step 1"},"text":{
+"fr":["Étape un : copie le lien du produit, dans la barre d'adresse."],
+"en":["Step one: copy the product link from the address bar."]}},
+{"id":"seg04","title":{"fr":"Étape 2","en":"Step 2"},"text":{
+"fr":["Étape deux : ouvre une IA qui cherche sur le web, comme Claude, ChatGPT ou Gemini.","Colle le lien, et demande : c'est une vraie promo ?","Cherche l'historique du prix et le prix chez d'autres vendeurs.","Réponds en trois lignes, avec tes sources."],
+"en":["Step two: open an AI that searches the web, like Claude, ChatGPT or Gemini.","Paste the link, and ask: is this a real deal?","Look up the price history and the price at other sellers.","Answer in three lines, with your sources."]}},
+{"id":"seg05","title":{"fr":"Étape 3","en":"Step 3"},"text":{
+"fr":["Étape trois : lis le verdict.","Ici, l'IA dit : vraie promo, mais pas la meilleure.","Au Black Friday 2024, elle était déjà à 54,99 euros.","Et un autre site la vend un euro moins cher en ce moment.","Verdict : ne pas l'acheter à ce prix-là."],
+"en":["Step three: read the verdict.","Here, the AI says: a real deal, but not the best one.","On Black Friday 2024, it was already 54.99 euros.","And another site sells it one euro cheaper right now.","Verdict: don't buy it at this price."]}},
+{"id":"seg06","title":{"fr":"Deux pièges","en":"Two traps"},"text":{
+"fr":["Deux pièges.","Un : l'IA peut se tromper.","Ici, elle dit elle-même qu'elle n'a pas pu ouvrir la page.","Clique toujours sur ses sources.","Deux : compare le même modèle, la même couleur, la même version.","Sinon, la comparaison ne vaut rien."],
+"en":["Two traps.","One: the AI can be wrong.","Here, it says itself that it couldn't open the page.","Always click its sources.","Two: compare the same model, the same color, the same version.","Otherwise, the comparison is worthless."]}},
+{"id":"seg07","title":{"fr":"Résultat","en":"Result"},"text":{
+"fr":["Résultat : trente secondes, zéro euro, et tu évites une fausse bonne affaire.","Ma question exacte est gratuite dans la description.","Abonne-toi pour d'autres astuces IA avant Noël."],
+"en":["Result: thirty seconds, zero euros, and you dodge a fake bargain.","My exact question is free in the description.","Subscribe for more AI tips before Christmas."]}}
+]}

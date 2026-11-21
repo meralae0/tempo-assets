@@ -1,0 +1,129 @@
+1
+00:00:00,000 --> 00:00:03,038
+29 percent off this controller
+for Black Friday.
+
+2
+00:00:03,088 --> 00:00:05,346
+For real? It's 14 percent.
+
+3
+00:00:05,396 --> 00:00:08,129
+And the AI even found it
+cheaper somewhere else.
+
+4
+00:00:08,179 --> 00:00:11,305
+I'll show you how to check any
+deal in thirty seconds.
+
+5
+00:00:11,560 --> 00:00:13,138
+Look under the price.
+
+6
+00:00:13,188 --> 00:00:17,138
+The 29 percent is calculated on the
+"recommended price".
+
+7
+00:00:17,188 --> 00:00:21,902
+But the rule is the lowest price of
+the last thirty days.
+
+8
+00:00:21,952 --> 00:00:23,974
+Here: 65 euros.
+
+9
+00:00:24,024 --> 00:00:26,791
+So the real discount is 14 percent.
+
+10
+00:00:27,040 --> 00:00:30,630
+Step one: copy the product link
+from the address bar.
+
+11
+00:00:30,880 --> 00:00:36,448
+Step two: open an AI that searches the web,
+like Claude, ChatGPT or Gemini.
+
+12
+00:00:36,498 --> 00:00:38,377
+Paste the link, and ask: is
+this a real deal?
+
+13
+00:00:38,427 --> 00:00:42,754
+Look up the price history and the
+price at other sellers.
+
+14
+00:00:42,804 --> 00:00:45,384
+Answer in three lines, with your sources.
+
+15
+00:00:45,630 --> 00:00:47,835
+Step three: read the verdict.
+
+16
+00:00:47,885 --> 00:00:51,804
+Here, the AI says: a real deal,
+but not the best one.
+
+17
+00:00:51,854 --> 00:00:56,865
+On Black Friday 2024, it was
+already 54.99 euros.
+
+18
+00:00:56,915 --> 00:01:00,066
+And another site sells it one
+euro cheaper right now.
+
+19
+00:01:00,116 --> 00:01:02,486
+Verdict: don't buy it at this price.
+
+20
+00:01:02,740 --> 00:01:03,821
+Two traps.
+
+21
+00:01:03,871 --> 00:01:06,284
+One: the AI can be wrong.
+
+22
+00:01:06,334 --> 00:01:09,583
+Here, it says itself that it
+couldn't open the page.
+
+23
+00:01:09,633 --> 00:01:12,096
+Always click its sources.
+
+24
+00:01:12,146 --> 00:01:16,061
+Two: compare the same model, the same
+color, the same version.
+
+25
+00:01:16,111 --> 00:01:18,597
+Otherwise, the comparison is worthless.
+
+26
+00:01:18,840 --> 00:01:23,838
+Result: thirty seconds, zero euros, and
+you dodge a fake bargain.
+
+27
+00:01:23,888 --> 00:01:26,749
+My exact question is free in
+the description.
+
+28
+00:01:26,799 --> 00:01:29,550
+Subscribe for more AI tips
+before Christmas.
+

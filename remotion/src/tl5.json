@@ -1,0 +1,517 @@
+{
+ "shots": [
+  {
+   "kind": "shot",
+   "img": "01_offres.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    270,
+    215,
+    440,
+    330
+   ],
+   "hl": [
+    283,
+    417,
+    190,
+    42
+   ],
+   "label": "−29 % ?",
+   "from": 0,
+   "dur": 93
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    794,
+    590,
+    250,
+    18
+   ],
+   "label": "En vrai : −14 %",
+   "from": 93,
+   "dur": 69
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    330,
+    570,
+    85
+   ],
+   "hl": [
+    486,
+    341,
+    550,
+    62
+   ],
+   "label": "Moins chère ailleurs",
+   "from": 162,
+   "dur": 83
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "30 secondes",
+     "c"
+    ],
+    [
+     "pour vérifier une promo",
+     "w"
+    ]
+   ],
+   "from": 245,
+   "dur": 101
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "from": 347,
+   "dur": 49
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    794,
+    573,
+    335,
+    18
+   ],
+   "label": "calculé sur le « prix conseillé »",
+   "from": 395,
+   "dur": 120
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    794,
+    590,
+    250,
+    18
+   ],
+   "label": "la règle : prix le plus bas des 30 jours",
+   "from": 515,
+   "dur": 143
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    990,
+    590,
+    54,
+    18
+   ],
+   "label": "65 €",
+   "from": 658,
+   "dur": 62
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "−14 %",
+     "g"
+    ],
+    [
+     "la vraie remise",
+     "w"
+    ]
+   ],
+   "from": 721,
+   "dur": 91
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr/dp/B094WLFGD3",
+   "urlHl": "Ctrl + C",
+   "cam": [
+    160,
+    170,
+    1250,
+    520
+   ],
+   "from": 811,
+   "dur": 115,
+   "step": 1,
+   "stepTitle": "Copie le lien"
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Claude · ChatGPT · Gemini",
+     "c"
+    ],
+    [
+     "une IA qui cherche sur le web",
+     "w"
+    ]
+   ],
+   "from": 926,
+   "dur": 169,
+   "step": 2,
+   "stepTitle": "Demande à l'IA"
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "typing": true,
+   "from": 1095,
+   "dur": 58,
+   "step": 2,
+   "stepTitle": "Demande à l'IA"
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "hl": [
+    525,
+    315,
+    485,
+    34
+   ],
+   "label": "historique + autres vendeurs",
+   "from": 1153,
+   "dur": 131,
+   "step": 2,
+   "stepTitle": "Demande à l'IA"
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "hl": [
+    525,
+    333,
+    485,
+    33
+   ],
+   "label": "3 lignes + sources",
+   "cursor": [
+    [
+     800,
+     400
+    ],
+    [
+     1033,
+     382
+    ]
+   ],
+   "click": true,
+   "from": 1284,
+   "dur": 85,
+   "step": 2,
+   "stepTitle": "Demande à l'IA"
+  },
+  {
+   "kind": "shot",
+   "img": "04_recherche.jpg",
+   "cam": [
+    470,
+    60,
+    640,
+    220
+   ],
+   "hl": [
+    486,
+    248,
+    200,
+    18
+   ],
+   "label": "elle cherche sur le web",
+   "from": 1369,
+   "dur": 68,
+   "step": 3,
+   "stepTitle": "Lis le verdict"
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "hl": [
+    486,
+    281,
+    550,
+    15
+   ],
+   "label": "vraie promo, mais pas la meilleure",
+   "from": 1437,
+   "dur": 119,
+   "step": 3,
+   "stepTitle": "Lis le verdict"
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "hl": [
+    486,
+    298,
+    550,
+    28
+   ],
+   "label": "54,99 € au Black Friday 2024",
+   "from": 1556,
+   "dur": 152,
+   "step": 3,
+   "stepTitle": "Lis le verdict"
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    335,
+    570,
+    75
+   ],
+   "hl": [
+    486,
+    341,
+    550,
+    30
+   ],
+   "label": "un autre site : 54,99 €",
+   "from": 1707,
+   "dur": 96,
+   "step": 3,
+   "stepTitle": "Lis le verdict"
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    410,
+    570,
+    65
+   ],
+   "hl": [
+    486,
+    419,
+    550,
+    48
+   ],
+   "label": "Verdict : attendre",
+   "from": 1803,
+   "dur": 79,
+   "step": 3,
+   "stepTitle": "Lis le verdict"
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "2 pièges",
+     "r"
+    ]
+   ],
+   "from": 1882,
+   "dur": 34
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "1 · l'IA peut",
+     "w"
+    ],
+    [
+     "se tromper",
+     "r"
+    ]
+   ],
+   "from": 1916,
+   "dur": 74
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    470,
+    570,
+    50
+   ],
+   "hl": [
+    486,
+    480,
+    510,
+    30
+   ],
+   "label": "elle n'a pas pu ouvrir la page",
+   "from": 1990,
+   "dur": 99
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    270,
+    590,
+    210
+   ],
+   "hl": [
+    872,
+    312,
+    128,
+    18
+   ],
+   "label": "clique sur les sources",
+   "from": 2089,
+   "dur": 75
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    255,
+    400,
+    170
+   ],
+   "hl": [
+    794,
+    365,
+    355,
+    50
+   ],
+   "label": "même modèle, même couleur",
+   "from": 2164,
+   "dur": 119
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "sinon",
+     "w"
+    ],
+    [
+     "ça ne vaut rien",
+     "r"
+    ]
+   ],
+   "from": 2283,
+   "dur": 82
+  },
+  {
+   "kind": "summary",
+   "from": 2365,
+   "dur": 151
+  },
+  {
+   "kind": "gift",
+   "from": 2517,
+   "dur": 87
+  },
+  {
+   "kind": "end",
+   "from": 2604,
+   "dur": 240
+  }
+ ],
+ "total": 2844,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   11.56
+  ],
+  [
+   "seg03",
+   27.04
+  ],
+  [
+   "seg04",
+   30.88
+  ],
+  [
+   "seg05",
+   45.63
+  ],
+  [
+   "seg06",
+   62.74
+  ],
+  [
+   "seg07",
+   78.84
+  ]
+ ]
+}

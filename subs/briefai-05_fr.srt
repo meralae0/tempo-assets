@@ -1,0 +1,129 @@
+1
+00:00:00,000 --> 00:00:03,038
+Moins 29 % sur cette manette
+pour le Black Friday.
+
+2
+00:00:03,088 --> 00:00:05,346
+En vrai ? C'est moins 14 %.
+
+3
+00:00:05,396 --> 00:00:08,129
+Et l'IA l'a même trouvée moins
+chère ailleurs.
+
+4
+00:00:08,179 --> 00:00:11,305
+Je te montre comment vérifier n'importe
+quelle promo en trente secondes.
+
+5
+00:00:11,560 --> 00:00:13,138
+Regarde sous le prix.
+
+6
+00:00:13,188 --> 00:00:17,138
+Le moins 29 % est calculé sur le
+« prix conseillé ».
+
+7
+00:00:17,188 --> 00:00:21,902
+Mais la règle, c'est le prix le plus bas
+des trente derniers jours.
+
+8
+00:00:21,952 --> 00:00:23,974
+Ici : 65 euros.
+
+9
+00:00:24,024 --> 00:00:26,791
+Donc la vraie remise, c'est 14 %.
+
+10
+00:00:27,040 --> 00:00:30,630
+Étape un : copie le lien du produit,
+dans la barre d'adresse.
+
+11
+00:00:30,880 --> 00:00:36,448
+Étape deux : ouvre une IA qui cherche sur le
+web, comme Claude, ChatGPT ou Gemini.
+
+12
+00:00:36,498 --> 00:00:38,377
+Colle le lien, et demande :
+c'est une vraie promo ?
+
+13
+00:00:38,427 --> 00:00:42,754
+Cherche l'historique du prix et le
+prix chez d'autres vendeurs.
+
+14
+00:00:42,804 --> 00:00:45,384
+Réponds en trois lignes, avec tes sources.
+
+15
+00:00:45,630 --> 00:00:47,835
+Étape trois : lis le verdict.
+
+16
+00:00:47,885 --> 00:00:51,804
+Ici, l'IA dit : vraie promo,
+mais pas la meilleure.
+
+17
+00:00:51,854 --> 00:00:56,865
+Au Black Friday 2024, elle était
+déjà à 54,99 euros.
+
+18
+00:00:56,915 --> 00:01:00,066
+Et un autre site la vend un euro
+moins cher en ce moment.
+
+19
+00:01:00,116 --> 00:01:02,486
+Verdict : ne pas l'acheter à ce prix-là.
+
+20
+00:01:02,740 --> 00:01:03,821
+Deux pièges.
+
+21
+00:01:03,871 --> 00:01:06,284
+Un : l'IA peut se tromper.
+
+22
+00:01:06,334 --> 00:01:09,583
+Ici, elle dit elle-même qu'elle n'a
+pas pu ouvrir la page.
+
+23
+00:01:09,633 --> 00:01:12,096
+Clique toujours sur ses sources.
+
+24
+00:01:12,146 --> 00:01:16,061
+Deux : compare le même modèle, la même
+couleur, la même version.
+
+25
+00:01:16,111 --> 00:01:18,597
+Sinon, la comparaison ne vaut rien.
+
+26
+00:01:18,840 --> 00:01:23,838
+Résultat : trente secondes, zéro euro, et tu
+évites une fausse bonne affaire.
+
+27
+00:01:23,888 --> 00:01:26,749
+Ma question exacte est gratuite
+dans la description.
+
+28
+00:01:26,799 --> 00:01:29,550
+Abonne-toi pour d'autres
+astuces IA avant Noël.
+
