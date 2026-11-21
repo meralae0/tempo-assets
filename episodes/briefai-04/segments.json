@@ -1,0 +1,35 @@
+{"slug":"briefai-04-1000-ia-fermat","segments":[
+{"id":"seg01","title":{"fr":"Mille IA","en":"A thousand AIs"},"text":{
+"fr":["Mille IA.","Un seul objectif : le théorème le plus célèbre des maths.","Aucun humain pour les diriger.","En moins de trente heures, elles ont réussi.","Voilà comment elles se sont organisées, et ce que ça change pour toi."],
+"en":["A thousand AIs.","One goal: the most famous theorem in math.","No human to lead them.","In under thirty hours, they did it.","Here's how they organized, and what it changes for you."]}},
+{"id":"seg02","title":{"fr":"Le problème","en":"The problem"},"text":{
+"fr":["En 1637, Pierre de Fermat écrit dans une marge : a puissance n plus b puissance n ne donne jamais c puissance n, dès que n dépasse deux.","Il dit avoir une preuve, mais la marge est trop petite.","Il faudra attendre 1995 : Andrew Wiles publie une preuve de 129 pages, si dure que la vérifier prend des mois."],
+"en":["In 1637, Pierre de Fermat writes in a margin: a to the n plus b to the n never equals c to the n, once n is greater than two.","He says he has a proof, but the margin is too small.","It takes until 1995: Andrew Wiles publishes a 129-page proof, so hard that checking it takes months."]}},
+{"id":"seg03","title":{"fr":"Septembre","en":"September"},"text":{
+"fr":["En septembre 2026, Anthropic fait réécrire cette preuve par Claude en Lean, un langage où l'ordinateur vérifie chaque étape.","Des dizaines d'agents, onze jours, treize millions de lignes.","Une première."],
+"en":["In September 2026, Anthropic has Claude rewrite this proof in Lean, a language where the computer checks every step.","Dozens of agents, eleven days, thirteen million lines.","A first."]}},
+{"id":"seg04","title":{"fr":"L'équipe","en":"The team"},"text":{
+"fr":["Le 9 novembre, nouvelle expérience : mille agents Claude Fable 5.2.","Un chef, neuf cent quatre-vingt-dix-neuf aides.","Pas de messagerie, pas d'internet.","Juste Git et une base de données partagée."],
+"en":["On November 9, a new experiment: a thousand Claude Fable 5.2 agents.","One lead, nine hundred ninety-nine helpers.","No messaging, no internet.","Just Git and a shared database."]}},
+{"id":"seg05","title":{"fr":"L'organisation","en":"The setup"},"text":{
+"fr":["En dix minutes, le chef crée cinq tableaux : les ordres, qui fait quoi, les notes, les tâches, et le travail terminé.","Puis il découpe le but en soixante étapes et forme des équipes."],
+"en":["In ten minutes, the lead creates five tables: orders, who does what, notes, tasks, and finished work.","Then he splits the goal into sixty steps and forms crews."]}},
+{"id":"seg06","title":{"fr":"Premier choc","en":"First shock"},"text":{
+"fr":["Premier choc : les aides jugent quarante-sept étapes sur soixante impossibles dans le temps donné.","Trois sont déjà prouvées.","Le chef envoie presque tout le monde sur les dix autres.","En soixante-dix minutes, elles tombent toutes.","Et beaucoup d'étapes « impossibles » seront prouvées plus tard."],
+"en":["First shock: the helpers judge forty-seven of the sixty steps impossible in the time given.","Three are already proved.","The lead sends almost everyone to the ten others.","In seventy minutes, they all fall.","And many \"impossible\" steps get proved later."]}},
+{"id":"seg07","title":{"fr":"Le mur","en":"The wall"},"text":{
+"fr":["Le vrai mur s'appelle Langlands-Tunnell.","Son capitaine estime : près d'un million de lignes, et moins d'une chance sur cent.","À la dix-huitième heure, tout s'arrête.","Les humains relancent depuis la dernière sauvegarde.","Le chef envoie alors environ sept cent cinquante aides sur ce mur.","Chaque morceau trop dur est redécoupé : deux mille quatre cent dix-huit tâches, sur dix niveaux."],
+"en":["The real wall is called Langlands-Tunnell.","Its captain estimates: close to a million lines, and less than a one percent chance.","At hour eighteen, everything stops.","The humans restart from the last save.","The lead then sends about seven hundred fifty helpers to this wall.","Every piece that's too hard gets split again: two thousand four hundred eighteen tasks, ten levels deep."]}},
+{"id":"seg08","title":{"fr":"Le résultat","en":"The result"},"text":{
+"fr":["Heure 28,4 : Langlands-Tunnell est prouvé.","Heure 28,7 : Fermat est vérifié par l'ordinateur.","Onze jours en septembre, moins de trente heures en novembre, avec une preuve environ sept fois plus courte."],
+"en":["Hour 28.4: Langlands-Tunnell is proved.","Hour 28.7: Fermat is checked by the computer.","Eleven days in September, under thirty hours in November, with a proof about seven times shorter."]}},
+{"id":"seg09","title":{"fr":"La sécurité","en":"Safety"},"text":{
+"fr":["Et la sécurité ?","Chaque agent tourne dans sa propre machine, sans internet.","Un surveillant automatique vérifie chaque commande avant qu'elle s'exécute.","Plus d'un million d'actions : aucune n'a été bloquée."],
+"en":["What about safety?","Each agent runs in its own machine, with no internet.","An automatic monitor checks every command before it runs.","Over a million actions: none was blocked."]}},
+{"id":"seg10","title":{"fr":"Attention","en":"Careful"},"text":{
+"fr":["Attention : l'IA n'a pas découvert la preuve.","Wiles l'avait trouvée il y a trente ans.","Elle l'a réécrite pour qu'un ordinateur la vérifie.","Anthropic parle elle-même d'une expérience jouet."],
+"en":["Careful: the AI did not discover the proof.","Wiles found it thirty years ago.","It rewrote it so a computer can check it.","Anthropic itself calls it a toy experiment."]}},
+{"id":"seg11","title":{"fr":"Pour toi","en":"For you"},"text":{
+"fr":["Ce qu'il faut retenir pour toi : même mille IA abandonnent trop tôt.","La solution marche aussi avec une seule.","Découpe ta grosse tâche en petites.","Et quand l'IA te dit « impossible », demande-lui de découper encore.","Les sources sont dans la description.","Abonne-toi pour la suite."],
+"en":["The takeaway for you: even a thousand AIs give up too early.","The fix works with just one, too.","Split your big task into small ones.","And when the AI tells you \"impossible\", ask it to split again.","The sources are in the description.","Subscribe for what's next."]}}
+]}
