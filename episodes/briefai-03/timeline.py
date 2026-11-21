@@ -38,7 +38,7 @@ plan = {
  'seg09': [(0, dict(kind='summary')),
            (1, dict(kind='gift')),
            (2, S('05_import_vide.jpg', cam=[380, 20, 800, 120], hl=[985, 88, 100, 18], label='.md accepté')),
-           (3, T([['vidéo 4', 'c'], ['les vrais chiffres', 'w']])),
+           (3, T([['Prochaine vidéo', 'c'], ['les vrais chiffres', 'w']])),
            (4, dict(kind='end'))]}
 steps = {'seg03': 1, 'seg04': 2, 'seg05': 3, 'seg06': 4, 'seg07': 5}
 titles = {'seg03': 'Vérifie l\'option', 'seg04': 'Créer avec Claude', 'seg05': 'Décris ton Skill', 'seg06': 'Relis et enregistre', 'seg07': 'Teste-le'}

@@ -154,7 +154,7 @@ const End: React.FC<{d: any}> = ({d}) => {
     <Img src={staticFile('avatar_briefai.png')} style={{width: 200, height: 200, opacity: s, transform: `scale(${0.8 + 0.2 * s})`}} />
     <div style={{fontFamily: 'SG', fontWeight: 700, fontSize: 96, color: C.white, marginTop: 20, opacity: s}}>Brief<span style={{color: C.cyan}}>AI</span></div>
     <div style={{marginTop: 30, fontFamily: 'SG', fontWeight: 700, fontSize: 40, color: '#07080d', background: C.cyan, padding: '18px 44px', borderRadius: 16, opacity: b, transform: `scale(${0.9 + 0.1 * b})`, boxShadow: '0 16px 50px rgba(0,212,255,0.4)'}}>S'abonner</div>
-    <div style={{marginTop: 26, fontFamily: 'JB', fontSize: 28, color: C.grey, opacity: b}}>vidéo 4 · les vrais chiffres après une semaine</div>
+    <div style={{marginTop: 26, fontFamily: 'JB', fontSize: 28, color: C.grey, opacity: b}}>prochaine vidéo · les vrais chiffres après une semaine</div>
   </AbsoluteFill>;
 };
 
