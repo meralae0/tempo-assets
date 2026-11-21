@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:00,417
+Regarde.
+
+2
+00:00:00,467 --> 00:00:06,644
+Je demande juste : « écris le script d'une
+vidéo sur un logo gratuit avec l'IA ».
+
+3
+00:00:06,694 --> 00:00:10,097
+Claude charge mon Skill, vérifie
+les boutons sur le site,
+
+4
+00:00:10,147 --> 00:00:14,217
+et me rend un script complet : les
+étapes, les erreurs, les sources.
+
+5
+00:00:14,267 --> 00:00:16,380
+Dans deux minutes, tu auras le même.
+
+6
+00:00:16,430 --> 00:00:18,113
+Sans coder, et sans fichier.
+
+7
+00:00:18,360 --> 00:00:21,557
+Un Skill, c'est une fiche
+d'instructions que Claude garde.
+
+8
+00:00:21,607 --> 00:00:25,668
+Quand ta demande correspond, il l'ouvre
+tout seul et suit tes règles.
+
+9
+00:00:25,718 --> 00:00:28,383
+Tu l'écris une fois, il sert
+à chaque fois.
+
+10
+00:00:28,640 --> 00:00:30,607
+Étape un : vérifie l'option.
+
+11
+00:00:30,657 --> 00:00:33,159
+Ouvre les Paramètres, puis Capacités.
+
+12
+00:00:33,209 --> 00:00:36,109
+« Créer et modifier des fichiers
+» doit être activé.
+
+13
+00:00:36,159 --> 00:00:37,573
+Les Skills en ont besoin.
+
+14
+00:00:37,820 --> 00:00:41,360
+Étape deux : ouvre Plug-ins,
+puis l'onglet Skills.
+
+15
+00:00:41,410 --> 00:00:44,650
+Clique sur Ajouter, puis sur «
+Créer avec Claude ».
+
+16
+00:00:44,700 --> 00:00:47,794
+Une conversation s'ouvre, avec une
+phrase déjà écrite.
+
+17
+00:00:48,040 --> 00:00:50,771
+Étape trois : remplace-la par ta demande.
+
+18
+00:00:50,821 --> 00:00:53,575
+Dis ce que le Skill doit
+faire, et comment.
+
+19
+00:00:53,625 --> 00:00:57,007
+Moi, je veux un scénariste : une
+accroche de cinq secondes,
+
+20
+00:00:57,057 --> 00:01:01,835
+des étapes avec le bouton exact, deux erreurs
+fréquentes, puis le temps et le coût.
+
+21
+00:01:01,885 --> 00:01:05,405
+Phrases courtes, et une source
+pour chaque chiffre.
+
+22
+00:01:05,455 --> 00:01:06,179
+Envoie.
+
+23
+00:01:06,430 --> 00:01:10,433
+Étape quatre : Claude écrit le Skill
+et te montre une carte.
+
+24
+00:01:10,483 --> 00:01:13,023
+Ouvre « Contenu » pour le relire.
+
+25
+00:01:13,073 --> 00:01:15,954
+Si c'est bon, clique sur Enregistrer.
+
+26
+00:01:16,004 --> 00:01:19,870
+Le Skill apparaît dans tes Plug-ins,
+avec l'étiquette Nouveau.
+
+27
+00:01:20,120 --> 00:01:21,747
+Étape cinq : teste-le.
+
+28
+00:01:21,797 --> 00:01:25,029
+Ouvre une nouvelle conversation et
+demande normalement.
+
+29
+00:01:25,079 --> 00:01:26,779
+Pas besoin de citer le Skill.
+
+30
+00:01:26,829 --> 00:01:29,357
+Regarde : « Chargeant une compétence ».
+
+31
+00:01:29,407 --> 00:01:31,096
+Claude l'a trouvé tout seul.
+
+32
+00:01:31,350 --> 00:01:32,878
+Deux erreurs fréquentes.
+
+33
+00:01:32,928 --> 00:01:35,364
+Un : le Skill ne se déclenche pas.
+
+34
+00:01:35,414 --> 00:01:38,272
+C'est presque toujours la
+description, trop vague.
+
+35
+00:01:38,322 --> 00:01:42,652
+Demande à Claude de la réécrire avec les
+mots que tu tapes vraiment.
+
+36
+00:01:42,702 --> 00:01:45,313
+Deux : tu enregistres sans relire.
+
+37
+00:01:45,363 --> 00:01:49,579
+Ouvre toujours « Contenu » : c'est là que tu
+vois s'il a bien compris tes règles.
+
+38
+00:01:49,830 --> 00:01:55,628
+Résultat : deux minutes, zéro euro de plus, et
+un assistant qui écrit à ta façon,
+
+39
+00:01:55,678 --> 00:01:56,639
+à chaque fois.
+
+40
+00:01:56,689 --> 00:02:01,646
+Ma demande exacte et mon fichier Skill sont
+gratuits dans la description.
+
+41
+00:02:01,696 --> 00:02:06,882
+Si tu as déjà un fichier SKILL point md, le menu
+Ajouter permet aussi de l'importer.
+
+42
+00:02:06,932 --> 00:02:10,427
+Prochaine vidéo : les vrais chiffres de
+la chaîne après une semaine.
+
+43
+00:02:10,477 --> 00:02:11,495
+Abonne-toi.
+

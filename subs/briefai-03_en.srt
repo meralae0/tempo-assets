@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:00,385
+Look.
+
+2
+00:00:00,435 --> 00:00:06,644
+I just ask: "write the script for a video
+about a free logo with AI".
+
+3
+00:00:06,694 --> 00:00:09,389
+Claude loads my Skill, checks the
+buttons on the website,
+
+4
+00:00:09,439 --> 00:00:12,712
+and gives me a complete script: the
+steps, the mistakes, the sources.
+
+5
+00:00:12,762 --> 00:00:14,479
+In two minutes, you'll have the same.
+
+6
+00:00:14,529 --> 00:00:18,113
+No code, and no file.
+
+7
+00:00:18,360 --> 00:00:21,557
+A Skill is an instruction sheet
+that Claude keeps.
+
+8
+00:00:21,607 --> 00:00:25,668
+When your request matches, it opens it on
+its own and follows your rules.
+
+9
+00:00:25,718 --> 00:00:28,383
+You write it once, and it
+works every time.
+
+10
+00:00:28,640 --> 00:00:30,607
+Step one: check the setting.
+
+11
+00:00:30,657 --> 00:00:33,159
+Open Settings, then Capabilities.
+
+12
+00:00:33,209 --> 00:00:36,109
+"Create and edit files" must be turned on.
+
+13
+00:00:36,159 --> 00:00:37,573
+Skills need it.
+
+14
+00:00:37,820 --> 00:00:41,360
+Step two: open Plugins, then
+the Skills tab.
+
+15
+00:00:41,410 --> 00:00:44,650
+Click Add, then "Create with Claude".
+
+16
+00:00:44,700 --> 00:00:47,794
+A conversation opens, with a
+sentence already written.
+
+17
+00:00:48,040 --> 00:00:50,771
+Step three: replace it with your request.
+
+18
+00:00:50,821 --> 00:00:53,575
+Say what the Skill should do, and how.
+
+19
+00:00:53,625 --> 00:00:58,504
+I want a scriptwriter: a five-second hook,
+steps with the exact button,
+
+20
+00:00:58,554 --> 00:01:01,835
+two common mistakes, then the
+time and the cost.
+
+21
+00:01:01,885 --> 00:01:05,405
+Short sentences, and a source
+for every number.
+
+22
+00:01:05,455 --> 00:01:06,179
+Send it.
+
+23
+00:01:06,430 --> 00:01:10,433
+Step four: Claude writes the Skill
+and shows you a card.
+
+24
+00:01:10,483 --> 00:01:13,023
+Open "Content" to read it.
+
+25
+00:01:13,073 --> 00:01:15,954
+If it looks right, click Save.
+
+26
+00:01:16,004 --> 00:01:19,870
+The Skill shows up in your
+Plugins, with a New label.
+
+27
+00:01:20,120 --> 00:01:21,747
+Step five: test it.
+
+28
+00:01:21,797 --> 00:01:25,029
+Open a new conversation and ask normally.
+
+29
+00:01:25,079 --> 00:01:26,779
+No need to mention the Skill.
+
+30
+00:01:26,829 --> 00:01:29,357
+Look: "Loading a skill".
+
+31
+00:01:29,407 --> 00:01:31,096
+Claude found it on its own.
+
+32
+00:01:31,350 --> 00:01:32,878
+Two common mistakes.
+
+33
+00:01:32,928 --> 00:01:35,364
+One: the Skill never triggers.
+
+34
+00:01:35,414 --> 00:01:38,272
+It's almost always the
+description, too vague.
+
+35
+00:01:38,322 --> 00:01:42,652
+Ask Claude to rewrite it with the
+words you actually type.
+
+36
+00:01:42,702 --> 00:01:45,313
+Two: you save without reading.
+
+37
+00:01:45,363 --> 00:01:49,579
+Always open "Content": that's where you see
+if it understood your rules.
+
+38
+00:01:49,830 --> 00:01:55,810
+The result: two minutes, zero extra cost, and
+an assistant that writes your way,
+
+39
+00:01:55,860 --> 00:01:56,639
+every time.
+
+40
+00:01:56,689 --> 00:02:01,646
+My exact request and my Skill file are
+free in the description.
+
+41
+00:02:01,696 --> 00:02:06,882
+If you already have a SKILL dot md file, the
+Add menu also lets you import it.
+
+42
+00:02:06,932 --> 00:02:10,427
+Next video: the channel's real
+numbers after one week.
+
+43
+00:02:10,477 --> 00:02:11,495
+Subscribe.
+
