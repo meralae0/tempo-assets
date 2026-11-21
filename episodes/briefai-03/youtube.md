@@ -20,7 +20,7 @@ Chapitres
 00:00 Résultat
 00:18 C'est quoi un Skill
 00:28 Étape 1 · Vérifie l'option
-00:37 Étape 2 · Créer avec Claude
+00:38 Étape 2 · Créer avec Claude
 00:48 Étape 3 · Décris ton Skill
 01:06 Étape 4 · Relis et enregistre
 01:20 Étape 5 · Teste-le
@@ -50,7 +50,7 @@ Chapters
 00:00 Result
 00:18 What is a Skill
 00:28 Step 1 · Check the setting
-00:37 Step 2 · Create with Claude
+00:38 Step 2 · Create with Claude
 00:48 Step 3 · Describe your Skill
 01:06 Step 4 · Review and save
 01:20 Step 5 · Test it
