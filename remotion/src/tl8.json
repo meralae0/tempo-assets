@@ -1,0 +1,537 @@
+{
+ "shots": [
+  {
+   "kind": "shot",
+   "img": "01_explore.jpg",
+   "url": "google.com/travel/explore",
+   "cam0": [
+    340,
+    60,
+    1228,
+    691
+   ],
+   "cam": [
+    560,
+    150,
+    900,
+    430
+   ],
+   "scroll": true,
+   "from": 0,
+   "dur": 333
+  },
+  {
+   "kind": "clip",
+   "src": "mcr_10883708.mp4",
+   "tag": "Manchester",
+   "from": 333,
+   "dur": 41
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    362,
+    328,
+    832,
+    72
+   ],
+   "label": "66 € aller-retour",
+   "from": 374,
+   "dur": 171
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    670,
+    348,
+    100,
+    22
+   ],
+   "label": "Beauvais · sans bagage cabine",
+   "from": 545,
+   "dur": 127
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    362,
+    405,
+    832,
+    58
+   ],
+   "label": "92 € depuis CDG",
+   "from": 672,
+   "dur": 72
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "3 voyages",
+     "w"
+    ],
+    [
+     "3 méthodes",
+     "c"
+    ]
+   ],
+   "from": 743,
+   "dur": 169
+  },
+  {
+   "kind": "chapter",
+   "n": 1,
+   "who": "Solo",
+   "budget": "< 500 €",
+   "method": "trier par prix · note 8+",
+   "from": 912,
+   "dur": 108
+  },
+  {
+   "kind": "shot",
+   "img": "03_booking_solo.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    540,
+    180,
+    700,
+    380
+   ],
+   "hl": [
+    560,
+    228,
+    245,
+    28
+   ],
+   "label": "prix le plus bas",
+   "from": 1020,
+   "dur": 152
+  },
+  {
+   "kind": "shot",
+   "img": "03_booking_solo.jpg",
+   "url": "booking.com",
+   "cam0": [
+    540,
+    180,
+    700,
+    380
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    235
+   ],
+   "hl": [
+    1100,
+    440,
+    115,
+    45
+   ],
+   "label": "228 € · 5 nuits · 8,6",
+   "from": 1172,
+   "dur": 309
+  },
+  {
+   "kind": "chapter",
+   "n": 2,
+   "who": "Couple",
+   "budget": "1 000 €",
+   "method": "une seule question à une IA",
+   "from": 1481,
+   "dur": 92
+  },
+  {
+   "kind": "shot",
+   "img": "07_ai_prompt.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    560,
+    55,
+    540,
+    120
+   ],
+   "hl": [
+    575,
+    68,
+    510,
+    88
+   ],
+   "from": 1573,
+   "dur": 376
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    30,
+    640,
+    250
+   ],
+   "hl": [
+    486,
+    62,
+    600,
+    205
+   ],
+   "from": 1949,
+   "dur": 139
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    470,
+    30,
+    640,
+    250
+   ],
+   "cam": [
+    480,
+    470,
+    600,
+    130
+   ],
+   "hl": [
+    510,
+    548,
+    525,
+    30
+   ],
+   "label": "fermée l'an dernier",
+   "from": 2088,
+   "dur": 262
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    480,
+    470,
+    600,
+    130
+   ],
+   "cam": [
+    480,
+    390,
+    600,
+    90
+   ],
+   "hl": [
+    510,
+    400,
+    525,
+    64
+   ],
+   "label": "jour sans match",
+   "from": 2350,
+   "dur": 113
+  },
+  {
+   "kind": "shot",
+   "img": "09_ai_total.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    160,
+    640,
+    260
+   ],
+   "hl": [
+    486,
+    377,
+    600,
+    24
+   ],
+   "label": "955 € pour deux",
+   "from": 2464,
+   "dur": 83
+  },
+  {
+   "kind": "shot",
+   "img": "07_ai_prompt.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    270,
+    600,
+    90
+   ],
+   "hl": [
+    486,
+    282,
+    555,
+    60
+   ],
+   "label": "« estimations »",
+   "from": 2547,
+   "dur": 133
+  },
+  {
+   "kind": "shot",
+   "img": "04_booking_couple.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    265
+   ],
+   "hl": [
+    1050,
+    455,
+    165,
+    75
+   ],
+   "label": "prix réel, à vérifier",
+   "from": 2680,
+   "dur": 78
+  },
+  {
+   "kind": "chapter",
+   "n": 3,
+   "who": "Famille de 4",
+   "budget": "2 500 €",
+   "method": "la carte d'abord",
+   "from": 2757,
+   "dur": 200
+  },
+  {
+   "kind": "shot",
+   "img": "06_maps_halal.jpg",
+   "url": "google.com/maps",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    0,
+    0,
+    1200,
+    751
+   ],
+   "hl": [
+    70,
+    110,
+    325,
+    560
+   ],
+   "label": "restaurants halal",
+   "from": 2957,
+   "dur": 163
+  },
+  {
+   "kind": "shot",
+   "img": "05_booking_famille.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    290
+   ],
+   "hl": [
+    1150,
+    340,
+    70,
+    40
+   ],
+   "label": "9,2 · 450 m du centre",
+   "from": 3121,
+   "dur": 172
+  },
+  {
+   "kind": "shot",
+   "img": "05_booking_famille.jpg",
+   "url": "booking.com",
+   "cam0": [
+    555,
+    325,
+    680,
+    290
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    290
+   ],
+   "hl": [
+    788,
+    488,
+    425,
+    82
+   ],
+   "label": "1 059 € · enfants gratuits",
+   "from": 3293,
+   "dur": 146
+  },
+  {
+   "kind": "clip",
+   "src": "mcr_10883708.mp4",
+   "start": 300,
+   "tag": "Manchester",
+   "from": 3439,
+   "dur": 305
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    880,
+    530,
+    330,
+    120
+   ],
+   "hl": [
+    912,
+    548,
+    265,
+    85
+   ],
+   "label": "41 € le 27",
+   "from": 3744,
+   "dur": 395
+  },
+  {
+   "kind": "end",
+   "from": 4139,
+   "dur": 211
+  }
+ ],
+ "total": 4350,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   11.09
+  ],
+  [
+   "seg03",
+   24.77
+  ],
+  [
+   "seg04",
+   30.39
+  ],
+  [
+   "seg05",
+   49.35
+  ],
+  [
+   "seg06",
+   64.95
+  ],
+  [
+   "seg07",
+   82.13
+  ],
+  [
+   "seg08",
+   91.91
+  ],
+  [
+   "seg09",
+   114.62
+  ],
+  [
+   "seg10",
+   124.78
+  ]
+ ]
+}
