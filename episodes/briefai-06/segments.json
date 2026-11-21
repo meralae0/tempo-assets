@@ -1,0 +1,217 @@
+{
+ "slug": "briefai-06-black-friday-enquete",
+ "segments": [
+  {
+   "id": "seg01",
+   "title": {
+    "fr": "Black Friday",
+    "en": "Black Friday"
+   },
+   "text": {
+    "fr": [
+     "Vendredi 27 novembre, c'est le Black Friday.",
+     "Les Français prévoient d'y dépenser 151 euros en moyenne.",
+     "Mais l'an dernier, quand l'Europe a contrôlé les promos en ligne, près d'une sur trois ne respectait pas les règles.",
+     "Alors, comment savoir si une promo est vraie ?",
+     "On a enquêté. Et la réponse tient en trente secondes, avec l'IA."
+    ],
+    "en": [
+     "Friday, November 27 is Black Friday.",
+     "French shoppers plan to spend 151 euros on average.",
+     "But last year, when Europe checked online deals, almost one in three broke the rules.",
+     "So how do you know if a deal is real?",
+     "We investigated. And the answer takes thirty seconds, with AI."
+    ]
+   }
+  },
+  {
+   "id": "seg02",
+   "title": {
+    "fr": "L'enquête européenne",
+    "en": "The EU investigation"
+   },
+   "text": {
+    "fr": [
+     "Black Friday et Cyber Monday 2025.",
+     "La Commission européenne et, en France, la DGCCRF, passent au crible 314 vendeurs en ligne et des milliers d'offres.",
+     "Résultat : environ trente pour cent des promotions ne respectent pas les règles d'affichage des prix.",
+     "Et près d'un vendeur sur cinq utilise des pièges : faux compte à rebours, faux stock presque épuisé."
+    ],
+    "en": [
+     "Black Friday and Cyber Monday 2025.",
+     "The European Commission and, in France, the DGCCRF screen 314 online sellers and thousands of offers.",
+     "The result: about thirty percent of the deals break the price display rules.",
+     "And almost one seller in five uses traps: fake countdowns, fake low-stock warnings."
+    ]
+   }
+  },
+  {
+   "id": "seg03",
+   "title": {
+    "fr": "Les techniques",
+    "en": "The tricks"
+   },
+   "text": {
+    "fr": [
+     "Les techniques sont connues.",
+     "Un prix de référence gonflé.",
+     "Un prix qui monte juste avant la promo, pour mieux redescendre.",
+     "Ou un prix de comparaison, sans dire d'où il vient."
+    ],
+    "en": [
+     "The tricks are well known.",
+     "An inflated reference price.",
+     "A price that goes up right before the sale, to come down again.",
+     "Or a comparison price, without saying where it comes from."
+    ]
+   }
+  },
+  {
+   "id": "seg04",
+   "title": {
+    "fr": "La règle",
+    "en": "The rule"
+   },
+   "text": {
+    "fr": [
+     "Pourtant, la règle est simple.",
+     "Une réduction se calcule sur le prix le plus bas des trente derniers jours.",
+     "Un autre prix de comparaison est permis, mais il faut indiquer sa source."
+    ],
+    "en": [
+     "Yet the rule is simple.",
+     "A discount is calculated on the lowest price of the last thirty days.",
+     "Another comparison price is allowed, but its source must be stated."
+    ]
+   }
+  },
+  {
+   "id": "seg05",
+   "title": {
+    "fr": "Un cas réel",
+    "en": "A real case"
+   },
+   "text": {
+    "fr": [
+     "On a vérifié une offre réelle, ce 21 novembre.",
+     "Une manette affichée moins 29 %.",
+     "Mais regarde la ligne en dessous.",
+     "Calculée sur les trente derniers jours, la remise n'est plus que de 14 %.",
+     "Le moins 29 % se base sur le prix conseillé."
+    ],
+    "en": [
+     "We checked a real offer, on November 21.",
+     "A controller shown at 29 percent off.",
+     "But look at the line below.",
+     "Calculated on the last thirty days, the discount is only 14 percent.",
+     "The 29 percent is based on the recommended price."
+    ]
+   }
+  },
+  {
+   "id": "seg06",
+   "title": {
+    "fr": "La solution",
+    "en": "The solution"
+   },
+   "text": {
+    "fr": [
+     "Pour aller plus loin, il faut l'historique du prix et les autres vendeurs.",
+     "À la main, ça prend du temps.",
+     "Avec une IA qui cherche sur le web, trente secondes.",
+     "Et près d'un acheteur du Black Friday sur deux a déjà utilisé l'IA pour ses achats."
+    ],
+    "en": [
+     "To go further, you need the price history and the other sellers.",
+     "By hand, that takes time.",
+     "With an AI that searches the web, thirty seconds.",
+     "And almost one Black Friday shopper in two has already used AI for shopping."
+    ]
+   }
+  },
+  {
+   "id": "seg07",
+   "title": {
+    "fr": "La méthode",
+    "en": "The method"
+   },
+   "text": {
+    "fr": [
+     "Copie le lien du produit.",
+     "Ouvre Claude, ChatGPT ou Gemini.",
+     "Colle le lien, et demande : c'est une vraie promo ?",
+     "Cherche l'historique du prix et le prix ailleurs, réponds en trois lignes, avec tes sources."
+    ],
+    "en": [
+     "Copy the product link.",
+     "Open Claude, ChatGPT or Gemini.",
+     "Paste the link, and ask: is this a real deal?",
+     "Look up the price history and the price elsewhere, answer in three lines, with your sources."
+    ]
+   }
+  },
+  {
+   "id": "seg08",
+   "title": {
+    "fr": "Le verdict",
+    "en": "The verdict"
+   },
+   "text": {
+    "fr": [
+     "Ici, l'IA répond : vraie promo, mais pas la meilleure.",
+     "Au Black Friday 2024, cette manette était déjà à 54,99 euros.",
+     "Et un autre site la vend un euro moins cher.",
+     "Son conseil : attendre."
+    ],
+    "en": [
+     "Here, the AI answers: a real deal, but not the best one.",
+     "On Black Friday 2024, this controller was already 54.99 euros.",
+     "And another site sells it one euro cheaper.",
+     "Its advice: wait."
+    ]
+   }
+  },
+  {
+   "id": "seg09",
+   "title": {
+    "fr": "Les limites",
+    "en": "The limits"
+   },
+   "text": {
+    "fr": [
+     "Attention : l'IA peut se tromper.",
+     "Ici, elle dit elle-même qu'elle n'a pas pu ouvrir la page.",
+     "Clique sur ses sources, et compare exactement le même modèle."
+    ],
+    "en": [
+     "Careful: the AI can be wrong.",
+     "Here, it says itself that it couldn't open the page.",
+     "Click its sources, and compare exactly the same model."
+    ]
+   }
+  },
+  {
+   "id": "seg10",
+   "title": {
+    "fr": "Conclusion",
+    "en": "Conclusion"
+   },
+   "text": {
+    "fr": [
+     "Le Black Friday dure quelques jours.",
+     "Les fausses promos, toute l'année.",
+     "Trente secondes de vérification suffisent.",
+     "La question exacte est dans la description.",
+     "Abonne-toi pour d'autres enquêtes et astuces IA."
+    ],
+    "en": [
+     "Black Friday lasts a few days.",
+     "Fake deals, all year long.",
+     "Thirty seconds of checking is enough.",
+     "The exact question is in the description.",
+     "Subscribe for more investigations and AI tips."
+    ]
+   }
+  }
+ ]
+}

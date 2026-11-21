@@ -5,6 +5,8 @@ import {Tuto} from './Tuto';
 import TL from './timeline.json';
 import {Story} from './Story';
 import {Tuto5} from './Tuto5';
+import {Docu6} from './Docu6';
+import TL6 from './tl6.json';
 import TL5 from './tl5.json';
 import TL4 from './tl4.json';
 export const Root: React.FC = () => (<>
@@ -12,4 +14,5 @@ export const Root: React.FC = () => (<>
   <Composition id="Tuto" component={Tuto} durationInFrames={(TL as any).total} fps={30} width={1920} height={1080} />
   <Composition id="Story" component={Story} durationInFrames={(TL4 as any).total} fps={30} width={1920} height={1080} />
   <Composition id="Tuto5" component={Tuto5} durationInFrames={(TL5 as any).total} fps={30} width={1920} height={1080} />
+  <Composition id="Docu6" component={Docu6} durationInFrames={(TL6 as any).total} fps={30} width={1920} height={1080} />
 </>);

@@ -1,0 +1,578 @@
+{
+ "shots": [
+  {
+   "kind": "cal",
+   "from": 0,
+   "dur": 92
+  },
+  {
+   "kind": "stat",
+   "value": "151",
+   "unit": " €",
+   "c": "c",
+   "label": "budget moyen prévu par les Français",
+   "src": "Custplace, 6 nov. 2026",
+   "from": 92,
+   "dur": 119
+  },
+  {
+   "kind": "stat",
+   "value": "1 / 3",
+   "c": "r",
+   "label": "des promos en ligne hors des règles",
+   "over": "Black Friday 2025",
+   "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
+   "from": 211,
+   "dur": 242
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "vraie promo ?",
+     "g"
+    ],
+    [
+     "ou fausse ?",
+     "r"
+    ]
+   ],
+   "from": 453,
+   "dur": 96
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "30 secondes",
+     "c"
+    ],
+    [
+     "avec l'IA",
+     "w"
+    ]
+   ],
+   "from": 549,
+   "dur": 146
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Black Friday · Cyber Monday 2025",
+     "w"
+    ],
+    [
+     "l'enquête européenne",
+     "c"
+    ]
+   ],
+   "from": 695,
+   "dur": 71
+  },
+  {
+   "kind": "stat",
+   "count": 314,
+   "c": "c",
+   "label": "vendeurs en ligne contrôlés",
+   "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
+   "from": 765,
+   "dur": 242
+  },
+  {
+   "kind": "stat",
+   "value": "≈ 30",
+   "unit": " %",
+   "c": "r",
+   "ring": 0.3,
+   "label": "des promos hors des règles d'affichage",
+   "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
+   "from": 1007,
+   "dur": 211
+  },
+  {
+   "kind": "list",
+   "title": "18 % des vendeurs : des pièges",
+   "c": "w",
+   "ic": "r",
+   "mark": "!",
+   "items": [
+    "faux compte à rebours",
+    "faux « stock presque épuisé »"
+   ],
+   "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
+   "from": 1218,
+   "dur": 221
+  },
+  {
+   "kind": "list",
+   "title": "Les techniques",
+   "c": "w",
+   "ic": "r",
+   "items": [
+    "un prix de référence gonflé",
+    "un prix monté juste avant la promo",
+    "un prix de comparaison sans source"
+   ],
+   "src": "UFC-Que Choisir",
+   "from": 1439,
+   "dur": 370,
+   "reveal": [
+    59,
+    118,
+    250
+   ]
+  },
+  {
+   "kind": "list",
+   "title": "La règle",
+   "c": "g",
+   "ic": "g",
+   "mark": "✓",
+   "items": [
+    "réduction = prix le plus bas des 30 derniers jours",
+    "autre prix de comparaison : source obligatoire"
+   ],
+   "src": "DGCCRF",
+   "from": 1808,
+   "dur": 386,
+   "reveal": [
+    63,
+    221
+   ]
+  },
+  {
+   "kind": "shot",
+   "img": "01_offres.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    270,
+    215,
+    440,
+    330
+   ],
+   "src": "Amazon.fr, 21 nov. 2026",
+   "from": 2195,
+   "dur": 96
+  },
+  {
+   "kind": "shot",
+   "img": "01_offres.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    270,
+    215,
+    440,
+    330
+   ],
+   "hl": [
+    283,
+    417,
+    190,
+    42
+   ],
+   "label": "−29 %",
+   "from": 2291,
+   "dur": 67
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "from": 2358,
+   "dur": 69
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    794,
+    590,
+    250,
+    18
+   ],
+   "label": "30 derniers jours : −14 %",
+   "from": 2427,
+   "dur": 153
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "hl": [
+    794,
+    573,
+    335,
+    18
+   ],
+   "label": "−29 % = sur le prix conseillé",
+   "from": 2580,
+   "dur": 104
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "historique du prix",
+     "w"
+    ],
+    [
+     "+ autres vendeurs",
+     "c"
+    ]
+   ],
+   "from": 2684,
+   "dur": 155
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "à la main",
+     "w"
+    ],
+    [
+     "ça prend du temps",
+     "r"
+    ]
+   ],
+   "from": 2839,
+   "dur": 61
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "avec l'IA",
+     "c"
+    ],
+    [
+     "30 secondes",
+     "g"
+    ]
+   ],
+   "from": 2900,
+   "dur": 109
+  },
+  {
+   "kind": "stat",
+   "value": "46",
+   "unit": " %",
+   "c": "v",
+   "ring": 0.46,
+   "label": "des acheteurs du Black Friday ont déjà utilisé l'IA",
+   "src": "Custplace, 6 nov. 2026",
+   "from": 3009,
+   "dur": 186
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr/dp/B094WLFGD3",
+   "urlHl": "Ctrl + C",
+   "cam": [
+    160,
+    170,
+    1250,
+    520
+   ],
+   "from": 3195,
+   "dur": 52
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Claude · ChatGPT · Gemini",
+     "c"
+    ],
+    [
+     "une IA qui cherche sur le web",
+     "w"
+    ]
+   ],
+   "from": 3247,
+   "dur": 67
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "typing": true,
+   "from": 3315,
+   "dur": 107
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "hl": [
+    525,
+    315,
+    485,
+    52
+   ],
+   "label": "historique + autres vendeurs + sources",
+   "cursor": [
+    [
+     800,
+     400
+    ],
+    [
+     1033,
+     382
+    ]
+   ],
+   "click": true,
+   "from": 3422,
+   "dur": 205
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "hl": [
+    486,
+    281,
+    550,
+    15
+   ],
+   "label": "vraie promo, mais pas la meilleure",
+   "from": 3627,
+   "dur": 114
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "hl": [
+    486,
+    298,
+    550,
+    28
+   ],
+   "label": "54,99 € au Black Friday 2024",
+   "from": 3740,
+   "dur": 128
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    335,
+    570,
+    75
+   ],
+   "hl": [
+    486,
+    341,
+    550,
+    30
+   ],
+   "label": "un autre site : 54,99 €",
+   "from": 3868,
+   "dur": 92
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    410,
+    570,
+    65
+   ],
+   "hl": [
+    486,
+    419,
+    550,
+    48
+   ],
+   "label": "conseil : attendre",
+   "from": 3961,
+   "dur": 60
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "l'IA peut",
+     "w"
+    ],
+    [
+     "se tromper",
+     "r"
+    ]
+   ],
+   "from": 4021,
+   "dur": 70
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam": [
+    478,
+    470,
+    570,
+    50
+   ],
+   "hl": [
+    486,
+    480,
+    510,
+    30
+   ],
+   "label": "« je n'ai pas pu ouvrir la page »",
+   "from": 4091,
+   "dur": 122
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    255,
+    400,
+    170
+   ],
+   "hl": [
+    794,
+    365,
+    355,
+    50
+   ],
+   "label": "même modèle, même couleur",
+   "from": 4213,
+   "dur": 141
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Black Friday",
+     "w"
+    ],
+    [
+     "quelques jours",
+     "c"
+    ]
+   ],
+   "from": 4354,
+   "dur": 76
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "fausses promos",
+     "r"
+    ],
+    [
+     "toute l'année",
+     "w"
+    ]
+   ],
+   "from": 4429,
+   "dur": 71
+  },
+  {
+   "kind": "summary",
+   "from": 4501,
+   "dur": 88
+  },
+  {
+   "kind": "gift",
+   "from": 4589,
+   "dur": 90
+  },
+  {
+   "kind": "end",
+   "from": 4679,
+   "dur": 263
+  }
+ ],
+ "total": 4942,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   23.15
+  ],
+  [
+   "seg03",
+   47.96
+  ],
+  [
+   "seg04",
+   60.28
+  ],
+  [
+   "seg05",
+   73.16
+  ],
+  [
+   "seg06",
+   89.48
+  ],
+  [
+   "seg07",
+   106.5
+  ],
+  [
+   "seg08",
+   120.89
+  ],
+  [
+   "seg09",
+   134.04
+  ],
+  [
+   "seg10",
+   145.12
+  ]
+ ]
+}
