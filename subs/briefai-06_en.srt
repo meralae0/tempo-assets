@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:03,224
+Friday, November 27 is Black Friday.
+
+2
+00:00:03,274 --> 00:00:08,702
+French shoppers plan to spend
+151 euros on average.
+
+3
+00:00:08,752 --> 00:00:12,556
+But last year, when Europe
+checked online deals,
+
+4
+00:00:12,606 --> 00:00:15,447
+almost one in three broke the rules.
+
+5
+00:00:15,497 --> 00:00:18,332
+So how do you know if a deal is real?
+
+6
+00:00:18,382 --> 00:00:23,124
+We investigated. And the answer takes
+thirty seconds, with AI.
+
+7
+00:00:23,370 --> 00:00:27,023
+Black Friday and Cyber Monday 2025.
+
+8
+00:00:27,073 --> 00:00:30,646
+The European Commission and, in France,
+
+9
+00:00:30,696 --> 00:00:36,314
+the DGCCRF screen 314 online sellers
+and thousands of offers.
+
+10
+00:00:36,364 --> 00:00:41,861
+The result: about thirty percent of the deals
+break the price display rules.
+
+11
+00:00:41,911 --> 00:00:48,910
+And almost one seller in five uses traps: fake
+countdowns, fake low-stock warnings.
+
+12
+00:00:49,160 --> 00:00:51,385
+The tricks are well known.
+
+13
+00:00:51,435 --> 00:00:53,959
+An inflated reference price.
+
+14
+00:00:54,009 --> 00:00:58,388
+A price that goes up right before the
+sale, to come down again.
+
+15
+00:00:58,438 --> 00:01:02,295
+Or a comparison price, without
+saying where it comes from.
+
+16
+00:01:02,550 --> 00:01:04,818
+Yet the rule is simple.
+
+17
+00:01:04,868 --> 00:01:10,393
+A discount is calculated on the lowest
+price of the last thirty days.
+
+18
+00:01:10,443 --> 00:01:16,350
+Another comparison price is allowed, but
+its source must be stated.
+
+19
+00:01:16,600 --> 00:01:20,221
+We checked a real offer, on November 21.
+
+20
+00:01:20,271 --> 00:01:23,413
+A controller shown at 29 percent off.
+
+21
+00:01:23,463 --> 00:01:25,957
+But look at the line below.
+
+22
+00:01:26,007 --> 00:01:31,152
+Calculated on the last thirty days, the
+discount is only 14 percent.
+
+23
+00:01:31,202 --> 00:01:34,929
+The 29 percent is based on the
+recommended price.
+
+24
+00:01:35,180 --> 00:01:40,195
+To go further, you need the price
+history and the other sellers.
+
+25
+00:01:40,245 --> 00:01:42,470
+By hand, that takes time.
+
+26
+00:01:42,520 --> 00:01:46,256
+With an AI that searches the
+web, thirty seconds.
+
+27
+00:01:46,306 --> 00:01:51,688
+And almost one Black Friday shopper in two
+has already used AI for shopping.
+
+28
+00:01:51,940 --> 00:01:54,212
+Copy the product link.
+
+29
+00:01:54,262 --> 00:01:57,704
+Open Claude, ChatGPT or Gemini.
+
+30
+00:01:57,754 --> 00:02:02,609
+Paste the link, and ask: is
+this a real deal?
+
+31
+00:02:02,659 --> 00:02:08,758
+Look up the price history and the price
+elsewhere, answer in three lines,
+
+32
+00:02:08,808 --> 00:02:10,274
+with your sources.
+
+33
+00:02:10,520 --> 00:02:15,972
+Here, the AI answers: a real deal,
+but not the best one.
+
+34
+00:02:16,022 --> 00:02:21,668
+On Black Friday 2024, this controller
+was already 54.99 euros.
+
+35
+00:02:21,718 --> 00:02:25,814
+And another site sells it
+one euro cheaper.
+
+36
+00:02:25,864 --> 00:02:28,708
+Its advice: wait.
+
+37
+00:02:28,960 --> 00:02:31,756
+Careful: the AI can be wrong.
+
+38
+00:02:31,806 --> 00:02:35,582
+Here, it says itself that it
+couldn't open the page.
+
+39
+00:02:35,632 --> 00:02:39,959
+Click its sources, and compare
+exactly the same model.
+
+40
+00:02:40,210 --> 00:02:42,988
+Black Friday lasts a few days.
+
+41
+00:02:43,038 --> 00:02:45,556
+Fake deals, all year long.
+
+42
+00:02:45,606 --> 00:02:49,349
+Thirty seconds of checking is enough.
+
+43
+00:02:49,399 --> 00:02:53,073
+The exact question is in the description.
+
+44
+00:02:53,123 --> 00:02:56,478
+Subscribe for more
+investigations and AI tips.
+

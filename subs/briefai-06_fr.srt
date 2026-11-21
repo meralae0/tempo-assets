@@ -1,0 +1,213 @@
+1
+00:00:00,000 --> 00:00:03,224
+Vendredi 27 novembre, c'est
+le Black Friday.
+
+2
+00:00:03,274 --> 00:00:08,702
+Les Français prévoient d'y dépenser
+151 euros en moyenne.
+
+3
+00:00:08,752 --> 00:00:12,514
+Mais l'an dernier, quand l'Europe a
+contrôlé les promos en ligne,
+
+4
+00:00:12,564 --> 00:00:15,447
+près d'une sur trois ne
+respectait pas les règles.
+
+5
+00:00:15,497 --> 00:00:18,332
+Alors, comment savoir si une
+promo est vraie ?
+
+6
+00:00:18,382 --> 00:00:23,124
+On a enquêté. Et la réponse tient en
+trente secondes, avec l'IA.
+
+7
+00:00:23,370 --> 00:00:27,023
+Black Friday et Cyber Monday 2025.
+
+8
+00:00:27,073 --> 00:00:31,062
+La Commission européenne et, en
+France, la DGCCRF,
+
+9
+00:00:31,112 --> 00:00:36,314
+passent au crible 314 vendeurs en ligne
+et des milliers d'offres.
+
+10
+00:00:36,364 --> 00:00:36,868
+Résultat :
+
+11
+00:00:36,918 --> 00:00:41,861
+environ trente pour cent des promotions ne
+respectent pas les règles d'affichage des prix.
+
+12
+00:00:41,911 --> 00:00:47,059
+Et près d'un vendeur sur cinq utilise des
+pièges : faux compte à rebours,
+
+13
+00:00:47,109 --> 00:00:48,910
+faux stock presque épuisé.
+
+14
+00:00:49,160 --> 00:00:51,385
+Les techniques sont connues.
+
+15
+00:00:51,435 --> 00:00:53,959
+Un prix de référence gonflé.
+
+16
+00:00:54,009 --> 00:00:58,388
+Un prix qui monte juste avant la
+promo, pour mieux redescendre.
+
+17
+00:00:58,438 --> 00:01:02,295
+Ou un prix de comparaison, sans
+dire d'où il vient.
+
+18
+00:01:02,550 --> 00:01:04,818
+Pourtant, la règle est simple.
+
+19
+00:01:04,868 --> 00:01:10,393
+Une réduction se calcule sur le prix le plus
+bas des trente derniers jours.
+
+20
+00:01:10,443 --> 00:01:16,350
+Un autre prix de comparaison est permis,
+mais il faut indiquer sa source.
+
+21
+00:01:16,600 --> 00:01:20,221
+On a vérifié une offre réelle,
+ce 21 novembre.
+
+22
+00:01:20,271 --> 00:01:23,413
+Une manette affichée moins 29 %.
+
+23
+00:01:23,463 --> 00:01:25,957
+Mais regarde la ligne en dessous.
+
+24
+00:01:26,007 --> 00:01:31,152
+Calculée sur les trente derniers jours, la
+remise n'est plus que de 14 %.
+
+25
+00:01:31,202 --> 00:01:34,929
+Le moins 29 % se base sur le
+prix conseillé.
+
+26
+00:01:35,180 --> 00:01:40,195
+Pour aller plus loin, il faut l'historique
+du prix et les autres vendeurs.
+
+27
+00:01:40,245 --> 00:01:42,470
+À la main, ça prend du temps.
+
+28
+00:01:42,520 --> 00:01:46,256
+Avec une IA qui cherche sur le
+web, trente secondes.
+
+29
+00:01:46,306 --> 00:01:51,688
+Et près d'un acheteur du Black Friday sur deux a
+déjà utilisé l'IA pour ses achats.
+
+30
+00:01:51,940 --> 00:01:54,212
+Copie le lien du produit.
+
+31
+00:01:54,262 --> 00:01:57,704
+Ouvre Claude, ChatGPT ou Gemini.
+
+32
+00:01:57,754 --> 00:02:02,609
+Colle le lien, et demande :
+c'est une vraie promo ?
+
+33
+00:02:02,659 --> 00:02:08,842
+Cherche l'historique du prix et le prix
+ailleurs, réponds en trois lignes,
+
+34
+00:02:08,892 --> 00:02:10,274
+avec tes sources.
+
+35
+00:02:10,520 --> 00:02:15,972
+Ici, l'IA répond : vraie promo,
+mais pas la meilleure.
+
+36
+00:02:16,022 --> 00:02:21,668
+Au Black Friday 2024, cette manette
+était déjà à 54,99 euros.
+
+37
+00:02:21,718 --> 00:02:25,814
+Et un autre site la vend un
+euro moins cher.
+
+38
+00:02:25,864 --> 00:02:28,708
+Son conseil : attendre.
+
+39
+00:02:28,960 --> 00:02:31,756
+Attention : l'IA peut se tromper.
+
+40
+00:02:31,806 --> 00:02:35,582
+Ici, elle dit elle-même qu'elle n'a
+pas pu ouvrir la page.
+
+41
+00:02:35,632 --> 00:02:39,959
+Clique sur ses sources, et compare
+exactement le même modèle.
+
+42
+00:02:40,210 --> 00:02:42,988
+Le Black Friday dure quelques jours.
+
+43
+00:02:43,038 --> 00:02:45,556
+Les fausses promos, toute l'année.
+
+44
+00:02:45,606 --> 00:02:49,349
+Trente secondes de vérification suffisent.
+
+45
+00:02:49,399 --> 00:02:53,073
+La question exacte est dans
+la description.
+
+46
+00:02:53,123 --> 00:02:56,478
+Abonne-toi pour d'autres
+enquêtes et astuces IA.
+

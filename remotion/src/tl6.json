@@ -3,7 +3,7 @@
   {
    "kind": "cal",
    "from": 0,
-   "dur": 92
+   "dur": 98
   },
   {
    "kind": "stat",
@@ -12,8 +12,8 @@
    "c": "c",
    "label": "budget moyen prévu par les Français",
    "src": "Custplace, 6 nov. 2026",
-   "from": 92,
-   "dur": 119
+   "from": 98,
+   "dur": 164
   },
   {
    "kind": "stat",
@@ -22,8 +22,8 @@
    "label": "des promos en ligne hors des règles",
    "over": "Black Friday 2025",
    "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
-   "from": 211,
-   "dur": 242
+   "from": 263,
+   "dur": 202
   },
   {
    "kind": "title",
@@ -37,8 +37,8 @@
      "r"
     ]
    ],
-   "from": 453,
-   "dur": 96
+   "from": 465,
+   "dur": 87
   },
   {
    "kind": "title",
@@ -52,8 +52,8 @@
      "w"
     ]
    ],
-   "from": 549,
-   "dur": 146
+   "from": 551,
+   "dur": 150
   },
   {
    "kind": "title",
@@ -67,8 +67,8 @@
      "c"
     ]
    ],
-   "from": 695,
-   "dur": 71
+   "from": 701,
+   "dur": 111
   },
   {
    "kind": "stat",
@@ -76,8 +76,8 @@
    "c": "c",
    "label": "vendeurs en ligne contrôlés",
    "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
-   "from": 765,
-   "dur": 242
+   "from": 812,
+   "dur": 279
   },
   {
    "kind": "stat",
@@ -87,8 +87,8 @@
    "ring": 0.3,
    "label": "des promos hors des règles d'affichage",
    "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
-   "from": 1007,
-   "dur": 211
+   "from": 1091,
+   "dur": 166
   },
   {
    "kind": "list",
@@ -101,8 +101,8 @@
     "faux « stock presque épuisé »"
    ],
    "src": "Commission européenne · DGCCRF (via UFC-Que Choisir)",
-   "from": 1218,
-   "dur": 221
+   "from": 1257,
+   "dur": 217
   },
   {
    "kind": "list",
@@ -115,12 +115,12 @@
     "un prix de comparaison sans source"
    ],
    "src": "UFC-Que Choisir",
-   "from": 1439,
-   "dur": 370,
+   "from": 1475,
+   "dur": 402,
    "reveal": [
-    59,
-    118,
-    250
+    68,
+    145,
+    278
    ]
   },
   {
@@ -134,11 +134,11 @@
     "autre prix de comparaison : source obligatoire"
    ],
    "src": "DGCCRF",
-   "from": 1808,
-   "dur": 386,
+   "from": 1876,
+   "dur": 422,
    "reveal": [
-    63,
-    221
+    70,
+    237
    ]
   },
   {
@@ -152,8 +152,8 @@
     330
    ],
    "src": "Amazon.fr, 21 nov. 2026",
-   "from": 2195,
-   "dur": 96
+   "from": 2298,
+   "dur": 110
   },
   {
    "kind": "shot",
@@ -172,8 +172,8 @@
     42
    ],
    "label": "−29 %",
-   "from": 2291,
-   "dur": 67
+   "from": 2408,
+   "dur": 96
   },
   {
    "kind": "shot",
@@ -185,8 +185,8 @@
     420,
     110
    ],
-   "from": 2358,
-   "dur": 69
+   "from": 2504,
+   "dur": 76
   },
   {
    "kind": "shot",
@@ -205,8 +205,8 @@
     18
    ],
    "label": "30 derniers jours : −14 %",
-   "from": 2427,
-   "dur": 153
+   "from": 2580,
+   "dur": 156
   },
   {
    "kind": "shot",
@@ -225,8 +225,8 @@
     18
    ],
    "label": "−29 % = sur le prix conseillé",
-   "from": 2580,
-   "dur": 104
+   "from": 2736,
+   "dur": 119
   },
   {
    "kind": "title",
@@ -240,8 +240,8 @@
      "c"
     ]
    ],
-   "from": 2684,
-   "dur": 155
+   "from": 2855,
+   "dur": 152
   },
   {
    "kind": "title",
@@ -255,8 +255,8 @@
      "r"
     ]
    ],
-   "from": 2839,
-   "dur": 61
+   "from": 3007,
+   "dur": 68
   },
   {
    "kind": "title",
@@ -270,8 +270,8 @@
      "g"
     ]
    ],
-   "from": 2900,
-   "dur": 109
+   "from": 3076,
+   "dur": 114
   },
   {
    "kind": "stat",
@@ -281,8 +281,8 @@
    "ring": 0.46,
    "label": "des acheteurs du Black Friday ont déjà utilisé l'IA",
    "src": "Custplace, 6 nov. 2026",
-   "from": 3009,
-   "dur": 186
+   "from": 3189,
+   "dur": 169
   },
   {
    "kind": "shot",
@@ -295,8 +295,8 @@
     1250,
     520
    ],
-   "from": 3195,
-   "dur": 52
+   "from": 3358,
+   "dur": 70
   },
   {
    "kind": "title",
@@ -310,8 +310,8 @@
      "w"
     ]
    ],
-   "from": 3247,
-   "dur": 67
+   "from": 3428,
+   "dur": 105
   },
   {
    "kind": "shot",
@@ -323,8 +323,8 @@
     130
    ],
    "typing": true,
-   "from": 3315,
-   "dur": 107
+   "from": 3533,
+   "dur": 147
   },
   {
    "kind": "shot",
@@ -353,8 +353,8 @@
     ]
    ],
    "click": true,
-   "from": 3422,
-   "dur": 205
+   "from": 3680,
+   "dur": 236
   },
   {
    "kind": "shot",
@@ -372,8 +372,8 @@
     15
    ],
    "label": "vraie promo, mais pas la meilleure",
-   "from": 3627,
-   "dur": 114
+   "from": 3916,
+   "dur": 165
   },
   {
    "kind": "shot",
@@ -391,8 +391,8 @@
     28
    ],
    "label": "54,99 € au Black Friday 2024",
-   "from": 3740,
-   "dur": 128
+   "from": 4081,
+   "dur": 171
   },
   {
    "kind": "shot",
@@ -410,8 +410,8 @@
     30
    ],
    "label": "un autre site : 54,99 €",
-   "from": 3868,
-   "dur": 92
+   "from": 4252,
+   "dur": 124
   },
   {
    "kind": "shot",
@@ -429,8 +429,8 @@
     48
    ],
    "label": "conseil : attendre",
-   "from": 3961,
-   "dur": 60
+   "from": 4376,
+   "dur": 93
   },
   {
    "kind": "title",
@@ -444,8 +444,8 @@
      "r"
     ]
    ],
-   "from": 4021,
-   "dur": 70
+   "from": 4469,
+   "dur": 85
   },
   {
    "kind": "shot",
@@ -463,8 +463,8 @@
     30
    ],
    "label": "« je n'ai pas pu ouvrir la page »",
-   "from": 4091,
-   "dur": 122
+   "from": 4554,
+   "dur": 115
   },
   {
    "kind": "shot",
@@ -483,8 +483,8 @@
     50
    ],
    "label": "même modèle, même couleur",
-   "from": 4213,
-   "dur": 141
+   "from": 4669,
+   "dur": 137
   },
   {
    "kind": "title",
@@ -498,8 +498,8 @@
      "c"
     ]
    ],
-   "from": 4354,
-   "dur": 76
+   "from": 4806,
+   "dur": 85
   },
   {
    "kind": "title",
@@ -513,26 +513,26 @@
      "w"
     ]
    ],
-   "from": 4429,
-   "dur": 71
+   "from": 4891,
+   "dur": 77
   },
   {
    "kind": "summary",
-   "from": 4501,
-   "dur": 88
+   "from": 4968,
+   "dur": 114
   },
   {
    "kind": "gift",
-   "from": 4589,
-   "dur": 90
+   "from": 5082,
+   "dur": 112
   },
   {
    "kind": "end",
-   "from": 4679,
-   "dur": 263
+   "from": 5194,
+   "dur": 258
   }
  ],
- "total": 4942,
+ "total": 5452,
  "segs": [
   [
    "seg01",
@@ -540,39 +540,39 @@
   ],
   [
    "seg02",
-   23.15
+   23.37
   ],
   [
    "seg03",
-   47.96
+   49.16
   ],
   [
    "seg04",
-   60.28
+   62.55
   ],
   [
    "seg05",
-   73.16
+   76.6
   ],
   [
    "seg06",
-   89.48
+   95.18
   ],
   [
    "seg07",
-   106.5
+   111.94
   ],
   [
    "seg08",
-   120.89
+   130.52
   ],
   [
    "seg09",
-   134.04
+   148.96
   ],
   [
    "seg10",
-   145.12
+   160.21
   ]
  ]
 }
