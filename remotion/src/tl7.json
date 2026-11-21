@@ -1,0 +1,485 @@
+{
+ "shots": [
+  {
+   "kind": "shot",
+   "img": "grid_tall.jpg",
+   "ih": 1440,
+   "url": "amazon.fr",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    0,
+    735,
+    1568,
+    705
+   ],
+   "scroll": true,
+   "from": 0,
+   "dur": 218
+  },
+  {
+   "kind": "shot",
+   "img": "01_offres.jpg",
+   "url": "amazon.fr",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    270,
+    215,
+    440,
+    330
+   ],
+   "hl": [
+    283,
+    417,
+    190,
+    42
+   ],
+   "from": 218,
+   "dur": 299
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam0": [
+    780,
+    250,
+    420,
+    200
+   ],
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "scroll": true,
+   "contNext": true,
+   "from": 517,
+   "dur": 193
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "cam0": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "cont": true,
+   "contNext": true,
+   "hl": [
+    794,
+    573,
+    245,
+    18
+   ],
+   "label": "« prix conseillé »",
+   "from": 710,
+   "dur": 164
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr",
+   "cam": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "cam0": [
+    780,
+    505,
+    420,
+    110
+   ],
+   "cont": true,
+   "hl": [
+    794,
+    590,
+    250,
+    18
+   ],
+   "label": "prix le plus bas · 30 jours",
+   "from": 874,
+   "dur": 165
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "−14 %",
+     "g"
+    ]
+   ],
+   "from": 1038,
+   "dur": 114
+  },
+  {
+   "kind": "shot",
+   "img": "qc1.jpg",
+   "url": "quechoisir.org",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    320,
+    180,
+    640,
+    100
+   ],
+   "hl": [
+    326,
+    210,
+    605,
+    40
+   ],
+   "from": 1153,
+   "dur": 104
+  },
+  {
+   "kind": "shot",
+   "img": "qc2.jpg",
+   "url": "quechoisir.org",
+   "cam0": [
+    320,
+    80,
+    630,
+    300
+   ],
+   "cam": [
+    320,
+    190,
+    630,
+    160
+   ],
+   "scroll": true,
+   "contNext": true,
+   "hl": [
+    326,
+    204,
+    218,
+    22
+   ],
+   "label": "314 commerçants",
+   "from": 1257,
+   "dur": 187
+  },
+  {
+   "kind": "shot",
+   "img": "qc2.jpg",
+   "url": "quechoisir.org",
+   "cam0": [
+    320,
+    190,
+    630,
+    160
+   ],
+   "cam": [
+    320,
+    190,
+    630,
+    160
+   ],
+   "cont": true,
+   "hl": [
+    326,
+    204,
+    560,
+    46
+   ],
+   "label": "30 % des promos",
+   "from": 1443,
+   "dur": 162
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr/dp/B094WLFGD3",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    160,
+    170,
+    1250,
+    520
+   ],
+   "from": 1605,
+   "dur": 84
+  },
+  {
+   "kind": "shot",
+   "img": "02_produit.jpg",
+   "url": "amazon.fr/dp/B094WLFGD3",
+   "urlHl": "Ctrl + C",
+   "cam0": [
+    160,
+    170,
+    1250,
+    520
+   ],
+   "cam": [
+    160,
+    170,
+    1250,
+    520
+   ],
+   "from": 1689,
+   "dur": 102
+  },
+  {
+   "kind": "shot",
+   "img": "03_question.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    505,
+    280,
+    560,
+    130
+   ],
+   "typing": true,
+   "from": 1791,
+   "dur": 195
+  },
+  {
+   "kind": "shot",
+   "img": "04_recherche.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "cam": [
+    470,
+    60,
+    640,
+    220
+   ],
+   "from": 1985,
+   "dur": 97
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam0": [
+    478,
+    60,
+    570,
+    200
+   ],
+   "cam": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "scroll": true,
+   "contNext": true,
+   "hl": [
+    486,
+    298,
+    550,
+    28
+   ],
+   "from": 2082,
+   "dur": 233
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam0": [
+    478,
+    270,
+    570,
+    70
+   ],
+   "cam": [
+    478,
+    335,
+    570,
+    75
+   ],
+   "cont": true,
+   "contNext": true,
+   "hl": [
+    486,
+    341,
+    550,
+    30
+   ],
+   "from": 2315,
+   "dur": 105
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam0": [
+    478,
+    335,
+    570,
+    75
+   ],
+   "cam": [
+    478,
+    410,
+    570,
+    65
+   ],
+   "cont": true,
+   "hl": [
+    486,
+    419,
+    550,
+    48
+   ],
+   "label": "attendre",
+   "from": 2420,
+   "dur": 86
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam0": [
+    478,
+    410,
+    570,
+    65
+   ],
+   "cam": [
+    478,
+    470,
+    570,
+    50
+   ],
+   "hl": [
+    486,
+    480,
+    510,
+    30
+   ],
+   "from": 2506,
+   "dur": 173
+  },
+  {
+   "kind": "shot",
+   "img": "05_verdict.jpg",
+   "cam0": [
+    478,
+    470,
+    570,
+    50
+   ],
+   "cam": [
+    478,
+    270,
+    590,
+    210
+   ],
+   "hl": [
+    872,
+    312,
+    128,
+    18
+   ],
+   "cursor": [
+    [
+     800,
+     420
+    ],
+    [
+     936,
+     321
+    ]
+   ],
+   "click": true,
+   "from": 2679,
+   "dur": 191
+  },
+  {
+   "kind": "shot",
+   "img": "01_offres.jpg",
+   "url": "amazon.fr",
+   "cam0": [
+    270,
+    215,
+    440,
+    330
+   ],
+   "cam": [
+    0,
+    0,
+    1568,
+    705
+   ],
+   "from": 2871,
+   "dur": 68
+  },
+  {
+   "kind": "end",
+   "from": 2939,
+   "dur": 264
+  }
+ ],
+ "total": 3203,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   17.22
+  ],
+  [
+   "seg03",
+   38.42
+  ],
+  [
+   "seg04",
+   53.51
+  ],
+  [
+   "seg05",
+   66.18
+  ],
+  [
+   "seg06",
+   83.54
+  ],
+  [
+   "seg07",
+   95.69
+  ]
+ ]
+}
