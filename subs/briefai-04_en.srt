@@ -1,0 +1,235 @@
+1
+00:00:00,000 --> 00:00:02,532
+A thousand AIs.
+
+2
+00:00:02,582 --> 00:00:05,983
+One goal: the most famous theorem in math.
+
+3
+00:00:06,033 --> 00:00:07,833
+No human to lead them.
+
+4
+00:00:07,883 --> 00:00:10,423
+In under thirty hours, they did it.
+
+5
+00:00:10,473 --> 00:00:14,314
+Here's how they organized, and
+what it changes for you.
+
+6
+00:00:14,560 --> 00:00:18,649
+In 1637, Pierre de Fermat
+writes in a margin:
+
+7
+00:00:18,699 --> 00:00:25,915
+a to the n plus b to the n never equals c to
+the n, once n is greater than two.
+
+8
+00:00:25,965 --> 00:00:30,324
+He says he has a proof, but the
+margin is too small.
+
+9
+00:00:30,374 --> 00:00:36,340
+It takes until 1995: Andrew Wiles
+publishes a 129-page proof,
+
+10
+00:00:36,390 --> 00:00:40,087
+so hard that checking it takes months.
+
+11
+00:00:40,340 --> 00:00:45,289
+In September 2026, Anthropic has Claude
+rewrite this proof in Lean,
+
+12
+00:00:45,339 --> 00:00:48,870
+a language where the computer
+checks every step.
+
+13
+00:00:48,920 --> 00:00:53,371
+Dozens of agents, eleven days,
+thirteen million lines.
+
+14
+00:00:53,421 --> 00:00:54,744
+A first.
+
+15
+00:00:54,990 --> 00:01:00,664
+On November 9, a new experiment: a
+thousand Claude Fable 5.2 agents.
+
+16
+00:01:00,714 --> 00:01:03,799
+One lead, nine hundred
+ninety-nine helpers.
+
+17
+00:01:03,849 --> 00:01:06,149
+No messaging, no internet.
+
+18
+00:01:06,199 --> 00:01:09,250
+Just Git and a shared database.
+
+19
+00:01:09,500 --> 00:01:16,856
+In ten minutes, the lead creates five tables:
+orders, who does what, notes, tasks,
+
+20
+00:01:16,906 --> 00:01:18,482
+and finished work.
+
+21
+00:01:18,532 --> 00:01:22,728
+Then he splits the goal into sixty
+steps and forms crews.
+
+22
+00:01:22,980 --> 00:01:23,666
+First shock:
+
+23
+00:01:23,716 --> 00:01:28,451
+the helpers judge forty-seven of the sixty
+steps impossible in the time given.
+
+24
+00:01:28,501 --> 00:01:30,385
+Three are already proved.
+
+25
+00:01:30,435 --> 00:01:33,383
+The lead sends almost everyone
+to the ten others.
+
+26
+00:01:33,433 --> 00:01:35,930
+In seventy minutes, they all fall.
+
+27
+00:01:35,980 --> 00:01:39,495
+And many "impossible" steps
+get proved later.
+
+28
+00:01:39,750 --> 00:01:42,565
+The real wall is called Langlands-Tunnell.
+
+29
+00:01:42,615 --> 00:01:47,916
+Its captain estimates: close to a million lines,
+and less than a one percent chance.
+
+30
+00:01:47,966 --> 00:01:50,770
+At hour eighteen, everything stops.
+
+31
+00:01:50,820 --> 00:01:53,535
+The humans restart from the last save.
+
+32
+00:01:53,585 --> 00:01:57,504
+The lead then sends about seven hundred
+fifty helpers to this wall.
+
+33
+00:01:57,554 --> 00:02:00,302
+Every piece that's too hard
+gets split again:
+
+34
+00:02:00,352 --> 00:02:03,909
+two thousand four hundred eighteen
+tasks, ten levels deep.
+
+35
+00:02:04,160 --> 00:02:08,111
+Hour 28.4: Langlands-Tunnell is proved.
+
+36
+00:02:08,161 --> 00:02:12,335
+Hour 28.7: Fermat is checked
+by the computer.
+
+37
+00:02:12,385 --> 00:02:16,310
+Eleven days in September, under
+thirty hours in November,
+
+38
+00:02:16,360 --> 00:02:19,030
+with a proof about seven times shorter.
+
+39
+00:02:19,280 --> 00:02:20,765
+What about safety?
+
+40
+00:02:20,815 --> 00:02:24,614
+Each agent runs in its own
+machine, with no internet.
+
+41
+00:02:24,664 --> 00:02:28,598
+An automatic monitor checks every
+command before it runs.
+
+42
+00:02:28,648 --> 00:02:32,540
+Over a million actions: none was blocked.
+
+43
+00:02:32,790 --> 00:02:35,928
+Careful: the AI did not
+discover the proof.
+
+44
+00:02:35,978 --> 00:02:38,439
+Wiles found it thirty years ago.
+
+45
+00:02:38,489 --> 00:02:42,376
+It rewrote it so a computer can check it.
+
+46
+00:02:42,426 --> 00:02:45,514
+Anthropic itself calls it a
+toy experiment.
+
+47
+00:02:45,760 --> 00:02:49,909
+The takeaway for you: even a thousand
+AIs give up too early.
+
+48
+00:02:49,959 --> 00:02:52,642
+The fix works with just one, too.
+
+49
+00:02:52,692 --> 00:02:55,284
+Split your big task into small ones.
+
+50
+00:02:55,334 --> 00:03:00,217
+And when the AI tells you
+"impossible", ask it to split again.
+
+51
+00:03:00,267 --> 00:03:02,391
+The sources are in the description.
+
+52
+00:03:02,441 --> 00:03:04,141
+Subscribe for what's next.
+

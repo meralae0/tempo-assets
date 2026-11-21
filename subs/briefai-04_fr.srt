@@ -1,0 +1,245 @@
+1
+00:00:00,000 --> 00:00:02,532
+Mille IA.
+
+2
+00:00:02,582 --> 00:00:05,983
+Un seul objectif : le théorème le
+plus célèbre des maths.
+
+3
+00:00:06,033 --> 00:00:07,833
+Aucun humain pour les diriger.
+
+4
+00:00:07,883 --> 00:00:10,423
+En moins de trente heures,
+elles ont réussi.
+
+5
+00:00:10,473 --> 00:00:14,314
+Voilà comment elles se sont organisées,
+et ce que ça change pour toi.
+
+6
+00:00:14,560 --> 00:00:18,595
+En 1637, Pierre de Fermat écrit
+dans une marge :
+
+7
+00:00:18,645 --> 00:00:23,957
+a puissance n plus b puissance n ne
+donne jamais c puissance n,
+
+8
+00:00:24,007 --> 00:00:25,915
+dès que n dépasse deux.
+
+9
+00:00:25,965 --> 00:00:30,324
+Il dit avoir une preuve, mais la
+marge est trop petite.
+
+10
+00:00:30,374 --> 00:00:36,594
+Il faudra attendre 1995 : Andrew Wiles
+publie une preuve de 129 pages,
+
+11
+00:00:36,644 --> 00:00:40,087
+si dure que la vérifier prend des mois.
+
+12
+00:00:40,340 --> 00:00:45,522
+En septembre 2026, Anthropic fait réécrire
+cette preuve par Claude en Lean,
+
+13
+00:00:45,572 --> 00:00:48,870
+un langage où l'ordinateur
+vérifie chaque étape.
+
+14
+00:00:48,920 --> 00:00:53,371
+Des dizaines d'agents, onze jours,
+treize millions de lignes.
+
+15
+00:00:53,421 --> 00:00:54,744
+Une première.
+
+16
+00:00:54,990 --> 00:01:00,664
+Le 9 novembre, nouvelle expérience :
+mille agents Claude Fable 5.2.
+
+17
+00:01:00,714 --> 00:01:03,799
+Un chef, neuf cent
+quatre-vingt-dix-neuf aides.
+
+18
+00:01:03,849 --> 00:01:06,149
+Pas de messagerie, pas d'internet.
+
+19
+00:01:06,199 --> 00:01:09,250
+Juste Git et une base de données partagée.
+
+20
+00:01:09,500 --> 00:01:15,835
+En dix minutes, le chef crée cinq tableaux : les
+ordres, qui fait quoi, les notes,
+
+21
+00:01:15,885 --> 00:01:18,482
+les tâches, et le travail terminé.
+
+22
+00:01:18,532 --> 00:01:22,728
+Puis il découpe le but en soixante
+étapes et forme des équipes.
+
+23
+00:01:22,980 --> 00:01:23,727
+Premier choc :
+
+24
+00:01:23,777 --> 00:01:28,451
+les aides jugent quarante-sept étapes sur
+soixante impossibles dans le temps donné.
+
+25
+00:01:28,501 --> 00:01:30,385
+Trois sont déjà prouvées.
+
+26
+00:01:30,435 --> 00:01:33,383
+Le chef envoie presque tout le
+monde sur les dix autres.
+
+27
+00:01:33,433 --> 00:01:35,930
+En soixante-dix minutes, elles
+tombent toutes.
+
+28
+00:01:35,980 --> 00:01:39,495
+Et beaucoup d'étapes « impossibles »
+seront prouvées plus tard.
+
+29
+00:01:39,750 --> 00:01:42,565
+Le vrai mur s'appelle Langlands-Tunnell.
+
+30
+00:01:42,615 --> 00:01:47,916
+Son capitaine estime : près d'un million de
+lignes, et moins d'une chance sur cent.
+
+31
+00:01:47,966 --> 00:01:50,770
+À la dix-huitième heure, tout s'arrête.
+
+32
+00:01:50,820 --> 00:01:53,535
+Les humains relancent depuis la
+dernière sauvegarde.
+
+33
+00:01:53,585 --> 00:01:57,504
+Le chef envoie alors environ sept cent
+cinquante aides sur ce mur.
+
+34
+00:01:57,554 --> 00:02:02,830
+Chaque morceau trop dur est redécoupé : deux
+mille quatre cent dix-huit tâches,
+
+35
+00:02:02,880 --> 00:02:03,909
+sur dix niveaux.
+
+36
+00:02:04,160 --> 00:02:08,111
+Heure 28,4 : Langlands-Tunnell est prouvé.
+
+37
+00:02:08,161 --> 00:02:12,335
+Heure 28,7 : Fermat est vérifié
+par l'ordinateur.
+
+38
+00:02:12,385 --> 00:02:16,125
+Onze jours en septembre, moins de
+trente heures en novembre,
+
+39
+00:02:16,175 --> 00:02:19,030
+avec une preuve environ sept
+fois plus courte.
+
+40
+00:02:19,280 --> 00:02:20,765
+Et la sécurité ?
+
+41
+00:02:20,815 --> 00:02:24,614
+Chaque agent tourne dans sa propre
+machine, sans internet.
+
+42
+00:02:24,664 --> 00:02:28,598
+Un surveillant automatique vérifie chaque
+commande avant qu'elle s'exécute.
+
+43
+00:02:28,648 --> 00:02:32,540
+Plus d'un million d'actions :
+aucune n'a été bloquée.
+
+44
+00:02:32,790 --> 00:02:35,928
+Attention : l'IA n'a pas
+découvert la preuve.
+
+45
+00:02:35,978 --> 00:02:38,439
+Wiles l'avait trouvée il y a trente ans.
+
+46
+00:02:38,489 --> 00:02:42,376
+Elle l'a réécrite pour qu'un
+ordinateur la vérifie.
+
+47
+00:02:42,426 --> 00:02:45,514
+Anthropic parle elle-même d'une
+expérience jouet.
+
+48
+00:02:45,760 --> 00:02:49,909
+Ce qu'il faut retenir pour toi : même
+mille IA abandonnent trop tôt.
+
+49
+00:02:49,959 --> 00:02:52,642
+La solution marche aussi avec une seule.
+
+50
+00:02:52,692 --> 00:02:55,284
+Découpe ta grosse tâche en petites.
+
+51
+00:02:55,334 --> 00:03:00,217
+Et quand l'IA te dit « impossible »,
+demande-lui de découper encore.
+
+52
+00:03:00,267 --> 00:03:02,391
+Les sources sont dans la description.
+
+53
+00:03:02,441 --> 00:03:04,141
+Abonne-toi pour la suite.
+
