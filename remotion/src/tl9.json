@@ -1,0 +1,640 @@
+{
+ "shots": [
+  {
+   "kind": "clip",
+   "src": "mcr_10883708.mp4",
+   "tag": "Paris → ?",
+   "from": 0,
+   "dur": 81
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "By hand",
+     "w"
+    ],
+    [
+     "vs AI agent",
+     "c"
+    ]
+   ],
+   "from": 81,
+   "dur": 226
+  },
+  {
+   "kind": "shot",
+   "img": "07_ai_prompt.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    560,
+    55,
+    540,
+    120
+   ],
+   "hl": [
+    575,
+    68,
+    510,
+    88
+   ],
+   "label": "chatbot: answers",
+   "from": 307,
+   "dur": 116
+  },
+  {
+   "kind": "shot",
+   "img": "01_explore.jpg",
+   "url": "google.com/travel/explore",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    420,
+    90,
+    1000,
+    560
+   ],
+   "label": "agent: acts",
+   "hl": [
+    700,
+    300,
+    400,
+    200
+   ],
+   "from": 423,
+   "dur": 189
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    340,
+    60,
+    880,
+    470
+   ],
+   "from": 613,
+   "dur": 104
+  },
+  {
+   "kind": "shot",
+   "img": "03_booking_solo.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    320,
+    150,
+    930,
+    600
+   ],
+   "from": 717,
+   "dur": 104
+  },
+  {
+   "kind": "shot",
+   "img": "06_maps_halal.jpg",
+   "url": "google.com/maps",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    0,
+    0,
+    1250,
+    751
+   ],
+   "from": 821,
+   "dur": 89
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    30,
+    640,
+    330
+   ],
+   "from": 910,
+   "dur": 82
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Mission",
+     "c"
+    ],
+    [
+     "Paris · Dec 26–31",
+     "w"
+    ]
+   ],
+   "from": 992,
+   "dur": 63
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "3 plans",
+     "w"
+    ],
+    [
+     "solo · couple · family",
+     "c"
+    ]
+   ],
+   "from": 1055,
+   "dur": 325
+  },
+  {
+   "kind": "shot",
+   "img": "01_explore.jpg",
+   "url": "google.com/travel/explore",
+   "cam0": [
+    340,
+    60,
+    1228,
+    691
+   ],
+   "cam": [
+    560,
+    150,
+    900,
+    430
+   ],
+   "scroll": true,
+   "from": 1380,
+   "dur": 101
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    362,
+    328,
+    832,
+    72
+   ],
+   "label": "€66 return",
+   "from": 1481,
+   "dur": 125
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    670,
+    348,
+    100,
+    22
+   ],
+   "label": "Beauvais · no cabin bag",
+   "from": 1606,
+   "dur": 154
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "cam": [
+    355,
+    320,
+    845,
+    210
+   ],
+   "hl": [
+    362,
+    405,
+    832,
+    58
+   ],
+   "label": "€92 from CDG",
+   "from": 1760,
+   "dur": 63
+  },
+  {
+   "kind": "shot",
+   "img": "02_vols.jpg",
+   "url": "google.com/travel/flights",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    880,
+    530,
+    330,
+    120
+   ],
+   "hl": [
+    912,
+    548,
+    265,
+    85
+   ],
+   "label": "€41 on the 27th",
+   "from": 1823,
+   "dur": 209
+  },
+  {
+   "kind": "shot",
+   "img": "03_booking_solo.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    540,
+    180,
+    700,
+    380
+   ],
+   "hl": [
+    560,
+    228,
+    245,
+    28
+   ],
+   "label": "sorted by price",
+   "from": 2032,
+   "dur": 84
+  },
+  {
+   "kind": "shot",
+   "img": "03_booking_solo.jpg",
+   "url": "booking.com",
+   "cam0": [
+    540,
+    180,
+    700,
+    380
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    235
+   ],
+   "hl": [
+    1100,
+    440,
+    115,
+    45
+   ],
+   "label": "€228 · 5 nights · 8.6",
+   "from": 2116,
+   "dur": 153
+  },
+  {
+   "kind": "shot",
+   "img": "05_booking_famille.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    290
+   ],
+   "hl": [
+    788,
+    488,
+    425,
+    82
+   ],
+   "label": "9.2 · kids stay free",
+   "from": 2269,
+   "dur": 200
+  },
+  {
+   "kind": "shot",
+   "img": "06_maps_halal.jpg",
+   "url": "google.com/maps",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    0,
+    0,
+    1250,
+    751
+   ],
+   "hl": [
+    70,
+    110,
+    325,
+    560
+   ],
+   "label": "halal restaurants",
+   "from": 2469,
+   "dur": 84
+  },
+  {
+   "kind": "shot",
+   "img": "07_ai_prompt.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    560,
+    55,
+    540,
+    120
+   ],
+   "hl": [
+    575,
+    68,
+    510,
+    88
+   ],
+   "label": "AI assistant + web search",
+   "from": 2553,
+   "dur": 125
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    480,
+    470,
+    600,
+    130
+   ],
+   "hl": [
+    510,
+    548,
+    525,
+    30
+   ],
+   "label": "closed all holiday",
+   "from": 2677,
+   "dur": 143
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "Where AI wins",
+     "c"
+    ]
+   ],
+   "from": 2821,
+   "dur": 87
+  },
+  {
+   "kind": "shot",
+   "img": "08_ai_activites.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    30,
+    640,
+    250
+   ],
+   "hl": [
+    486,
+    62,
+    600,
+    205
+   ],
+   "label": "combos · fees · hours · math",
+   "from": 2907,
+   "dur": 178
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "The honest part",
+     "r"
+    ]
+   ],
+   "from": 3086,
+   "dur": 59
+  },
+  {
+   "kind": "shot",
+   "img": "07_ai_prompt.jpg",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    470,
+    270,
+    600,
+    90
+   ],
+   "hl": [
+    486,
+    282,
+    555,
+    60
+   ],
+   "label": "\"estimates\"",
+   "from": 3145,
+   "dur": 278
+  },
+  {
+   "kind": "shot",
+   "img": "04_booking_couple.jpg",
+   "url": "booking.com",
+   "cam0": [
+    0,
+    0,
+    1568,
+    751
+   ],
+   "cam": [
+    555,
+    325,
+    680,
+    265
+   ],
+   "hl": [
+    1050,
+    455,
+    165,
+    75
+   ],
+   "label": "real price",
+   "from": 3423,
+   "dur": 93
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "It never pays",
+     "w"
+    ],
+    [
+     "you decide",
+     "c"
+    ]
+   ],
+   "from": 3516,
+   "dur": 160
+  },
+  {
+   "kind": "title",
+   "lines": [
+    [
+     "€500 · €1,000 · €2,500",
+     "g"
+    ],
+    [
+     "3 complete plans",
+     "w"
+    ]
+   ],
+   "from": 3676,
+   "dur": 167
+  },
+  {
+   "kind": "end",
+   "from": 3842,
+   "dur": 200
+  }
+ ],
+ "total": 4043,
+ "segs": [
+  [
+   "seg01",
+   0.0
+  ],
+  [
+   "seg02",
+   10.24
+  ],
+  [
+   "seg03",
+   20.42
+  ],
+  [
+   "seg04",
+   33.06
+  ],
+  [
+   "seg05",
+   46.0
+  ],
+  [
+   "seg06",
+   60.76
+  ],
+  [
+   "seg07",
+   67.72
+  ],
+  [
+   "seg08",
+   82.3
+  ],
+  [
+   "seg09",
+   94.02
+  ],
+  [
+   "seg10",
+   102.86
+  ],
+  [
+   "seg11",
+   122.52
+  ]
+ ]
+}
