@@ -1,0 +1,59 @@
+{
+ "note": "Credits for the photographs in this folder: photos.mjs credits prints the footer block for the ones the pages use.",
+ "photos": [
+  {
+   "file": "photo-m147143894-1200.webp",
+   "files": [
+    "photo-m147143894-1200.webp"
+   ],
+   "id": "m147143894",
+   "alt": "A steel sample trier with a wooden handle pulled from a coffee roaster's drum, holding pale green beans mid-roast",
+   "by": "Jameswasswa",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Closer_look_at_the_coffee_beans_from_the_coffee_roasting_machine_looking_at_their_progress.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m187311853-2400.webp",
+   "files": [
+    "photo-m187311853-1200.webp",
+    "photo-m187311853-2400.webp",
+    "photo-m187311853-780x975.webp"
+   ],
+   "id": "m187311853",
+   "alt": "A barista's hands tamping ground coffee in a portafilter beside an espresso machine",
+   "by": "Shixart1985",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Barista_prepares_espresso_at_coffee_shop.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m28989985-1200.webp",
+   "files": [
+    "photo-m28989985-1200.webp"
+   ],
+   "id": "m28989985",
+   "alt": "A hand holding a small white cup under a bottomless portafilter as espresso runs, pressure gauge and steel machine behind",
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m147143898-1200.webp",
+   "files": [
+    "photo-m147143898-1200.webp"
+   ],
+   "id": "m147143898",
+   "alt": "A steel sample trier held out of a roaster holding a few freshly roasted beans, the drum blurred behind",
+   "by": "Jameswasswa",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Closer_look_at_the_progress_of_the_coffee_beans_in_the_roasting_machine_as_they_change_color.jpg",
+   "source": "Wikimedia Commons"
+  }
+ ]
+}
