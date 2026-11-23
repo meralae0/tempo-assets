@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:01,437
+Même demande, même Claude.
+
+2
+00:00:01,437 --> 00:00:02,708
+À gauche, deux minutes.
+
+3
+00:00:02,708 --> 00:00:06,797
+À droite, vingt-trois minutes, avec un skill qui fait le buzz sur GitHub :
+
+4
+00:00:06,797 --> 00:00:07,460
+Taste Skill.
+
+5
+00:00:08,010 --> 00:00:09,344
+Sa promesse :
+
+6
+00:00:09,344 --> 00:00:12,626
+fini les sites qui sentent l'IA.
+
+7
+00:00:12,626 --> 00:00:13,960
+J'ai vérifié.
+
+8
+00:00:14,260 --> 00:00:15,003
+La demande :
+
+9
+00:00:15,003 --> 00:00:17,667
+la page d'un café de quartier à Casablanca.
+
+10
+00:00:17,667 --> 00:00:21,880
+Café Nour, pâtisseries maison, ouvert de sept heures à vingt heures.
+
+11
+00:00:22,750 --> 00:00:25,461
+Sans skill, Claude livre en deux minutes seize.
+
+12
+00:00:25,461 --> 00:00:29,673
+Grand titre avec un mot en italique doré, photo assombrie, petits badges.
+
+13
+00:00:29,673 --> 00:00:29,961
+Joli…
+
+14
+00:00:29,961 --> 00:00:33,480
+mais c'est exactement le look qu'on reconnaît en une seconde.
+
+15
+00:00:34,420 --> 00:00:35,388
+Et en descendant :
+
+16
+00:00:35,388 --> 00:00:36,195
+un avis client.
+
+17
+00:00:36,195 --> 00:00:38,078
+« Le meilleur flat white du Maârif.
+
+18
+00:00:38,078 --> 00:00:39,423
+» Ce client n'existe pas.
+
+19
+00:00:39,423 --> 00:00:40,445
+Claude l'a inventé.
+
+20
+00:00:40,445 --> 00:00:44,210
+Pareil pour « cent pour cent des pâtisseries faites dès cinq heures ».
+
+21
+00:00:46,010 --> 00:00:46,961
+Avec le skill :
+
+22
+00:00:46,961 --> 00:00:48,230
+vingt-trois minutes.
+
+23
+00:00:48,230 --> 00:00:50,260
+Titre simple qui dit quoi et où.
+
+24
+00:00:50,260 --> 00:00:52,860
+Une vraie photo de métier, pas de filtre.
+
+25
+00:00:54,070 --> 00:00:55,034
+Pourquoi si long ?
+
+26
+00:00:55,034 --> 00:00:58,408
+Le skill ouvre la page dans un vrai navigateur, relit le texte,
+
+27
+00:00:58,408 --> 00:01:00,550
+mesure les contrastes, et fait corriger.
+
+28
+00:01:00,550 --> 00:01:02,585
+Il restait une seule erreur à la fin :
+
+29
+00:01:02,585 --> 00:01:03,870
+un contraste sur mobile.
+
+30
+00:01:04,590 --> 00:01:05,270
+Résultat :
+
+31
+00:01:05,270 --> 00:01:07,241
+trois écrans au lieu de sept.
+
+32
+00:01:07,241 --> 00:01:11,116
+Cent soixante-cinq mots au lieu de six cent soixante-dix.
+
+33
+00:01:11,116 --> 00:01:12,340
+Zéro avis inventé.
+
+34
+00:01:12,640 --> 00:01:13,157
+Le prix :
+
+35
+00:01:13,157 --> 00:01:16,660
+deux fois et demie plus de tokens, et dix fois plus de temps.
+
+36
+00:01:17,210 --> 00:01:17,938
+Mon verdict :
+
+37
+00:01:17,938 --> 00:01:20,345
+il ne rend pas la page plus jolie d'office.
+
+38
+00:01:20,345 --> 00:01:21,409
+Il la rend honnête.
+
+39
+00:01:21,409 --> 00:01:23,369
+Pour un vrai commerce, je le garde.
+
+40
+00:01:23,369 --> 00:01:25,440
+Pour une maquette rapide, pas besoin.
+
+41
+00:01:27,050 --> 00:01:28,030
+Pour l'installer :
+
+42
+00:01:28,030 --> 00:01:31,135
+une seule commande, npx skills add, puis le nom du dépôt.
+
+43
+00:01:31,135 --> 00:01:32,987
+Il faut Node vingt-deux et Chrome.
+
+44
+00:01:32,987 --> 00:01:33,750
+C'est gratuit.

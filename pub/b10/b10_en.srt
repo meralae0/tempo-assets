@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:01,617
+Same request, same Claude.
+
+2
+00:00:01,617 --> 00:00:01,927
+Left:
+
+3
+00:00:01,927 --> 00:00:02,674
+two minutes.
+
+4
+00:00:02,674 --> 00:00:03,047
+Right:
+
+5
+00:00:03,047 --> 00:00:06,964
+twenty-three minutes, with a skill that's blowing up on GitHub:
+
+6
+00:00:06,964 --> 00:00:07,710
+Taste Skill.
+
+7
+00:00:08,010 --> 00:00:09,285
+Its promise:
+
+8
+00:00:09,285 --> 00:00:12,898
+no more websites that scream "AI".
+
+9
+00:00:12,898 --> 00:00:13,960
+I checked.
+
+10
+00:00:14,260 --> 00:00:15,145
+The request:
+
+11
+00:00:15,145 --> 00:00:18,761
+a homepage for a neighborhood café in Casablanca.
+
+12
+00:00:18,761 --> 00:00:22,450
+Café Nour, homemade pastries, open seven to eight.
+
+13
+00:00:22,750 --> 00:00:26,373
+Without the skill, Claude delivers in two minutes sixteen.
+
+14
+00:00:26,373 --> 00:00:31,121
+Big serif headline with one gold italic word, darkened photo, little badges.
+
+15
+00:00:31,121 --> 00:00:31,559
+Pretty…
+
+16
+00:00:31,559 --> 00:00:34,120
+but it's the look you spot in one second.
+
+17
+00:00:34,420 --> 00:00:35,208
+Scroll down:
+
+18
+00:00:35,208 --> 00:00:36,389
+a customer review.
+
+19
+00:00:36,389 --> 00:00:40,393
+"The best flat white in Maârif." That customer doesn't exist.
+
+20
+00:00:40,393 --> 00:00:41,575
+Claude made it up.
+
+21
+00:00:41,575 --> 00:00:45,710
+Same for "one hundred percent of pastries baked from five a.m."
+
+22
+00:00:46,010 --> 00:00:47,088
+With the skill:
+
+23
+00:00:47,088 --> 00:00:48,597
+twenty-three minutes.
+
+24
+00:00:48,597 --> 00:00:51,614
+A plain headline that says what and where.
+
+25
+00:00:51,614 --> 00:00:53,770
+A real trade photo, no filter.
+
+26
+00:00:54,070 --> 00:00:54,809
+Why so long?
+
+27
+00:00:54,809 --> 00:00:59,734
+The skill opens the page in a real browser, rereads the copy, measures contrast,
+
+28
+00:00:59,734 --> 00:01:00,781
+and forces fixes.
+
+29
+00:01:00,781 --> 00:01:02,628
+One issue was left at the end:
+
+30
+00:01:02,628 --> 00:01:04,290
+a contrast check on mobile.
+
+31
+00:01:04,590 --> 00:01:05,058
+Result:
+
+32
+00:01:05,058 --> 00:01:07,129
+three screens instead of seven.
+
+33
+00:01:07,129 --> 00:01:11,137
+One hundred sixty-five words instead of six hundred seventy.
+
+34
+00:01:11,137 --> 00:01:12,340
+Zero fake reviews.
+
+35
+00:01:12,640 --> 00:01:13,270
+The cost:
+
+36
+00:01:13,270 --> 00:01:16,910
+two and a half times the tokens, ten times the time.
+
+37
+00:01:17,210 --> 00:01:17,939
+My verdict:
+
+38
+00:01:17,939 --> 00:01:20,920
+it doesn't make the page prettier by default.
+
+39
+00:01:20,920 --> 00:01:22,179
+It makes it honest.
+
+40
+00:01:22,179 --> 00:01:24,233
+For a real business, I keep it.
+
+41
+00:01:24,233 --> 00:01:26,750
+For a quick mockup, you don't need it.
+
+42
+00:01:27,050 --> 00:01:27,749
+To install:
+
+43
+00:01:27,749 --> 00:01:30,798
+one command, npx skills add, then the repo name.
+
+44
+00:01:30,798 --> 00:01:33,085
+You need Node twenty-two and Chrome.
+
+45
+00:01:33,085 --> 00:01:33,720
+It's free.
