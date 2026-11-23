@@ -1,0 +1,28 @@
+{
+ "fr": [
+  "Même demande, même Claude. À gauche, deux minutes. À droite, vingt-trois minutes, avec un skill qui fait le buzz sur GitHub : Taste Skill.",
+  "Sa promesse : fini les sites qui sentent l'IA. J'ai vérifié.",
+  "La demande : la page d'un café de quartier à Casablanca. Café Nour, pâtisseries maison, ouvert de sept heures à vingt heures.",
+  "Sans skill, Claude livre en deux minutes seize. Grand titre avec un mot en italique doré, photo assombrie, petits badges. Joli… mais c'est exactement le look qu'on reconnaît en une seconde.",
+  "Et en descendant : un avis client. « Le meilleur flat white du Maârif. » Ce client n'existe pas. Claude l'a inventé. Pareil pour « cent pour cent des pâtisseries faites dès cinq heures ».",
+  "Avec le skill : vingt-trois minutes. Titre simple qui dit quoi et où. Une vraie photo de métier, pas de filtre.",
+  "Pourquoi si long ? Le skill ouvre la page dans un vrai navigateur, relit le texte, mesure les contrastes, et fait corriger. Il restait une seule erreur à la fin : un contraste sur mobile.",
+  "Résultat : trois écrans au lieu de sept. Cent soixante-cinq mots au lieu de six cent soixante-dix. Zéro avis inventé.",
+  "Le prix : deux fois et demie plus de tokens, et dix fois plus de temps.",
+  "Mon verdict : il ne rend pas la page plus jolie d'office. Il la rend honnête. Pour un vrai commerce, je le garde. Pour une maquette rapide, pas besoin.",
+  "Pour l'installer : une seule commande, npx skills add, puis le nom du dépôt. Il faut Node vingt-deux et Chrome. C'est gratuit."
+ ],
+ "en": [
+  "Same request, same Claude. Left: two minutes. Right: twenty-three minutes, with a skill that's blowing up on GitHub: Taste Skill.",
+  "Its promise: no more websites that scream \"AI\". I checked.",
+  "The request: a homepage for a neighborhood café in Casablanca. Café Nour, homemade pastries, open seven to eight.",
+  "Without the skill, Claude delivers in two minutes sixteen. Big serif headline with one gold italic word, darkened photo, little badges. Pretty… but it's the look you spot in one second.",
+  "Scroll down: a customer review. \"The best flat white in Maârif.\" That customer doesn't exist. Claude made it up. Same for \"one hundred percent of pastries baked from five a.m.\"",
+  "With the skill: twenty-three minutes. A plain headline that says what and where. A real trade photo, no filter.",
+  "Why so long? The skill opens the page in a real browser, rereads the copy, measures contrast, and forces fixes. One issue was left at the end: a contrast check on mobile.",
+  "Result: three screens instead of seven. One hundred sixty-five words instead of six hundred seventy. Zero fake reviews.",
+  "The cost: two and a half times the tokens, ten times the time.",
+  "My verdict: it doesn't make the page prettier by default. It makes it honest. For a real business, I keep it. For a quick mockup, you don't need it.",
+  "To install: one command, npx skills add, then the repo name. You need Node twenty-two and Chrome. It's free."
+ ]
+}
