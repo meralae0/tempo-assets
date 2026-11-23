@@ -1,0 +1,28 @@
+{
+ "fr": [
+  "Deux mille deux cent trente-neuf tokens d'un côté. Neuf cent soixante-treize de l'autre. Même Claude, mêmes questions. Et pourtant, la facture est identique.",
+  "Le skill testé : caveman. Il fait parler Claude comme un homme des cavernes. Le chiffre qui circule : moins soixante-cinq pour cent de tokens. Son auteur l'a retiré de GitHub en septembre. J'ai refait le test.",
+  "Le test : six questions de tous les jours. Une formule Excel, une batterie qui se vide, un prêt, supprimer un dossier, une erreur quatre cent quatre, une recette de pâtes.",
+  "Sans skill, Claude répond poliment, avec des titres et des listes. Avec caveman : phrases courtes, plus de « Bien sûr ! », la réponse d'abord.",
+  "Sur la formule Excel : deux cent trente et un tokens contre soixante-six. Moins soixante et onze pour cent, et rien d'important ne manque.",
+  "Mais sur la recette, seulement moins trente-huit. Une recette, c'est surtout des quantités : rien à couper.",
+  "Au total : moins cinquante-sept pour cent. Les moins soixante-cinq ne sont atteints que sur une question sur six.",
+  "Et voilà le piège. Le skill lui-même pèse mille cent cinquante-huit tokens, rechargés à chaque session. Sur six questions, il en fait gagner mille deux cent soixante-six. Gain net : une centaine.",
+  "Le compteur de la session le confirme : soixante-deux mille cinq cent quatre-vingt-onze sans, soixante-deux mille six cent trois avec. Pareil.",
+  "Autre raté : pour supprimer un dossier, la version caveman garde l'avertissement, mais perd la mise en garde contre l'espace en trop qui peut tout effacer.",
+  "Mon verdict : utile pour de longues sessions de code, avec des centaines de réponses. Pour quelques questions, ça ne change rien. Et relis toujours les commandes dangereuses."
+ ],
+ "en": [
+  "Two thousand two hundred thirty-nine tokens on one side. Nine hundred seventy-three on the other. Same Claude, same questions. And yet, the bill is the same.",
+  "The skill I tested: caveman. It makes Claude talk like a caveman. The number going around: sixty-five percent fewer tokens. Its author pulled it from GitHub in September. I ran the test myself.",
+  "The test: six everyday questions. An Excel formula, a draining battery, a loan, deleting a folder, a four-oh-four error, a pasta recipe.",
+  "Without the skill, Claude answers politely, with headings and lists. With caveman: short sentences, no more \"Sure!\", the answer first.",
+  "On the Excel formula: two hundred thirty-one tokens versus sixty-six. Seventy-one percent less, and nothing important is missing.",
+  "But on the recipe, only thirty-eight percent less. A recipe is mostly quantities: nothing to cut.",
+  "Overall: fifty-seven percent less. The sixty-five percent only shows up on one question out of six.",
+  "And here's the catch. The skill itself weighs one thousand one hundred fifty-eight tokens, reloaded every session. Over six questions, it saves one thousand two hundred sixty-six. Net gain: about a hundred.",
+  "The session counter confirms it: sixty-two thousand five hundred ninety-one without, sixty-two thousand six hundred three with. Same.",
+  "Another miss: to delete a folder, the caveman version keeps the warning, but drops the one about an extra space that can wipe everything.",
+  "My verdict: useful for long coding sessions, with hundreds of replies. For a few questions, it changes nothing. And always reread dangerous commands."
+ ]
+}
