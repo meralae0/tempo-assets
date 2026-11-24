@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:03,253
+Deux mille deux cent trente-neuf tokens d'un côté.
+
+2
+00:00:03,253 --> 00:00:05,661
+Neuf cent soixante-treize de l'autre.
+
+3
+00:00:05,661 --> 00:00:07,548
+Même Claude, mêmes questions.
+
+4
+00:00:07,548 --> 00:00:10,020
+Et pourtant, la facture est identique.
+
+5
+00:00:10,320 --> 00:00:11,237
+Le skill testé :
+
+6
+00:00:11,237 --> 00:00:11,696
+caveman.
+
+7
+00:00:11,696 --> 00:00:14,563
+Il fait parler Claude comme un homme des cavernes.
+
+8
+00:00:14,563 --> 00:00:15,939
+Le chiffre qui circule :
+
+9
+00:00:15,939 --> 00:00:18,233
+moins soixante-cinq pour cent de tokens.
+
+10
+00:00:18,233 --> 00:00:20,813
+Son auteur l'a retiré de GitHub en septembre.
+
+11
+00:00:20,813 --> 00:00:21,960
+J'ai refait le test.
+
+12
+00:00:22,260 --> 00:00:22,813
+Le test :
+
+13
+00:00:22,813 --> 00:00:24,781
+six questions de tous les jours.
+
+14
+00:00:24,781 --> 00:00:29,393
+Une formule Excel, une batterie qui se vide, un prêt, supprimer un dossier,
+
+15
+00:00:29,393 --> 00:00:32,590
+une erreur quatre cent quatre, une recette de pâtes.
+
+16
+00:00:32,890 --> 00:00:35,862
+Sans skill, Claude répond poliment, avec des titres et des listes.
+
+17
+00:00:35,862 --> 00:00:36,493
+Avec caveman :
+
+18
+00:00:36,493 --> 00:00:38,159
+phrases courtes, plus de « Bien sûr !
+
+19
+00:00:38,159 --> 00:00:39,150
+», la réponse d'abord.
+
+20
+00:00:40,980 --> 00:00:42,158
+Sur la formule Excel :
+
+21
+00:00:42,158 --> 00:00:44,834
+deux cent trente et un tokens contre soixante-six.
+
+22
+00:00:44,834 --> 00:00:48,260
+Moins soixante et onze pour cent, et rien d'important ne manque.
+
+23
+00:00:48,560 --> 00:00:51,355
+Mais sur la recette, seulement moins trente-huit.
+
+24
+00:00:51,355 --> 00:00:53,751
+Une recette, c'est surtout des quantités :
+
+25
+00:00:53,751 --> 00:00:54,550
+rien à couper.
+
+26
+00:00:54,850 --> 00:00:55,360
+Au total :
+
+27
+00:00:55,360 --> 00:00:56,941
+moins cinquante-sept pour cent.
+
+28
+00:00:56,941 --> 00:01:00,510
+Les moins soixante-cinq ne sont atteints que sur une question sur six.
+
+29
+00:01:00,850 --> 00:01:02,102
+Et voilà le piège.
+
+30
+00:01:02,102 --> 00:01:07,942
+Le skill lui-même pèse mille cent cinquante-huit tokens, rechargés à chaque session.
+
+31
+00:01:07,942 --> 00:01:12,531
+Sur six questions, il en fait gagner mille deux cent soixante-six.
+
+32
+00:01:12,531 --> 00:01:13,226
+Gain net :
+
+33
+00:01:13,226 --> 00:01:14,130
+une centaine.
+
+34
+00:01:14,430 --> 00:01:16,568
+Le compteur de la session le confirme :
+
+35
+00:01:16,568 --> 00:01:19,473
+soixante-deux mille cinq cent quatre-vingt-onze sans,
+
+36
+00:01:19,473 --> 00:01:21,666
+soixante-deux mille six cent trois avec.
+
+37
+00:01:21,666 --> 00:01:22,050
+Pareil.
+
+38
+00:01:22,350 --> 00:01:23,074
+Autre raté :
+
+39
+00:01:23,074 --> 00:01:27,176
+pour supprimer un dossier, la version caveman garde l'avertissement,
+
+40
+00:01:27,176 --> 00:01:31,580
+mais perd la mise en garde contre l'espace en trop qui peut tout effacer.
+
+41
+00:01:31,880 --> 00:01:32,514
+Mon verdict :
+
+42
+00:01:32,514 --> 00:01:35,977
+utile pour de longues sessions de code, avec des centaines de réponses.
+
+43
+00:01:35,977 --> 00:01:38,074
+Pour quelques questions, ça ne change rien.
+
+44
+00:01:38,074 --> 00:01:40,220
+Et relis toujours les commandes dangereuses.

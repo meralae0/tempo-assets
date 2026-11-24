@@ -4,7 +4,7 @@ from PIL import Image,ImageDraw
 from b11srt import build,write
 T=json.load(open('timing.json')); D=T['D']
 SH={'s1':([0,7,8,6],'−57 % de tokens…\net ma facture\nn\'a pas bougé','Même Claude · sans / avec le skill caveman',RED),
-    's2':([4,9,10],'Claude caveman a oublié\nLA mise en garde\nqui sauve tes fichiers','6 questions · même Claude',CYAN)}
+    's2':([3,4,9,10],'Claude caveman a oublié\nLA mise en garde\nqui sauve tes fichiers','6 questions · même Claude',CYAN)}
 def run(a): subprocess.run(a,check=True)
 for k,(idx,hook,sub,col) in SH.items():
     bg=Image.new('RGBA',(1080,1920),BG+(255,)); g=background().resize((1080*2,1920)).crop((540,0,1620,1920)); bg.alpha_composite(g)

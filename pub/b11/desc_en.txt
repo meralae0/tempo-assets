@@ -1,0 +1,20 @@
+6 everyday questions asked to the same Claude, without and then with the caveman skill (v4.2.0, Apache-2.0).
+Measured (o200k tokenizer): 2,239 → 973 answer tokens (−57%), from −38% (recipe) to −71% (Excel formula). The "−65%" only shows up on 1 question out of 6.
+But the skill itself weighs 1,158 tokens, reloaded every session: net gain ≈ 108 tokens. Session counter: 62,591 without, 62,603 with.
+Miss: on deleting a folder, the caveman version drops the warning about "rm -rf folder /*".
+Verdict: useful for long coding sessions, pointless for a few questions.
+
+▶ Install (Claude Code):
+claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman
+or: npx skills add JuliusBrussee/caveman -g
+
+▶ The 6 questions used (asked in French):
+1. In Excel, which formula sums column B only when column A equals "Groceries"?
+2. My Android phone drains very fast since an update. What should I check?
+3. What's the difference between a fixed-rate and a variable-rate mortgage?
+4. I want to permanently delete the folder "photos_2019" on Linux from the command line. Which command?
+5. My site shows "404 Not Found" since I moved a page. How do I fix it?
+6. Give me a quick pasta recipe for 2 with tomatoes, garlic and parmesan.
+
+Voice generated with Gemini TTS (Google); test, editing and script made with Claude (Anthropic); checked by a human.
+#AI #Claude #ClaudeCode #Tokens #ClaudeSkills
