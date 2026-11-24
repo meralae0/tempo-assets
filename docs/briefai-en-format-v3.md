@@ -30,3 +30,8 @@ Decided with Alae 24/11/2026: English only, Skill Leap-style (real tests of AI t
 - Token is NEVER in the repo or project: container file /home/claude/.secrets/fb_page_token (lost when the container resets). Copy kept by Alae: `briefai_fb_secrets.json` (sent in chat 24/11; to be saved in Downloads) → next runs: device_stage_files from Downloads, then write page_token into /home/claude/.secrets/fb_page_token.
 - "Comment to message" automations stay in Meta Business Suite (not in the API).
 - **YouTube** : API uploads from an unverified project are locked private → keep Studio via Chrome (scripted helpers) until a YouTube API audit is approved.
+
+## EN1 published 24/11 (test "2 videos per day")
+- YouTube: long UPkeIM0ZgZs 24/11 15:00 (thumbnail, altered content = yes, EN auto-captions; SRT in pub/b13/b13_en.srt not uploaded yet); Short 1 J-A5NYcZG_8 24/11 19:00; Short 2 Gp4ThcIiBQ8 25/11 19:00. To do: "Vidéo similaire" of both Shorts → UPkeIM0ZgZs after 15:00.
+- Facebook (API, first use): long video 1759041218504741 24/11 15:30; Reel 1174469108441978 24/11 19:00; Reel 3410772685780861 25/11 19:30. Automation "BANK - bank statement prompt" saved (reply "Sent you a message!").
+- tools/yt_studio.js = helpers to paste in Studio (__up/__fill/__kids/__altered/__thumb). Time field: click it, ctrl+a, type, Enter, then VERIFY (Short 2 first got 00:00 and was fixed in the video edit page).
