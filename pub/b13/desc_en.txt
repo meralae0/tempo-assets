@@ -1,0 +1,19 @@
+Same bank statement (68 transactions), same 3 questions, 3 fresh chats for each AI. I checked every answer line by line.
+
+Results
+• Duplicate charge: all 3 caught it, every time.
+• Subscriptions per year ($1,031.52): all 3 right, every time.
+• Groceries (real answer $694.35): ChatGPT said $684.31 once with no warning; Claude said $874.21 three times (it counted online MegaMart orders as groceries); Gemini was right every time it answered, but took ~50 s and stalled once.
+
+The exact prompt I used (paste your own CSV under it):
+
+Here is my October bank statement (CSV). Answer in 3 short lines:
+1) Exactly how much did I spend on groceries, net of refunds?
+2) Is any charge a likely duplicate? Which one?
+3) How much do my subscriptions cost me per year?
+
+Tip: when money is involved, ask for the line items, and ask twice.
+
+Tested on Nov 24, 2026 with the free web apps (ChatGPT Instant, Claude default, Gemini default). The statement is fictional. The presenter is an AI avatar (Google Vids).
+
+#ChatGPT #Claude #Gemini #AI #personalfinance

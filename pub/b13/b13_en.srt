@@ -1,0 +1,203 @@
+1
+00:00:00,100 --> 00:00:02,625
+I gave ChatGPT, Claude and Gemini the exact
+
+2
+00:00:02,675 --> 00:00:05,619
+same bank statement, and the same three questions.
+
+3
+00:00:05,669 --> 00:00:07,835
+One of them handed me a wrong number,
+
+4
+00:00:07,885 --> 00:00:10,350
+and it sounded just as sure as the others.
+
+5
+00:00:10,700 --> 00:00:11,646
+Here's the test.
+
+6
+00:00:11,696 --> 00:00:14,010
+Sixty-eight transactions from October.
+
+7
+00:00:14,060 --> 00:00:15,006
+Three questions:
+
+8
+00:00:15,056 --> 00:00:17,308
+how much did I spend on groceries, is
+
+9
+00:00:17,358 --> 00:00:19,797
+there a duplicate charge, and what do my
+
+10
+00:00:19,847 --> 00:00:21,539
+subscriptions cost per year.
+
+11
+00:00:21,589 --> 00:00:24,152
+I worked out the real answers myself, line
+
+12
+00:00:24,202 --> 00:00:24,650
+by line.
+
+13
+00:00:25,000 --> 00:00:25,609
+Round one:
+
+14
+00:00:25,659 --> 00:00:26,532
+the duplicate.
+
+15
+00:00:26,582 --> 00:00:27,851
+All three caught it.
+
+16
+00:00:27,901 --> 00:00:32,466
+Luna Trattoria, fifty-six forty, charged twice on October seventeenth.
+
+17
+00:00:32,516 --> 00:00:33,850
+A point for everyone.
+
+18
+00:00:34,200 --> 00:00:34,761
+Round two:
+
+19
+00:00:34,811 --> 00:00:35,616
+subscriptions.
+
+20
+00:00:35,666 --> 00:00:38,669
+All three said one thousand thirty-one dollars and
+
+21
+00:00:38,719 --> 00:00:40,074
+fifty-two cents a year.
+
+22
+00:00:40,124 --> 00:00:40,563
+Correct.
+
+23
+00:00:40,613 --> 00:00:43,250
+Claude even added the total without the gym.
+
+24
+00:00:43,600 --> 00:00:44,325
+Round three:
+
+25
+00:00:44,375 --> 00:00:44,970
+groceries.
+
+26
+00:00:45,020 --> 00:00:47,101
+This is where it got interesting.
+
+27
+00:00:47,151 --> 00:00:50,330
+The real number is six hundred ninety-four dollars
+
+28
+00:00:50,380 --> 00:00:51,750
+and thirty-five cents.
+
+29
+00:00:52,100 --> 00:00:54,347
+ChatGPT got it right the first time.
+
+30
+00:00:54,397 --> 00:00:56,517
+So I asked again, in a fresh chat.
+
+31
+00:00:56,567 --> 00:00:58,240
+Six eighty-four thirty-one.
+
+32
+00:00:58,290 --> 00:01:00,346
+Ten dollars off, with no warning.
+
+33
+00:01:00,396 --> 00:01:00,984
+Third try:
+
+34
+00:01:01,034 --> 00:01:01,750
+right again.
+
+35
+00:01:02,100 --> 00:01:05,724
+Claude said eight seventy-four twenty-one, all three times.
+
+36
+00:01:05,774 --> 00:01:08,153
+The math was perfect, but it counted my
+
+37
+00:01:08,203 --> 00:01:10,395
+MegaMart online orders as groceries.
+
+38
+00:01:10,445 --> 00:01:12,450
+It did say so, in the fine print.
+
+39
+00:01:12,800 --> 00:01:16,077
+Gemini got six ninety-four thirty-five, and showed the
+
+40
+00:01:16,127 --> 00:01:18,911
+subtotal for every store, so I could check it.
+
+41
+00:01:18,961 --> 00:01:21,314
+But it took about fifty seconds, and on
+
+42
+00:01:21,364 --> 00:01:23,717
+the third try it kept spinning for more
+
+43
+00:01:23,767 --> 00:01:25,750
+than two minutes, with no answer.
+
+44
+00:01:26,100 --> 00:01:27,746
+Final score on groceries:
+
+45
+00:01:27,796 --> 00:01:30,257
+Gemini, right every time it answered.
+
+46
+00:01:30,307 --> 00:01:32,021
+ChatGPT, two out of three.
+
+47
+00:01:32,071 --> 00:01:34,668
+Claude made its own call on what counts
+
+48
+00:01:34,718 --> 00:01:35,550
+as groceries.
+
+49
+00:01:35,900 --> 00:01:38,484
+So when money is involved, do two things:
+
+50
+00:01:38,534 --> 00:01:40,925
+ask for the line items, and ask twice.
+
+51
+00:01:40,975 --> 00:01:43,880
+The exact prompt I used is in the description.
