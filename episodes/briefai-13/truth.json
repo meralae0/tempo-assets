@@ -1,0 +1,25 @@
+{
+ "n": 68,
+ "by_cat": {
+  "Housing": -1450.0,
+  "Income": 6240.0,
+  "Transport": -284.96,
+  "Dining": -392.69,
+  "Utilities": -193.36,
+  "Groceries": -694.35,
+  "Shopping": -234.43,
+  "Insurance": -16.75,
+  "Subscriptions": -85.96,
+  "Cash": -80.0,
+  "Health": -30.79,
+  "Fees": -2.99,
+  "Travel": -99.82,
+  "Savings": -400.0
+ },
+ "groceries_net": -694.35,
+ "groceries_gross": -717.83,
+ "spent_excl_savings": -3589.58,
+ "subs_monthly": 85.96,
+ "subs_yearly": 1031.52,
+ "duplicate": "2026-10-17 LUNA TRATTORIA 56.40"
+}
