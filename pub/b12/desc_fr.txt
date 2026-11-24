@@ -1,0 +1,9 @@
+Mon relevé d'octobre (49 opérations, données fictives) donné à Claude : total par catégorie, entrées, sorties, solde.
+Dans la conversation : 3 essais, 3 fois juste au centime (entrées 2 492,30 € / sorties 2 078,29 € / solde +414,01 €), 23 à 34 s. Vérifié par programme.
+En vrai fichier Excel (SOMME.SI + graphique) : 51 s, totaux justes… mais formules figées à la ligne 50 ($D$2:$D$50) : une dépense ajoutée en dessous est ignorée, sans message d'erreur.
+
+▶ La demande exacte (avec la correction) :
+« Voici mon relevé bancaire du mois (CSV). Fais-moi le budget dans un vrai tableur Excel : une feuille Relevé avec une colonne Catégorie, une feuille Budget avec le total par catégorie en formules SOMME.SI vers le relevé, le total des entrées, le total des sorties et le solde en formules, et un graphique des dépenses par catégorie. Utilise des colonnes entières ou un tableau Excel pour que les lignes ajoutées plus tard soient comptées. Puis dis-moi en 3 points où je peux économiser. »
+
+Voix générée avec Gemini TTS (Google) ; test, montage et script réalisés avec Claude (Anthropic) ; vérifié par un humain.
+#IA #Claude #Excel #Budget #ClaudeAI

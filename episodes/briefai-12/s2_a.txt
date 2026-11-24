@@ -1,0 +1,3 @@
+file 'aud/fr00.wav'
+file 'aud/fr03.wav'
+file 'aud/fr04.wav'

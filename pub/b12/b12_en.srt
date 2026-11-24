@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:02,056
+Forty-nine bank statement lines.
+
+2
+00:00:02,056 --> 00:00:06,683
+Claude built my budget in thirty-four seconds, in its head, to the cent.
+
+3
+00:00:06,683 --> 00:00:09,960
+But the real spreadsheet it made for me had a trap.
+
+4
+00:00:10,260 --> 00:00:10,932
+The test:
+
+5
+00:00:10,932 --> 00:00:14,368
+my October statement, forty-nine transactions.
+
+6
+00:00:14,368 --> 00:00:17,206
+Salary, rent, groceries, fuel, coffee.
+
+7
+00:00:17,206 --> 00:00:18,103
+One request:
+
+8
+00:00:18,103 --> 00:00:22,360
+totals by category, money in, money out, and the balance.
+
+9
+00:00:22,730 --> 00:00:27,535
+By hand, you have to sort all forty-nine lines, then write one formula per category.
+
+10
+00:00:27,535 --> 00:00:30,910
+I checked every total with code, so I had the right answer.
+
+11
+00:00:31,210 --> 00:00:31,828
+First try:
+
+12
+00:00:31,828 --> 00:00:34,364
+Claude, no spreadsheet, just in the chat.
+
+13
+00:00:34,364 --> 00:00:35,601
+Thirty-four seconds.
+
+14
+00:00:35,601 --> 00:00:36,158
+Money in:
+
+15
+00:00:36,158 --> 00:00:39,250
+two thousand four hundred ninety-two euros thirty.
+
+16
+00:00:39,250 --> 00:00:39,868
+Money out:
+
+17
+00:00:39,868 --> 00:00:42,280
+two thousand seventy-eight twenty-nine.
+
+18
+00:00:42,280 --> 00:00:42,775
+Balance:
+
+19
+00:00:42,775 --> 00:00:45,620
+plus four hundred fourteen euros and one cent.
+
+20
+00:00:45,920 --> 00:00:47,754
+I compare it with my check:
+
+21
+00:00:47,754 --> 00:00:48,569
+all correct.
+
+22
+00:00:48,569 --> 00:00:49,385
+To the cent.
+
+23
+00:00:49,385 --> 00:00:52,442
+I ran it twice more, once with a small model:
+
+24
+00:00:52,442 --> 00:00:54,140
+three times, zero errors.
+
+25
+00:00:55,380 --> 00:00:56,071
+Second try:
+
+26
+00:00:56,071 --> 00:00:57,829
+I ask for a real Excel file.
+
+27
+00:00:57,829 --> 00:00:58,959
+Fifty-one seconds.
+
+28
+00:00:58,959 --> 00:01:04,170
+A Statement sheet with categories, a Budget sheet with SUMIF formulas, and a chart.
+
+29
+00:01:06,120 --> 00:01:08,006
+I open it in a spreadsheet app:
+
+30
+00:01:08,006 --> 00:01:11,655
+same totals, plus a check row that adds everything up again.
+
+31
+00:01:11,655 --> 00:01:12,020
+Clean.
+
+32
+00:01:12,320 --> 00:01:15,864
+Then I add a November expense at the bottom of the statement.
+
+33
+00:01:15,864 --> 00:01:17,316
+Fifty euros of groceries.
+
+34
+00:01:17,316 --> 00:01:18,710
+The budget doesn't move.
+
+35
+00:01:19,010 --> 00:01:19,688
+The reason:
+
+36
+00:01:19,688 --> 00:01:21,721
+every formula stops at row fifty.
+
+37
+00:01:21,721 --> 00:01:25,540
+Anything added below is ignored, with no error message at all.
+
+38
+00:01:25,840 --> 00:01:28,604
+The fix is one sentence added to the request:
+
+39
+00:01:28,604 --> 00:01:32,350
+use whole columns or an Excel table, so new rows get counted.
+
+40
+00:01:33,700 --> 00:01:34,142
+Verdict:
+
+41
+00:01:34,142 --> 00:01:36,187
+on the math, Claude made no mistakes.
+
+42
+00:01:36,187 --> 00:01:40,000
+On the file, check the formula ranges before you reuse it next month.

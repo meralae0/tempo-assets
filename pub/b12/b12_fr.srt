@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:01,871
+Quarante-neuf lignes de relevé.
+
+2
+00:00:01,871 --> 00:00:06,519
+Claude a fait mon budget en trente-quatre secondes, de tête, au centime près.
+
+3
+00:00:06,519 --> 00:00:09,960
+Mais le vrai tableur qu'il m'a fabriqué cachait un piège.
+
+4
+00:00:10,260 --> 00:00:10,889
+Le test :
+
+5
+00:00:10,889 --> 00:00:14,177
+mon relevé d'octobre, quarante-neuf opérations.
+
+6
+00:00:14,177 --> 00:00:16,974
+Salaire, loyer, courses, essence, cafés.
+
+7
+00:00:16,974 --> 00:00:18,303
+Une seule demande :
+
+8
+00:00:18,303 --> 00:00:22,430
+le total par catégorie, les entrées, les sorties, le solde.
+
+9
+00:00:22,730 --> 00:00:25,405
+À la main, il faut classer les quarante-neuf lignes,
+
+10
+00:00:25,405 --> 00:00:27,360
+puis écrire une formule par catégorie.
+
+11
+00:00:27,360 --> 00:00:30,910
+J'ai vérifié chaque total par programme, pour avoir la bonne réponse.
+
+12
+00:00:31,210 --> 00:00:32,064
+Premier essai :
+
+13
+00:00:32,064 --> 00:00:34,855
+Claude, sans tableur, juste dans la conversation.
+
+14
+00:00:34,855 --> 00:00:36,165
+Trente-quatre secondes.
+
+15
+00:00:36,165 --> 00:00:36,678
+Entrées :
+
+16
+00:00:36,678 --> 00:00:39,810
+deux mille quatre cent quatre-vingt-douze euros trente.
+
+17
+00:00:39,810 --> 00:00:40,323
+Sorties :
+
+18
+00:00:40,323 --> 00:00:42,601
+deux mille soixante-dix-huit vingt-neuf.
+
+19
+00:00:42,601 --> 00:00:43,000
+Solde :
+
+20
+00:00:43,000 --> 00:00:45,620
+plus quatre cent quatorze euros et un centime.
+
+21
+00:00:45,920 --> 00:00:47,897
+Je compare à ma vérification :
+
+22
+00:00:47,897 --> 00:00:48,885
+tout est juste.
+
+23
+00:00:48,885 --> 00:00:49,610
+Au centime.
+
+24
+00:00:49,610 --> 00:00:53,235
+J'ai relancé deux fois, dont une avec un petit modèle :
+
+25
+00:00:53,235 --> 00:00:55,080
+les trois fois, zéro erreur.
+
+26
+00:00:55,380 --> 00:00:56,303
+Deuxième essai :
+
+27
+00:00:56,303 --> 00:00:58,437
+je lui demande un vrai fichier Excel.
+
+28
+00:00:58,437 --> 00:00:59,937
+Cinquante et une secondes.
+
+29
+00:00:59,937 --> 00:01:02,186
+Une feuille Relevé avec les catégories,
+
+30
+00:01:02,186 --> 00:01:05,820
+une feuille Budget avec des formules SOMME.SI, et un graphique.
+
+31
+00:01:06,120 --> 00:01:07,877
+Je l'ouvre dans un tableur :
+
+32
+00:01:07,877 --> 00:01:11,581
+mêmes totaux, et une ligne de contrôle qui refait la somme.
+
+33
+00:01:11,581 --> 00:01:12,020
+Propre.
+
+34
+00:01:12,320 --> 00:01:15,752
+Et puis j'ajoute une dépense de novembre en bas du relevé.
+
+35
+00:01:15,752 --> 00:01:17,349
+Cinquante euros de courses.
+
+36
+00:01:17,349 --> 00:01:18,710
+Le budget ne bouge pas.
+
+37
+00:01:19,010 --> 00:01:19,594
+La raison :
+
+38
+00:01:19,594 --> 00:01:21,983
+chaque formule s'arrête à la ligne cinquante.
+
+39
+00:01:21,983 --> 00:01:25,540
+Tout ce qu'on ajoute après est ignoré, sans aucun message d'erreur.
+
+40
+00:01:25,840 --> 00:01:28,687
+La correction tient en une phrase à ajouter à la demande :
+
+41
+00:01:28,687 --> 00:01:31,142
+utilise des colonnes entières ou un tableau Excel,
+
+42
+00:01:31,142 --> 00:01:33,400
+pour que les nouvelles lignes soient comptées.
+
+43
+00:01:33,700 --> 00:01:34,111
+Verdict :
+
+44
+00:01:34,111 --> 00:01:36,165
+pour les calculs, Claude ne s'est pas trompé.
+
+45
+00:01:36,165 --> 00:01:40,000
+Pour le fichier, relis les plages des formules avant de t'en servir le mois suivant.

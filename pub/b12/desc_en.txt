@@ -1,0 +1,9 @@
+My October bank statement (49 transactions, fictional data) given to Claude: totals by category, money in, money out, balance.
+In the chat: 3 tries, 3 times correct to the cent (in €2,492.30 / out €2,078.29 / balance +€414.01), 23 to 34 s. Checked with code.
+As a real Excel file (SUMIF + chart): 51 s, correct totals… but the formulas stop at row 50 ($D$2:$D$50): an expense added below is ignored, with no error message.
+
+▶ The exact request (with the fix):
+"Here is my bank statement for the month (CSV). Build my budget in a real Excel spreadsheet: a Statement sheet with a Category column, a Budget sheet with totals by category as SUMIF formulas pointing to the statement, total money in, total money out and the balance as formulas, and a chart of spending by category. Use whole columns or an Excel table so rows added later are counted. Then tell me 3 ways I can save money."
+
+Voice generated with Gemini TTS (Google); test, editing and script made with Claude (Anthropic); checked by a human.
+#AI #Claude #Excel #Budget #ClaudeAI
