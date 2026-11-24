@@ -1,0 +1,11 @@
+# Reference style (analysed from a Skill Leap AI tutorial, 10:57, Nov 2026) — grammar only, never copy content
+- Voice-driven, NO music bed (noise floor −56 dB all along), tight edit: only 12 pauses > 0.3 s in 11 min; ~265 words/min.
+- ~30 hard cuts in 11 min (1 every ~20 s); between cuts = continuous screen with zooms/pans and cursor.
+- Hook 0–16 s: face to camera, app tiles pop around the head (Docs/Slides/Sheets/Design/Data/Whiteboard, 3D-ish rounded tiles, label under icon). Says what's new + 3 things you can now do + "available on X plans".
+- 20 s: "where to find it" = real UI, zoom on the exact tab/button.
+- Then "First demo…", one feature per block, each = real UI full screen, face in white-ringed circle bottom-left the whole time.
+- Title cards: small caps kicker ("ALSO NEW", "A FEW WEEKS AGO") + big title, two-tone (white + orange), on blurred/warm background; or split: text left, face cam in rounded rect right on light background.
+- Kinetic callouts over dimmed UI: "A messy plan → Something really useful", "A couple of minutes".
+- Floating window: UI card over blurred page background.
+- Orange pill CTA bottom-right: "Free prompt library: link below".
+- Ends on a resource/library page, no long outro.
