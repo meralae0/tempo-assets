@@ -42,3 +42,10 @@ Push the repo first; media URL = https://raw.githubusercontent.com/meralae0/temp
 
 ## 7. Close
 Update claude/14-briefai-en-format-v3.md (IDs, times), append to claude/11-tempobrief-log.md, push repo, close the Chrome tabs you opened, answer Alae in 3 French lines.
+
+## Quality reference (validated by Alae 24/11/2026) — episodes/briefai-16
+EN3 "I Gave Gemini 4 Neon 3 Real Jobs. One Broke." (YT HX8G_EXsvqw 25/11 17:00, Short BfouuCYCj6A 20:00; FB video 29270983899217586, Reel 1731437955010247). episodes/briefai-14 (GIF) is abandoned.
+- REAL screen recording in the Chrome tab: inject `getDisplayMedia({preferCurrentTab:true})` + MediaRecorder (vp9, 8 Mbps, 1 s chunks), Alae clicks "Share" once; log event times in `window.__ev`; download in 2 parts < 400 MB (part 2 = chunk 0 + later chunks; Chrome may ask "download multiple files" → Alae clicks Allow).
+- Clean: crop 40 px sides / 60 px top (removes orange share border + "Claude is working here" pill), blur Google avatar bottom-left.
+- build.py: shots (slice + speed + camera keys on a padded 16:9 canvas) + pills, rings, typewriter prompt card, "sped up" badge, answer-key checklist, scorecard; avatar.py hook/outro; assemble.py (voice spans from Vids export, SFX, -14 LUFS). Vids: avatar scene for hook + outro, voice-over (Elio) scenes for the rest; boundaries from aria-labels + silencedetect.
+- Alae wants the GRAPHICS IMPROVED AGAIN each episode: no labelled agent cursor, richer transitions, more camera moves, stronger chapter visuals, word-by-word captions.
