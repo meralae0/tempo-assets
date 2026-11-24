@@ -41,3 +41,11 @@ Decided with Alae 24/11/2026: English only, Skill Leap-style (real tests of AI t
 - Facebook (API): long 1126000840271102 25/11 17:00; Reel 1171934408565112 25/11 20:00; automation "PROMPTS - make AI lie test".
 - Vids: custom avatars exist only inside the Vids file where they were created → always work in file 1n4uHvUkk1MO0ZKAtur1HWFiX_ahGnAsYjh5Bqhlcauc (add scenes at the end, cut from the export by time). Avatar scene script max 800 characters → avatar for hook + outro only, Vids voice-over (Elio) for the middle.
 - Chrome tips: tabs freeze when many are open → close extra tabs; save_to_disk screenshots keep the `scale` you pass (use zoom without scale for real captures).
+
+## EN2 moved to 24/11 18:00 (long) / 21:00 (Short) — on both platforms.
+
+## EN3 "I Gave Gemini 4 Neon 3 Real Jobs. One Broke." — scheduled 25/11 (quality reference validated by Alae)
+- YouTube: long HX8G_EXsvqw 25/11 17:00 (3:50, thumbnail, altered = yes); Short BfouuCYCj6A 25/11 20:00 (description starts with the long's link). Reminder 25/11 17:10: "Vidéo similaire" → HX8G_EXsvqw.
+- Facebook (API): long 29270983899217586 25/11 17:00; Reel 1731437955010247 25/11 20:00.
+- Method: REAL screen recording in the Chrome tab (getDisplayMedia + MediaRecorder, Alae clicks Share once), 3 jobs (Snake game in Canvas + autopilot bug/fix, bank-statement CSV audit, Lisbon trip in Task mode). Files: episodes/briefai-16 (build.py, avatar.py, assemble.py, timing.json), skill updated.
+- Alae (24/11): "ok, on améliore encore le graphisme pour la prochaine vidéo".
