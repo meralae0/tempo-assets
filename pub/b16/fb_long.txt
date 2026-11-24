@@ -1,0 +1,1 @@
+I gave Google's new Gemini 4 Neon 3 real jobs: build a game, audit a bank statement, plan a trip on $700. Two went perfectly. One broke, and the fix surprised me. All prompts in the comments.

@@ -1,0 +1,21 @@
+Google's new Gemini 4 Neon, tested on 3 real jobs, screen recorded, nothing staged:
+1) build a playable game from one sentence (it broke on the upgrade, then fixed itself)
+2) audit a bank statement (68 transactions, answers checked against my own math)
+3) plan a 3-day Lisbon trip on $700 with the new Task mode
+
+00:00 Intro
+00:18 Job 1 · Build a game
+01:33 Job 2 · Audit a bank statement
+02:20 Job 3 · Plan a trip (Task mode)
+03:09 Scorecard
+03:26 Verdict
+
+PROMPTS
+1. Build me a playable Snake game in one HTML file: neon style, score, speed that increases, and a restart button. Show it running.
+   Follow-up: Add an Autopilot button: the snake plays by itself, chasing the food and avoiding walls and its own tail.
+2. This is my bank statement for October. Find anything unusual: duplicate charges, hidden fees, subscriptions I might forget. Then tell me how much I spent in total, not counting savings.
+3. (Task mode) Plan a 3-day weekend in Lisbon for two people with a $700 budget (not counting flights): where to stay, a day-by-day plan with free things to do, and a cost table that adds up.
+
+The bank statement is a made-up sample file. Presenter is an AI avatar (Google Vids). Always double-check prices and opening hours before you travel.
+
+#Gemini #GoogleGemini #AItools #AI
