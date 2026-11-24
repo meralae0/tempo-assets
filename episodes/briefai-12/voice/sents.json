@@ -1,0 +1,26 @@
+{"fr": [
+"Quarante-neuf lignes de relevé. Claude a fait mon budget en trente-quatre secondes, de tête, au centime près. Mais le vrai tableur qu'il m'a fabriqué cachait un piège.",
+"Le test : mon relevé d'octobre, quarante-neuf opérations. Salaire, loyer, courses, essence, cafés. Une seule demande : le total par catégorie, les entrées, les sorties, le solde.",
+"À la main, il faut classer les quarante-neuf lignes, puis écrire une formule par catégorie. J'ai vérifié chaque total par programme, pour avoir la bonne réponse.",
+"Premier essai : Claude, sans tableur, juste dans la conversation. Trente-quatre secondes. Entrées : deux mille quatre cent quatre-vingt-douze euros trente. Sorties : deux mille soixante-dix-huit vingt-neuf. Solde : plus quatre cent quatorze euros et un centime.",
+"Je compare à ma vérification : tout est juste. Au centime. J'ai relancé deux fois, dont une avec un petit modèle : les trois fois, zéro erreur.",
+"Deuxième essai : je lui demande un vrai fichier Excel. Cinquante et une secondes. Une feuille Relevé avec les catégories, une feuille Budget avec des formules SOMME.SI, et un graphique.",
+"Je l'ouvre dans un tableur : mêmes totaux, et une ligne de contrôle qui refait la somme. Propre.",
+"Et puis j'ajoute une dépense de novembre en bas du relevé. Cinquante euros de courses. Le budget ne bouge pas.",
+"La raison : chaque formule s'arrête à la ligne cinquante. Tout ce qu'on ajoute après est ignoré, sans aucun message d'erreur.",
+"La correction tient en une phrase à ajouter à la demande : utilise des colonnes entières ou un tableau Excel, pour que les nouvelles lignes soient comptées.",
+"Verdict : pour les calculs, Claude ne s'est pas trompé. Pour le fichier, relis les plages des formules avant de t'en servir le mois suivant."
+],
+"en": [
+"Forty-nine bank statement lines. Claude built my budget in thirty-four seconds, in its head, to the cent. But the real spreadsheet it made for me had a trap.",
+"The test: my October statement, forty-nine transactions. Salary, rent, groceries, fuel, coffee. One request: totals by category, money in, money out, and the balance.",
+"By hand, you have to sort all forty-nine lines, then write one formula per category. I checked every total with code, so I had the right answer.",
+"First try: Claude, no spreadsheet, just in the chat. Thirty-four seconds. Money in: two thousand four hundred ninety-two euros thirty. Money out: two thousand seventy-eight twenty-nine. Balance: plus four hundred fourteen euros and one cent.",
+"I compare it with my check: all correct. To the cent. I ran it twice more, once with a small model: three times, zero errors.",
+"Second try: I ask for a real Excel file. Fifty-one seconds. A Statement sheet with categories, a Budget sheet with SUMIF formulas, and a chart.",
+"I open it in a spreadsheet app: same totals, plus a check row that adds everything up again. Clean.",
+"Then I add a November expense at the bottom of the statement. Fifty euros of groceries. The budget doesn't move.",
+"The reason: every formula stops at row fifty. Anything added below is ignored, with no error message at all.",
+"The fix is one sentence added to the request: use whole columns or an Excel table, so new rows get counted.",
+"Verdict: on the math, Claude made no mistakes. On the file, check the formula ranges before you reuse it next month."
+]}
