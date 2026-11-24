@@ -35,3 +35,9 @@ Decided with Alae 24/11/2026: English only, Skill Leap-style (real tests of AI t
 - YouTube: long UPkeIM0ZgZs 24/11 15:00 (thumbnail, altered content = yes, EN auto-captions; SRT in pub/b13/b13_en.srt not uploaded yet); Short 1 J-A5NYcZG_8 24/11 19:00; Short 2 Gp4ThcIiBQ8 25/11 19:00. To do: "Vidéo similaire" of both Shorts → UPkeIM0ZgZs after 15:00.
 - Facebook (API, first use): long video 1759041218504741 24/11 15:30; Reel 1174469108441978 24/11 19:00; Reel 3410772685780861 25/11 19:30. Automation "BANK - bank statement prompt" saved (reply "Sent you a message!").
 - tools/yt_studio.js = helpers to paste in Studio (__up/__fill/__kids/__altered/__thumb). Time field: click it, ctrl+a, type, Enter, then VERIFY (Short 2 first got 00:00 and was fixed in the video edit page).
+
+## EN2 "I Tried to Make ChatGPT, Claude and Gemini Lie (10 Tests)" — scheduled 25/11
+- YouTube: long 2sv-E1Qza2E 25/11 17:00 (3:09, thumbnail, altered = yes); Short piekQPxSOIE 25/11 20:00 (description starts with the long's link). To do after 17:00: "Vidéo similaire" → 2sv-E1Qza2E.
+- Facebook (API): long 1126000840271102 25/11 17:00; Reel 1171934408565112 25/11 20:00; automation "PROMPTS - make AI lie test".
+- Vids: custom avatars exist only inside the Vids file where they were created → always work in file 1n4uHvUkk1MO0ZKAtur1HWFiX_ahGnAsYjh5Bqhlcauc (add scenes at the end, cut from the export by time). Avatar scene script max 800 characters → avatar for hook + outro only, Vids voice-over (Elio) for the middle.
+- Chrome tips: tabs freeze when many are open → close extra tabs; save_to_disk screenshots keep the `scale` you pass (use zoom without scale for real captures).
