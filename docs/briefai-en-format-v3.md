@@ -24,3 +24,9 @@ Decided with Alae 24/11/2026: English only, Skill Leap-style (real tests of AI t
 | EN6 | 20 trick questions: who makes things up? | hallucination count |
 | EN7 | Same landing page, 3 AIs, 3 real visitors' votes | side by side |
 + any big AI release → "new feature tested" episode first.
+
+## Publishing without Chrome (24/11)
+- **Facebook = API** : Meta app "BriefAI Publisher" (id 1833397627781759, mode dev, no business portfolio), permanent page token for "Brief AI" only. Script `tools/fb_publish.py` (reel / video / list), videos pulled by Facebook from raw.githubusercontent URL @SHA. Allowed domains on claude.ai: graph.facebook.com, graph-video.facebook.com, rupload.facebook.com.
+- Token is NEVER in the repo or project: container file /home/claude/.secrets/fb_page_token (lost when the container resets). Copy kept by Alae: `briefai_fb_secrets.json` (sent in chat 24/11; to be saved in Downloads) → next runs: device_stage_files from Downloads, then write page_token into /home/claude/.secrets/fb_page_token.
+- "Comment to message" automations stay in Meta Business Suite (not in the API).
+- **YouTube** : API uploads from an unverified project are locked private → keep Studio via Chrome (scripted helpers) until a YouTube API audit is approved.
