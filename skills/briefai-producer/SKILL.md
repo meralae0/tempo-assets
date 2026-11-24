@@ -49,3 +49,6 @@ EN3 "I Gave Gemini 4 Neon 3 Real Jobs. One Broke." (YT HX8G_EXsvqw 25/11 17:00, 
 - Clean: crop 40 px sides / 60 px top (removes orange share border + "Claude is working here" pill), blur Google avatar bottom-left.
 - build.py: shots (slice + speed + camera keys on a padded 16:9 canvas) + pills, rings, typewriter prompt card, "sped up" badge, answer-key checklist, scorecard; avatar.py hook/outro; assemble.py (voice spans from Vids export, SFX, -14 LUFS). Vids: avatar scene for hook + outro, voice-over (Elio) scenes for the rest; boundaries from aria-labels + silencedetect.
 - Alae wants the GRAPHICS IMPROVED AGAIN each episode: no labelled agent cursor, richer transitions, more camera moves, stronger chapter visuals, word-by-word captions.
+
+## Thumbnails = Skill Leap style (Alae 24/11): tools/thumb_leap.py
+Huge Anton words with black stroke + one word in a YELLOW block (tilted −3°), presenter CUT-OUT (expressive frame from the avatar clip: surprise/open mouth; OpenCV grabCut + head ellipse + blue-bg filter, smoothed alpha) with thick white outline and drop shadow on the right, saturated gradient + glow behind him, tilted screenshot card of the real result with a red/green sticker, thick yellow curved arrow, small generic AI sparkle (no brand logos), "BRIEF AI" tag. Example: pub/b16/b16_thumb.jpg (code in episodes/briefai-16 history / this file's kit).
