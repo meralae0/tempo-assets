@@ -9,7 +9,7 @@ MOTION: The ceiling bulb flickers. The woman slowly turns her head toward the op
 ## PixVerse (app.pixverse.ai, Google sign-in -> account alaemer87, 60 credits) 12:07: PixVerse V6, 540P, 5 s, audio on, cost 38 credits -> generating.
 ## Pika (create.pika.art, Google sign-in "Alae MER") 12:08: "0 credits" / "Credits 0 left" -> cannot generate anything without paying (articles said free monthly credits). caps/pika_0credits.jpg
 - PixVerse done in ~100 s (<2 min). 540p 5 s with audio. Result: woman WALKS toward the shadow, which steps out (not 'turns her head'), style kept. caps/pixverse_result.jpg
-## Hailuo (hailuoai.video, Google sign-in, 60 credits) 12:08: had to accept 'Omni Reference Guide' (rights on uploaded image). MiniMax H3, 768p, 5 s, 16:9 (default was 2K 21:9), cost 35 credits -> generating.
+## Hailuo (hailuoai.video, Google sign-in, 80 credits, 45 left after; default 2K 21:9 = 60 credits) 12:08: had to accept 'Omni Reference Guide' (rights on uploaded image). MiniMax H3, 768p, 5 s, 16:9 (default was 2K 21:9), cost 35 credits -> generating.
 - Hailuo done in ~2.5 min. 768p 5 s, visible 'MINIMAX | Hailuo AI' watermark; download menu offers 'Remove watermark' (paid) / 'With Watermark'. Result: woman turns toward the door, shadow stands. caps/hailuo_result.jpg
 - Veo 1st try: after the capacity message the page kept saying "I'm generating your video" for 12+ min, nothing came (reload = only the error). 2nd try 12:16 (same image + prompt, same chat) -> "Your video is ready!" in ~3 min, 10 s, with sound. Result: camera pushes in, she turns, the shadow becomes a creature with glowing eyes reaching toward her (scarier than asked). caps/veo_result.jpg
 - Kling 12:20: still "in the queue, estimated wait: longer than 1 hours".
@@ -18,3 +18,4 @@ MOTION: The ceiling bulb flickers. The woman slowly turns her head toward the op
 - PixVerse: 1024x576 (540p tier), 5 s, audio, "PixVerse.ai" watermark top-right. She turns her back and WALKS to the door, a figure appears behind the door. Did not follow "turns her head".
 - Hailuo: 1344x768, 5 s, audio, "MINIMAX | Hailuo AI" watermark bottom-right. Subtle: light flickers, small push-in, she glances, shadow stays. Most faithful to the image, least action.
 - Kling: still queued. Pika: 0 credits.
+- Kling 12:48: back to 'estimated wait: longer than 2 hours' (45 min after submit).
