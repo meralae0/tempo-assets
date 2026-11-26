@@ -43,9 +43,9 @@ def video(url, title, desc, when):
     print(json.dumps({'video_id': r.get('id'), 'at': when}))
 
 def lst():
-    for edge in ('scheduled_posts', 'video_reels'):
-        r = call('GET', f'https://graph.facebook.com/{V}/{PAGE}/{edge}', {'fields': 'id,message,description,scheduled_publish_time,status,created_time', 'limit': 25})
-        print(edge, json.dumps(r.get('data', r), ensure_ascii=False)[:2000])
+    r = call('GET', f'https://graph.facebook.com/{V}/{PAGE}/scheduled_posts', {'fields': 'id,message,scheduled_publish_time', 'limit': 25})
+    for p in r.get('data', []):
+        print(datetime.fromtimestamp(p['scheduled_publish_time'], ZoneInfo('Africa/Casablanca')).strftime('%Y-%m-%d %H:%M'), p['id'], (p.get('message') or '')[:70].replace('\n', ' '))
 
 if __name__ == '__main__':
     a = sys.argv[1:]
