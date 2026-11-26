@@ -19,3 +19,4 @@ MOTION: The ceiling bulb flickers. The woman slowly turns her head toward the op
 - Hailuo: 1344x768, 5 s, audio, "MINIMAX | Hailuo AI" watermark bottom-right. Subtle: light flickers, small push-in, she glances, shadow stays. Most faithful to the image, least action.
 - Kling: still queued. Pika: 0 credits.
 - Kling 12:48: back to 'estimated wait: longer than 2 hours' (45 min after submit).
+- Kling check-in 26/11 ~14:20 Morocco: still "Generating..." in Assets (submitted ~12:00) → > 2 h 20 min in the free queue; episode published with "still waiting".

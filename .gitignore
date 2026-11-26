@@ -15,3 +15,4 @@ episodes/*/music.mp3
 __pycache__/
 episodes/*/tmp_*/
 episodes/*/raw/
+build_fb/
