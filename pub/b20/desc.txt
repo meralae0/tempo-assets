@@ -1,0 +1,23 @@
+TITLE: I Made a Cartoon From ONE Sentence With AI ($0, 27 Minutes)
+
+DESCRIPTION:
+One idea — "a tiny lighthouse robot who is afraid of the dark" — turned into a finished 54-second cartoon using only AI: Claude wrote the script, Gemini drew the 6 shots, Google AI Studio voiced it, Veo animated it, and Claude wrote the edit. Real run, real timings, and the 3 times the AI refused.
+
+⏱ What it took
+• Script (Claude): ~45 s
+• 6 images (Gemini): ~3 min, same character in every shot
+• Voice (AI Studio, Storyteller preset): ~20 s, 51 s of narration
+• Animation (Veo): 1 of 2 shots — the storm shot errored twice and was refused once ("interests of third-party content providers")
+• Edit (Python + ffmpeg written by Claude): ~80 s render
+Total: 27 minutes, $0 extra (Claude + Google AI Pro plans I already pay for)
+
+🎯 The recipe
+1. Ask for a one-line character sheet + a style line
+2. Make the reference shot first
+3. Paste the full sheet into EVERY image prompt (start with "Create an image.")
+
+💬 Comment CARTOON and I'll send you the full prompt pack.
+
+How this video was made: real test on screen; script, editing and graphics made with Claude (Anthropic); presenter is an AI avatar (Google Vids); cartoon images and animation by Gemini/Veo; voice by Google AI Studio. Topic and final approval by a human.
+
+#AI #AIanimation #Claude #Gemini #Veo #AIcartoon #aitools
