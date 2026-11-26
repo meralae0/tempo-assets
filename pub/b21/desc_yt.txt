@@ -1,0 +1,23 @@
+Same image, same prompt, 5 "free" AI video tools: Veo, PixVerse, Hailuo, Kling and Pika. One made me pay before I could start, one put me in a 2-hour queue, and one turned my shadow into a monster.
+
+Real test, 26 Nov 2026, free accounts (Google sign-in), default settings:
+• Veo (inside Gemini, Google AI Pro plan): 1st try "full capacity", 2nd try ready in ~3 min · 720p · 10 s · no watermark · most cinematic, but went beyond the prompt
+• PixVerse V6: 60 free credits, 38 per clip · fastest (<2 min) · 540p · 5 s · watermark · did not follow "turn her head"
+• Hailuo (MiniMax H3): 80 free credits · had to confirm I own the image rights · 768p 16:9 = 35 credits (default 2K ultra-wide = 60) · ~2.5 min · watermark · most faithful
+• Kling 4.0: 66 free credits, 50 per clip · free queue "longer than 2 hours" (still waiting 45 min later)
+• Pika: signed in, 0 credits, nothing to test
+
+1 minute of video ≈ 12 clips of 5 s ≈ 420 credits (Hailuo), 456 (PixVerse), 600 (Kling). The free credits give you 1–2 clips.
+
+THE PROMPT (copy it)
+The ceiling bulb flickers. The woman slowly turns her head toward the open door at the end of the hallway, the radio crackles in her hand. The dark shadow in the doorway slowly leans forward. Slow push-in camera. Keep the 2D animated style.
+
+THE IMAGE PROMPT (Gemini)
+Create an image. 2D animated horror style, flat colors, thick dark outlines, muted teal and amber palette, cinematic, 16:9, no text. Scene: a narrow old apartment hallway at night, lit only by a flickering ceiling bulb. A young woman with a short black bob haircut, a yellow raincoat and red sneakers stands frozen in the middle of the hallway, holding an old portable radio. At the far end of the hallway, a door is slightly open and a tall dark shadow with no face is standing in the gap. Suspenseful, no blood, no gore.
+
+Tools: Veo/Gemini https://gemini.google.com · PixVerse https://pixverse.ai · Hailuo https://hailuoai.video · Kling https://kling.ai · Pika https://pika.art
+(Affiliate links will be added here once approved; they never change the results.)
+
+How this video was made: real test on screen; script, edit and graphics made with Claude (Anthropic); voice-over: Google AI Studio TTS; images and clips by the tools tested. Free tiers change often — results as of 26 Nov 2026.
+
+#AIvideo #FreeAItools #Veo #Kling #PixVerse #Hailuo #AItools
