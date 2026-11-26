@@ -25,11 +25,12 @@ Hook 0–15 s (what's new + 3 things it can do + who gets it) → where to find 
 ## 4. Presenter + voice (Google Vids, docs.google.com/videos, account alae.merioumi = u/2)
 - Avatar "BriefAI Host" (invented man, navy sweater, LED studio), voice **Elio**. Quota ≈ 25 avatar clips/month → **1 avatar scene per video containing the whole narration** (gives a lip-synced face for the circle the whole time). If the script is too long for one scene, intro+outro avatar scenes and Vids voice-over (Elio) for the rest.
 - New video → scene 1 → Avatar panel → paste script → Aperçu → Générer (wait until 100 %). Fichier > Télécharger > Vidéo MP4 → lands in Downloads → device_stage_files → episodes/briefai-NN/vids/vids_export.mp4.
+- Fastest (EN5, 26/11): reuse scenes 2-13 of the shared Vids file (2 avatar hook, 3-12 voice-overs, 13 avatar outro), replace texts, and CHECK the avatar card says "BriefAI Host" before Aperçu (falls back to Finley after a reload).
 - Paragraph timings: Vids aria-labels "… commençant dans la scène N à X secondes" (JS on the page) + `silencedetect` refine.
 
 ## 5. Build (container, Python/PIL + ffmpeg)
 - tools/leap.py: `cam` (real capture with smooth zoom/pan between boxes), `cursor`, `pip` (avatar face in white-ringed circle bottom-left, from the Vids export frames), `dim_callout` (kinetic text over dimmed UI), `tiles` (app tiles popping around the presenter in the hook), `chapter`, `cta` (orange pill "Prompt in the description"), `sfx_track`.
-- tools/sfx/*.wav (make_sfx.py): whoosh on cuts/zooms, pop on tiles/callouts, ding on correct, buzz on failure. **No music bed** (reference has none); voice at −14 LUFS, SFX −12 to −18 dB under voice.
+- tools/sfx/*.wav (make_sfx.py; not in git → `mkdir -p tools/sfx && python3 tools/make_sfx.py` first): whoosh on cuts/zooms, pop on tiles/callouts, ding on correct, buzz on failure. **No music bed** (reference has none); voice at −14 LUFS, SFX −12 to −18 dB under voice.
 - Template: copy episodes/briefai-13 (build.py, avatar.py, assemble.py, shorts.py) and switch scenes to leap.py components. Render 2 processes in parallel, then assemble.py. Check one frame per scene in a contact sheet before publishing.
 - Short: the best 30–45 s (failure or wow result), 9:16, hook text top (font auto-fit), video crop 1520×1080 scaled to width 1080.
 - Thumbnail 1280×720: presenter face left (crop from export), big 2–4 word claim right, one number in amber. Title ≤ 70 chars, curiosity + concrete.
