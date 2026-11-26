@@ -19,3 +19,6 @@ Start 26/11 08:20 Maroc.
 - Ken Burns moves on 5 stills + Veo clip for shot 6, crossfades, title card, narration + soft music bed, -14 LUFS. Render 77 s. Result: wick_and_the_dark.mp4, 54.0 s, 1920x1080.
 ## Totals
 - Hands-on clock: 08:20 → 08:47 ≈ 27 min (incl. ~12 min waiting on Veo). Cost: $0 extra (Claude Pro + Google AI Pro subscriptions already paid).
+## Publication
+- Vids (file 1n4u…): VO scenes 3-12 replaced, avatar A1 (scene 2) + A2 (scene 13) BriefAI Host (A2 preview hung 7 min → page reload → avatar fell back to Finley → re-picked BriefAI Host). Avatar clips used: 2.
+- YouTube: long 6rVLQMjCpI0 28/11 17:00 (4:25, thumbnail SHOCK purple + host_wow, altered = yes, prompts in description); Short dXofh92oxd4 28/11 20:00 (0:39, description starts with the long's link). Facebook: not scheduled (page token missing).
