@@ -1,8 +1,8 @@
-Same image, same prompt, 5 "free" AI video tools: Veo, PixVerse, Hailuo, Kling and Pika. One made me pay before I could start, one put me in a 2-hour queue, and one turned my shadow into a monster.
+Same image, same prompt, 5 "free" AI video tools: Veo, PixVerse, Hailuo, Kling and Pika. One gave me 0 credits, one put me in a 2-hour queue, and one turned my shadow into a monster.
 
 Real test, 26 Nov 2026, free accounts (Google sign-in), default settings:
 • Veo (inside Gemini, Google AI Pro plan): 1st try "full capacity", 2nd try ready in ~3 min · 720p · 10 s · no watermark · most cinematic, but went beyond the prompt
-• PixVerse V6: 60 free credits, 38 per clip · fastest (<2 min) · 540p · 5 s · watermark · did not follow "turn her head"
+• PixVerse V6: 60 free credits, 38 per clip · fastest (under 2 min) · 540p · 5 s · watermark · did not follow "turn her head"
 • Hailuo (MiniMax H3): 80 free credits · had to confirm I own the image rights · 768p 16:9 = 35 credits (default 2K ultra-wide = 60) · ~2.5 min · watermark · most faithful
 • Kling 4.0: 66 free credits, 50 per clip · free queue "longer than 2 hours" (still waiting 45 min later)
 • Pika: signed in, 0 credits, nothing to test
