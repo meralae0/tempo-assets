@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bill Splitter</title>
+<style>
+:root {
+--bg: #f3f4f8;
+--card: #ffffff;
+--text: #1d2130;
+--muted: #6b7185;
+--border: #e2e5ee;
+--accent: #4f46e5;
+--accent-dark: #4338ca;
+--error: #dc2626;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+min-height: 100vh;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 16px;
+}
+.card {
+width: 100%;
+max-width: 420px;
+background: var(--card);
+border-radius: 20px;
+padding: 28px 24px;
+box-shadow: 0 10px 30px rgba(30, 35, 60, 0.08);
+}
+h1 { margin: 0 0 4px; font-size: 1.5rem; }
+.sub { margin: 0 0 24px; color: var(--muted); font-size: 0.95rem; }
+label {
+display: block;
+font-size: 0.85rem;
+font-weight: 600;
+color: var(--muted);
+margin-bottom: 6px;
+}
+.field { margin-bottom: 16px; }
+.row { display: flex; gap: 12px; }
+.row .field { flex: 1; }
+input {
+width: 100%;
+font-size: 1.1rem; /* 16px+ prevents iOS zoom on focus */
+padding: 12px 14px;
+border: 1.5px solid var(--border);
+border-radius: 12px;
+background: #fafbfd;
+color: var(--text);
+outline: none;
+transition: border-color 0.15s, box-shadow 0.15s;
+}
+input:focus {
+border-color: var(--accent);
+box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+background: #fff;
+}
+button {
+width: 100%;
+margin-top: 8px;
+padding: 14px;
+font-size: 1.05rem;
+font-weight: 600;
+color: #fff;
+background: var(--accent);
+border: none;
+border-radius: 12px;
+cursor: pointer;
+transition: background 0.15s, transform 0.05s;
+}
+button:hover { background: var(--accent-dark); }
+button:active { transform: scale(0.99); }
+#result {
+margin-top: 20px;
+font-size: 1.05rem;
+font-variant-numeric: tabular-nums;
+}
+#result:empty { display: none; }
+#result .line {
+padding: 10px 14px;
+border-radius: 10px;
+background: #f5f5ff;
+margin-bottom: 6px;
+}
+#result.error {
+color: var(--error);
+font-weight: 600;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<main class="card">
+<h1>Bill Splitter</h1>
+<p class="sub">Add the tip and split it fairly, to the cent.</p>
+
+<div class="field">
+<label for="total">Bill amount ($)</label>
+<input id="total" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00">
+</div>
+
+<div class="row">
+<div class="field">
+<label for="tip">Tip (%)</label>
+<input id="tip" type="number" inputmode="decimal" min="0" step="any" value="15">
+</div>
+<div class="field">
+<label for="people">People</label>
+<input id="people" type="number" inputmode="numeric" min="1" step="1" value="2">
+</div>
+</div>
+
+<button id="calc" type="button">Split</button>
+
+<div id="result" aria-live="polite"></div>
+</main>
+
+<script>
+// Reads a number input; returns NaN if empty or not a valid number.
+function readNumber(id) {
+var raw = document.getElementById(id).value.trim();
+if (raw === "") return NaN;
+return Number(raw);
+}
+
+// Formats an integer number of cents as "$12.34".
+function formatCents(cents) {
+var dollars = Math.floor(cents / 100);
+var rest = cents % 100;
+return "$" + dollars + "." + (rest < 10 ? "0" : "") + rest;
+}
+
+// Returns an array of shares in cents, or null if input is invalid.
+function splitBill(bill, tip, people) {
+if (!isFinite(bill) || bill <= 0) return null;
+if (!isFinite(tip) || tip < 0) return null;
+if (!Number.isInteger(people) || people < 1) return null;
+
+// Grand total in cents = bill * (1 + tip/100) * 100 = bill * (100 + tip).
+// toFixed(6) strips floating-point noise before rounding to the cent.
+var totalCents = Math.round(Number((bill * (100 + tip)).toFixed(6)));
+if (!isFinite(totalCents)) return null;
+
+var base = Math.floor(totalCents / people);
+var extra = totalCents - base * people; // these first people pay 1 cent more
+var shares = [];
+for (var i = 0; i < people; i++) {
+shares.push(base + (i < extra ? 1 : 0));
+}
+return shares;
+}
+
+function calculate() {
+var result = document.getElementById("result");
+var shares = splitBill(readNumber("total"), readNumber("tip"), readNumber("people"));
+
+result.innerHTML = "";
+if (!shares) {
+result.className = "error";
+result.textContent = "Invalid input";
+return;
+}
+
+result.className = "";
+for (var i = 0; i < shares.length; i++) {
+var line = document.createElement("div");
+line.className = "line";
+line.textContent = "Person " + (i + 1) + ": " + formatCents(shares[i]);
+result.appendChild(line);
+}
+}
+
+document.getElementById("calc").addEventListener("click", calculate);
+document.querySelectorAll("input").forEach(function (input) {
+input.addEventListener("keydown", function (e) {
+if (e.key === "Enter") calculate();
+});
+});
+</script>
+</body>
+</html>

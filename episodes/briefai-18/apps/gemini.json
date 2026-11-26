@@ -1,0 +1,119 @@
+{
+ "file": "/home/claude/tempo-assets/episodes/briefai-18/apps/gemini.html",
+ "cases": [
+  {
+   "id": 1,
+   "name": "$100, 15% tip, 2 people",
+   "pass": true,
+   "got": "Person 1: $57.50\nPerson 2: $57.50",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 2,
+   "name": "$10, no tip, 3 people (cents)",
+   "pass": true,
+   "got": "Person 1: $3.34\nPerson 2: $3.33\nPerson 3: $3.33",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 3,
+   "name": "$19.99, 20% tip, 3 people",
+   "pass": true,
+   "got": "Person 1: $8.00\nPerson 2: $8.00\nPerson 3: $7.99",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 4,
+   "name": "5 cents, 7 people",
+   "pass": true,
+   "got": "Person 1: $0.01\nPerson 2: $0.01\nPerson 3: $0.01\nPerson 4: $0.01\nPerson 5: $0.01\nPerson 6: $0.00\nPerson 7: $0.00",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 5,
+   "name": "$33.33, 15% tip, 1 person",
+   "pass": true,
+   "got": "Person 1: $38.33",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 6,
+   "name": "$1,234.56, 12.5% tip, 6 people",
+   "pass": true,
+   "got": "Person 1: $231.48\nPerson 2: $231.48\nPerson 3: $231.48\nPerson 4: $231.48\nPerson 5: $231.48\nPerson 6: $231.48",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 7,
+   "name": "defaults: $80 only",
+   "pass": true,
+   "got": "Person 1: $46.00\nPerson 2: $46.00",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 13,
+   "name": "$4.35, no tip, 1 person (float trap)",
+   "pass": true,
+   "got": "Person 1: $4.35",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 14,
+   "name": "10 cents, 3 people",
+   "pass": true,
+   "got": "Person 1: $0.04\nPerson 2: $0.03\nPerson 3: $0.03",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 8,
+   "name": "empty bill",
+   "pass": true,
+   "got": "Invalid input",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 9,
+   "name": "negative bill",
+   "pass": true,
+   "got": "Invalid input",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 10,
+   "name": "2.5 people",
+   "pass": true,
+   "got": "Invalid input",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 11,
+   "name": "0 people",
+   "pass": true,
+   "got": "Invalid input",
+   "note": "",
+   "errs": []
+  },
+  {
+   "id": 12,
+   "name": "negative tip",
+   "pass": true,
+   "got": "Invalid input",
+   "note": "",
+   "errs": []
+  }
+ ],
+ "errors": [],
+ "score": 14
+}

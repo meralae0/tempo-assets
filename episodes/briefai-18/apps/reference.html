@@ -1,0 +1,7 @@
+<!doctype html><input id=total type=number><input id=tip type=number value=15><input id=people type=number value=2><button id=calc>Split</button><div id=result></div>
+<script>
+calc.onclick=()=>{const b=parseFloat(total.value),t=parseFloat(tip.value),n=Number(people.value);
+if(!(b>0)||!(t>=0)||!Number.isInteger(n)||n<1){result.textContent='Invalid input';return}
+const bc=Math.round(b*100);const g=Math.round(bc*(1+t/100));const base=Math.floor(g/n),r=g%n;
+result.innerHTML=Array.from({length:n},(_,i)=>`<div>Person ${i+1}: $${((base+(i<r?1:0))/100).toFixed(2)}</div>`).join('')}
+</script>

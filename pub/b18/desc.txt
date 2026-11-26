@@ -1,0 +1,59 @@
+=== LONG — TITLE ===
+Same App, 3 AIs, 22 Tests. Only One Tested Its Own Code.
+
+=== LONG — DESCRIPTION ===
+I gave ChatGPT, Claude and Gemini the exact same prompt: build a bill-splitting web app in ONE HTML file, right to the cent. Then a test robot threw 22 tests at the three apps, including the classic money bug ($4.35 × 100 = 434.99999999999994 in JavaScript).
+
+Real tests, free/default web versions, fresh chats, every expected answer computed by me first:
+00:00 Hook
+00:24 The prompt
+00:47 Why money is hard
+01:10 ChatGPT
+01:32 Claude
+01:48 Gemini
+02:05 The 3 apps on a phone
+02:21 The test robot (14 checks)
+02:52 Torture round
+03:19 Final score
+03:35 What I learned
+
+Results
+• Working code: 3 out of 3. My 14 checks: 14/14 for each app (42/42), not a single cent lost.
+• ChatGPT (Instant): under 10 s, a downloadable file, exact integer math, and it said "I haven't run browser-based tests."
+• Claude (Opus 5.5): 40 s, the only one that ran its own test cases before answering.
+• Gemini (Neon): code only, no explanation, added a "Grand Total" line.
+• 8 weird inputs my prompt never mentioned (1,000 people, "1e2", $99,999,999.99 ÷ 7…): same answers everywhere, except one: with the tip box empty, ChatGPT and Claude say "Invalid input", Gemini treats it as 0 %.
+
+THE PROMPT (copy it)
+Build me a bill-splitting web app as ONE single HTML file (HTML + CSS + JavaScript, no libraries, no internet).
+It must use exactly these element ids: #total (bill), #tip (tip %, default 15), #people (default 2), #calc (the "Split" button), #result.
+Rules: 1. The tip is calculated on the bill amount. Grand total = bill + tip, rounded to the cent. 2. Show one line per person, exactly like "Person 1: $12.34". 3. The shares must add up EXACTLY to the grand total, to the cent. If the cents don't divide evenly, the first people pay one cent more. 4. If the bill is empty, zero or negative, if the tip is negative, or if the number of people is not a whole number of at least 1, show only the text "Invalid input" in #result. 5. Make it look clean and modern, and work on a phone.
+Give me the complete file.
+
+The lesson: write your rules like test cases. Where my prompt was vague (empty tip), the apps disagreed.
+
+The 3 apps + my test robot (open the .html in any browser):
+https://raw.githubusercontent.com/meralae0/tempo-assets/main/pub/b18/bill-splitter-chatgpt.html
+https://raw.githubusercontent.com/meralae0/tempo-assets/main/pub/b18/bill-splitter-claude.html
+https://raw.githubusercontent.com/meralae0/tempo-assets/main/pub/b18/bill-splitter-gemini.html
+https://raw.githubusercontent.com/meralae0/tempo-assets/main/pub/b18/test_app.js
+
+Tested 26 Nov 2026 with ChatGPT (Instant), Claude (default model) and Gemini (default). Results can change with updates. The presenter is an AI avatar.
+
+#AI #ChatGPT #Claude #Gemini #AIcoding #NoCode
+
+=== SHORT — TITLE ===
+3 AIs Built the Same App. One Did Something Different. #shorts
+
+=== SHORT — DESCRIPTION ===
+▶ Full test (22 tests, prompt + apps): {LONG_URL}
+Same prompt to ChatGPT, Claude and Gemini: a bill splitter that must be right to the cent. All three passed my 14 checks. Then I deleted the tip…
+#AI #ChatGPT #Claude #Gemini #shorts
+
+=== FACEBOOK — VIDEO CAPTION ===
+Same app, 3 AIs, 22 tests 🧪 I asked ChatGPT, Claude and Gemini to build the same bill-splitting app in one prompt, then a test robot tried to break all three. 42/42 checks passed, but only one AI tested its own code before answering, and they disagreed on one thing my prompt forgot.
+💬 Comment APP and I'll send you the exact prompt in a private message.
+
+=== FACEBOOK — REEL CAPTION ===
+3 AIs built the same app. I deleted the tip… one of them did something different 👀 Full test on our page/YouTube.
+💬 Comment APP and I'll send you the exact prompt in a private message.

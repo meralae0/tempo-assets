@@ -1,0 +1,17 @@
+Build me a bill-splitting web app as ONE single HTML file (HTML + CSS + JavaScript, no libraries, no internet).
+
+It must use exactly these element ids:
+- #total : the bill amount in dollars (number input)
+- #tip : the tip percentage (number input, default 15)
+- #people : the number of people (number input, default 2)
+- #calc : the "Split" button
+- #result : where the result is shown
+
+Rules:
+1. The tip is calculated on the bill amount. Grand total = bill + tip, rounded to the cent.
+2. Show one line per person, exactly like "Person 1: $12.34".
+3. The shares must add up EXACTLY to the grand total, to the cent. If the cents don't divide evenly, the first people pay one cent more.
+4. If the bill is empty, zero or negative, if the tip is negative, or if the number of people is not a whole number of at least 1, show only the text "Invalid input" in #result.
+5. Make it look clean and modern, and work on a phone.
+
+Give me the complete file.
