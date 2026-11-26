@@ -1,0 +1,27 @@
+One idea — "a tiny lighthouse robot who is afraid of the dark" — turned into a finished 54-second cartoon using only AI: Claude wrote the script, Gemini drew the 6 shots, Google AI Studio voiced it, Veo animated it, and Claude wrote the edit. Real run, real timings, and the 3 times the AI refused.
+
+⏱ What it took
+• Script (Claude): ~45 s
+• 6 images (Gemini): ~3 min, same character in every shot
+• Voice (AI Studio, Storyteller preset): ~20 s, 51 s of narration
+• Animation (Veo): 1 of 2 shots — the storm shot errored twice and was refused once ("interests of third-party content providers")
+• Edit (Python + ffmpeg written by Claude): ~80 s render
+Total: 27 minutes, $0 extra (Claude + Google AI Pro plans I already pay for)
+
+🎯 The recipe
+1. Ask for a one-line character sheet + a style line
+2. Make the reference shot first
+3. Paste the full sheet into EVERY image prompt (start with "Create an image.")
+
+📋 The prompts I used
+Claude (script): "I want to make a 60-second animated short with AI tools only. Original story, no existing characters. Give me: 1) a title, 2) a one-line character sheet for ONE main character (exact look, colors, clothes) to keep it consistent, 3) 6 shots, each with: duration, the narration line (max 20 words, total under 130 words), and an image prompt in the same 2D cartoon style, 4) which 2 shots should be animated (the most dynamic). Theme: a tiny lighthouse keeper robot who is afraid of the dark."
+Style line: 2D cartoon, flat colors, thick clean dark outlines, soft gradient shading, cozy storybook look, 16:9.
+Character sheet: Wick: a tiny, palm-sized robot with a round brass-yellow dome head, one big glowing amber lens eye, a mint-teal barrel-shaped body with three small rivets, a short red knitted scarf, stubby charcoal-black legs, and a thin antenna on top with a small glowing bulb.
+Gemini (each image): "Create an image. [style line] Character Wick: [character sheet]. Scene: [shot description]. No text."
+Veo (the one that worked): "Gently animate this illustration. The lighthouse beam slowly sweeps across the calm sea, the small sailboat glides toward the shore, the stars twinkle, the little robot on the railing swings his legs and his scarf moves softly in the breeze. Slow camera drift."
+
+💬 Comment what YOUR one-sentence cartoon would be.
+
+How this video was made: real test on screen; script, editing and graphics made with Claude (Anthropic); presenter is an AI avatar (Google Vids); cartoon images and animation by Gemini/Veo; voice by Google AI Studio. Topic and final approval by a human.
+
+#AI #AIanimation #Claude #Gemini #Veo #AIcartoon #aitools
